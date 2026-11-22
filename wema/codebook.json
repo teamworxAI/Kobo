@@ -265,7 +265,7 @@
    ]
   },
   "ever_tried_get_pregnant": {
-   "q": 8,
+   "q": null,
    "label": "Have you ever tried to get pregnant for 12 months or more without success?",
    "type": "select_one",
    "group": "Section1",
@@ -291,7 +291,7 @@
    ]
   },
   "avg_monthly_household_income": {
-   "q": 9,
+   "q": 8,
    "label": "What is your average monthly household income (in Kenyan Shillings)?",
    "type": "select_one",
    "group": "Section1",
@@ -325,7 +325,7 @@
    ]
   },
   "describe_body_size": {
-   "q": 10,
+   "q": 9,
    "label": "Based on your own perception, how would you describe your body size compared to most women your age",
    "type": "select_one",
    "group": "Section1",
@@ -355,7 +355,7 @@
    ]
   },
   "facility_usually_visited": {
-   "q": 11,
+   "q": 10,
    "label": "What type of health facility do you usually visit when you have a health problem?",
    "type": "select_one",
    "group": "Section1",
@@ -424,7 +424,7 @@
    ]
   },
   "age_at_menarche": {
-   "q": null,
+   "q": 11,
    "label": "How old were you when you had your first menstrual period ? _ years",
    "type": "int",
    "group": "Section2",
@@ -3413,7 +3413,7 @@
    "choices": []
   },
   "hear_about_this_survey": {
-   "q": 92,
+   "q": null,
    "label": "How did you hear about this survey?",
    "type": "select_one",
    "group": "self_care",
@@ -3464,7 +3464,7 @@
    "choices": []
   },
   "comments": {
-   "q": 93,
+   "q": 92,
    "label": "Thank you for filling this survey. Is there anything else you would like to share with us about your journey, maybe something often overlooked? Please feel free to write out your answer",
    "type": "string",
    "group": "self_care",

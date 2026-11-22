@@ -45,10 +45,13 @@ def ind_table(a: pd.DataFrame, cols: list[str], by: str | None = None,
 
 def dist_table(a: pd.DataFrame, field: str, by: str | None = None, order: list[str] | None = None,
                mask: pd.Series | None = None, drop_values: set | None = None,
-               short: bool = True) -> pd.DataFrame:
+               short: bool = True, choices_field: str | None = None, title: str = "") -> pd.DataFrame:
     """Distribution of a select_one / select_multiple item (percent of respondents
-    who answered; for select_multiple, options do not sum to 100%)."""
-    f = codebook.field(field)
+    who answered; for select_multiple, options do not sum to 100%). `choices_field`
+    lets a derived multi-select column (e.g. treatments pooled over conditions) use
+    another field's answer list."""
+    cf = choices_field or field
+    f = codebook.field(cf)
     multi = f["type"] == "select_multiple"
     if mask is not None:
         a = a[mask.reindex(a.index).fillna(False).astype(bool)]
@@ -63,12 +66,12 @@ def dist_table(a: pd.DataFrame, field: str, by: str | None = None, order: list[s
                 s = s[~s.isin(drop_values)]
         n = len(s)
         toks = s.map(lambda v: set(str(v).split())) if multi else None
-        for val, lab in codebook.choices(field):
+        for val, lab in codebook.choices(cf):
             if drop_values and val in drop_values:
                 continue
             k = int(toks.map(lambda t: val in t).sum()) if multi else int((s == val).sum())
             lo, hi = S.wilson(k, n)
-            rows.append({"Item": codebook.qlabel(field), "field": field, "Option": codebook.short(lab) if short else lab,
+            rows.append({"Item": title or codebook.qlabel(field), "field": field, "Option": codebook.short(lab) if short else lab,
                          "value": val, "Group": g, "n": n, "k": k, "p": k / n if n else np.nan,
                          "lo": lo, "hi": hi, "small": n < C.SMALL_N, "multi": multi})
     return pd.DataFrame(rows)
@@ -227,6 +230,10 @@ COMPARISONS = {
         binary=["spend_prod_500", "hardship", "hard_cannot", "hard_borrow", "care_any"],
         ordinal=[("spend_prod_ord", "Product spend band (Q72)", C.PRODUCT_BANDS)],
         multi=[("reasons_not_spoken_HCP", None)]),
+    "Sensitivity: support-group recruits vs other routes": dict(
+        gcol="recruit_group", a="Support / advocacy group", b="Other route",
+        binary=["dx_any", "care_any", "hmb", "sev_pain", "delay_long_any", "hardship", "ins_any", "stigma"],
+        ordinal=[], multi=[]),
     "Nairobi vs other counties": dict(
         gcol="nairobi", a="Nairobi", b="Other counties",
         binary=["care_any", "care_trained", "dx_imaging_any", "dx_surgical_any", "delay_long_any"],
@@ -395,4 +402,50 @@ def cat_table(a: pd.DataFrame, col: str, order: list[str], by: str | None = None
             rows.append({"Item": title or col, "field": col, "Option": lev, "value": lev, "Group": g,
                          "n": n, "k": k, "p": k / n if n else np.nan, "lo": lo, "hi": hi,
                          "small": n < C.SMALL_N, "multi": False})
+    return pd.DataFrame(rows)
+
+
+DESIGN_MINUTES = {"No condition known or suspected": "~19", "Suspects a condition, none diagnosed": "~21",
+                  "One diagnosed condition": "~24", "Two diagnosed conditions": "~26–27",
+                  "Three or more diagnosed conditions": "~29–36"}
+
+
+def durations(d: pd.DataFrame) -> pd.DataFrame | None:
+    """Completion time by survey path, if the form records start/end metadata."""
+    if "_start" not in d or "_end" not in d:
+        return None
+    start = pd.to_datetime(d["_start"], errors="coerce", utc=True)
+    end = pd.to_datetime(d["_end"], errors="coerce", utc=True)
+    mins = (end - start).dt.total_seconds() / 60
+    if mins.notna().sum() == 0:
+        return None
+    a = d.assign(_mins=mins)[d["analytic"]]
+
+    def path(r):
+        if r["group"] == C.GRP_NONE:
+            return "No condition known or suspected"
+        if r["group"] == C.GRP_SUSP:
+            return "Suspects a condition, none diagnosed"
+        k = r["n_dx"]
+        if k == 1:
+            return "One diagnosed condition"
+        if k == 2:
+            return "Two diagnosed conditions"
+        if k >= 3:
+            return "Three or more diagnosed conditions"
+        return None
+
+    a = a.assign(_path=a.apply(path, axis=1))
+    rows = []
+    for p, est in DESIGN_MINUTES.items():
+        x = a.loc[a["_path"] == p, "_mins"].dropna()
+        rows.append({"Path": p, "n": len(x), "Design estimate (min)": est,
+                     "Median (min)": round(x.median(), 1) if len(x) else None,
+                     "IQR (min)": f"{x.quantile(.25):.0f}–{x.quantile(.75):.0f}" if len(x) else "–",
+                     "Under 8 min (possible speeding)": int((x < 8).sum()),
+                     "Over 90 min (left open)": int((x > 90).sum())})
+    x = a["_mins"].dropna()
+    rows.append({"Path": "All", "n": len(x), "Design estimate (min)": "16–36",
+                 "Median (min)": round(x.median(), 1), "IQR (min)": f"{x.quantile(.25):.0f}–{x.quantile(.75):.0f}",
+                 "Under 8 min (possible speeding)": int((x < 8).sum()), "Over 90 min (left open)": int((x > 90).sum())})
     return pd.DataFrame(rows)

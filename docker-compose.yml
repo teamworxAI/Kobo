@@ -1,0 +1,14 @@
+services:
+  dashboard:
+    build: .
+    image: kobo-wema:latest
+    container_name: kobo-wema
+    restart: unless-stopped
+    # KOBO_TOKEN, KOBO_SERVER, KOBO_ASSET_UID, APP_PASSWORD (see .streamlit/secrets.toml.example)
+    env_file:
+      - path: .env
+        required: false
+    # Loopback only: the public origin is https://sfuai.ca:8001, terminated by the
+    # sfuai-web nginx container (deploy/nginx/kobo-8001.conf).
+    ports:
+      - "127.0.0.1:28501:8501"

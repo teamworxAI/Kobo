@@ -157,3 +157,18 @@ METHOD_IMAGING = {"adeno": {"1", "2"}, "endo": {"2", "3", "5"}, "fibroids": {"2"
                   "pmos": {"2"}, "pmdd": set()}
 METHOD_SURGICAL = {"adeno": {"3"}, "endo": {"6", "4"}, "fibroids": {"4"}, "pmos": set(),
                    "pmdd": set()}
+
+# Q86 prompt and Q87 importance (behavioural baseline)
+PROMPT_YES = {"Yes, a media message", "Yes, a family member or friend", "Yes, a health care professional", "Other"}
+PROMPT_DK = "I don't remember."
+PROMPT_NO = "No, nothing or no one prompted me."
+IMPORTANCE_HIGH = {"Very important"}
+# Q17 reasons that mean the hormonal method is used to manage symptoms, not only contraception:
+# reduce pain, heavy/long periods, regularity, diagnosed condition, hair/acne, mood
+HMC_THERAPEUTIC = {"1", "2", "3", "4", "7", "9"}
+# Q10 usual facility grouped
+FACILITY_GROUP = {"Public hospital or clinic": "Public", "Community health center or dispensary": "Public",
+                  "Private hospital or clinic": "Private", "Faith-based (mission) hospital": "Faith-based",
+                  "Pharmacy or chemist": "Pharmacy", "Traditional healer/herbalist": "Other / none",
+                  "Other": "Other / none", "I do not usually seek care": "Other / none"}
+FACILITY_ORDER = ["Public", "Private", "Faith-based", "Pharmacy", "Other / none"]

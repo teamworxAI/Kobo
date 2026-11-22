@@ -35,7 +35,10 @@ def test_groups_and_indicators():
     ])
     d = derive.derive(ingest.normalise(raw))
     assert list(d["group"][:3]) == [C.GRP_DX, C.GRP_SUSP, C.GRP_NONE]
-    assert list(d["analytic"]) == [True, True, True, False, False]
+    # design eligibility: menopause stays in (row 3); under-18 exits (row 4)
+    assert list(d["analytic"]) == [True, True, True, True, False]
+    assert d.loc[3, "group"] == C.GRP_UNCL
+    assert len(derive.analytic(d, keep_menopause=False)) == 3
     assert d.loc[0, "hmb"] == 1 and d.loc[0, "hmb_flow"] == 0 and d.loc[0, "hmb_long"] == 1
     assert d.loc[0, "delay_long_endo"] == 1 and d.loc[0, "delay_long_any"] == 1
     assert d.loc[0, "care_any"] == 0
@@ -76,3 +79,38 @@ def test_csv_roundtrip_and_full_build():
     assert T.missingness(d)["Shown to"].sum() > 0
     xlsx = export.workbook(d, a, demo=True)
     assert len(pd.ExcelFile(io.BytesIO(xlsx)).sheet_names) >= 15
+
+
+def test_baseline_and_service_indicators():
+    raw = pd.DataFrame([
+        row(sth_someone_remind_seek_care="No, nothing or no one prompted me.",
+            how_important_seeking_care="Very important", currently_using_HMC="Yes", main_reason_using_HMC="2",
+            supect_following_conditions="1", diagnose_HCP_endometriosis="Yes",
+            biggest_challenge_faced_get_endometriosis="3 1", describe_endometriosis_came_about="2",
+            received_treatment_endometriosis="1 3", hear_about_this_survey="Fibroid support group",
+            facility_usually_visited="Pharmacy or chemist"),
+        row(sth_someone_remind_seek_care="I don't remember.", currently_using_HMC="Yes",
+            main_reason_using_HMC="5", supect_following_conditions="3", diagnosed_HCP_uterine_fibroids="Yes",
+            received_treatment_uterine_fibroids="10", hear_about_this_survey="Social media"),
+    ])
+    d = derive.derive(ingest.normalise(raw))
+    assert d.loc[0, "prompt_any"] == 0 and np.isnan(d.loc[1, "prompt_any"])
+    assert d.loc[0, "importance_high"] == 1
+    assert d.loc[0, "hmc_therapeutic"] == 1 and d.loc[1, "hmc_therapeutic"] == 0
+    assert d.loc[0, "dx_dismissed"] == 1 and d.loc[0, "dx_cost_barrier"] == 1 and d.loc[0, "dx_no_equipment"] == 0
+    assert d.loc[0, "dx_misdiagnosed"] == 1
+    assert d.loc[0, "treatments_any"] == "1 3" and d.loc[0, "treated_any"] == 1
+    assert d.loc[1, "treated_any"] == 0                      # "No treatment received"
+    assert list(d["recruit_group"]) == ["Support / advocacy group", "Other route"]
+    assert d.loc[0, "facility_type"] == "Pharmacy"
+    assert len(derive.analytic(d, exclude_support_groups=True)) == 1
+
+
+def test_durations_only_when_metadata_present():
+    d = derive.derive(demo.generate(60, seed=5))
+    assert T.durations(d) is None
+    raw = demo.generate(60, seed=5)
+    raw["_start"] = pd.Timestamp("2026-10-01T10:00Z")
+    raw["_end"] = raw["_start"] + pd.Timedelta(minutes=22)
+    out = T.durations(derive.derive(raw))
+    assert out.iloc[-1]["Median (min)"] == 22

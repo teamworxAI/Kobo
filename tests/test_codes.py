@@ -68,4 +68,4 @@ def test_method_codes():
 
 def test_protocol_numbering_complete():
     qs = sorted(f["q"] for f in cb.fields().values() if f.get("q"))
-    assert qs == list(range(1, 94))
+    assert qs == list(range(1, 93))

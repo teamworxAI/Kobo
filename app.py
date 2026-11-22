@@ -171,6 +171,13 @@ with st.sidebar:
     keep_none = st.toggle("Include 'no condition' comparison group", value=True,
                           help="Decision B1. When off, analyses are restricted to women who know or "
                                "suspect they have at least one condition.")
+    keep_meno = st.toggle("Include women in menopause", value=True,
+                          help="Survey design (11 Oct flow) keeps them, with cycle items recalled from age 20–30. "
+                               "The live form currently skips them past Sections 3–7, so they have no condition "
+                               "status ('Unclassified').")
+    excl_sg = st.toggle("Sensitivity: exclude support-group recruits", value=False,
+                        help="Re-runs every page without women recruited through support or advocacy groups, "
+                             "to see how much the recruitment route drives the results.")
     with st.expander("Filters", expanded=False):
         counties = R.BREAKDOWNS["County / town"][1]
         f_county = st.multiselect("County / town", counties, default=[])
@@ -185,7 +192,7 @@ with st.sidebar:
         if "_validation_status" in D and D["_validation_status"].notna().any():
             f_valid = st.checkbox("Exclude submissions marked 'Not approved' in Kobo", value=True)
 
-A = derive.analytic(D, keep_none)
+A = derive.analytic(D, keep_none, keep_meno, excl_sg)
 if f_county:
     A = A[A["county"].isin(f_county)]
 if f_age:
@@ -195,7 +202,7 @@ if f_dates:
     A = A[(t >= f_dates[0]) & (t <= f_dates[1])]
 if f_valid:
     A = A[~A["_validation_status"].fillna("").str.contains("Not approved", case=False)]
-FILTERED = bool(f_county or f_age or (f_dates and f_dates != (dmin, dmax)))
+FILTERED = bool(f_county or f_age or (f_dates and f_dates != (dmin, dmax)) or excl_sg)
 
 
 # ---------------------------------------------------------------------------
@@ -205,6 +212,10 @@ def banner():
     if is_demo:
         st.markdown('<div class="demo">⚠ DEMO MODE – synthetic data. Numbers on this page are made up '
                     'and must not be quoted.</div>', unsafe_allow_html=True)
+    if excl_sg:
+        st.markdown('<div class="demo" style="background:#eef4fc;border-color:#2a78d6;color:#123">'
+                    'Sensitivity analysis: women recruited through support or advocacy groups are excluded.</div>',
+                    unsafe_allow_html=True)
     if FILTERED:
         st.caption(f"Filters applied: n = {len(A)} women in view.")
 
@@ -324,10 +335,14 @@ def page_overview():
     st.caption(SMALL_NOTE + " Bleeding and pain items: women with a period in the past 12 months.")
 
     st.subheader("Sample flow")
-    steps = derive.sample_flow(D, keep_none)
+    steps = derive.sample_flow(D, keep_none, keep_meno, excl_sg)
     st.plotly_chart(CH.flow(steps), use_container_width=True)
-    st.caption("Women in menopause are routed past Sections 3–7 by the form, so they appear in T1 counts "
-               "but cannot enter condition-based analyses.")
+    n_meno = int(A["menopause"].sum())
+    n_uncl = int((A["group"] == C.GRP_UNCL).sum())
+    st.caption(f"Exits follow the survey design: declined consent, under 18, never menstruated. "
+               f"{n_meno} women in the analysis are in menopause; {n_uncl} have no condition status "
+               "('Unclassified') because the live form skips Q29 onwards for them. They count in 'All' "
+               "estimates but not in group comparisons.")
 
 
 def page_t5():
@@ -349,6 +364,18 @@ def page_t5():
         st.markdown("**Counts**")
         st.dataframe(show, use_container_width=True)
     st.caption(SMALL_NOTE)
+    st.subheader("Diagnostic services as women experienced them (all conditions pooled)")
+    st.caption("Demand-side view of provider and facility behaviour, among diagnosed women. Provider actions at "
+               "a visit (testing, referral, options offered) are not measured in Wave 1.")
+    bd = st.selectbox("Break down by", ["Nairobi vs other counties", "Insured vs uninsured",
+                                        "Usual facility (Q10)", "Household income"], key="t5_bd")
+    gcol, levels = R.BREAKDOWNS[bd]
+    t = T.ind_table(A, ["dx_misdiagnosed", "dx_multi_doctors", "dx_dismissed", "dx_no_equipment",
+                        "dx_cost_barrier", "dx_imaging_any", "dx_surgical_any", "delay_long_any"], gcol, levels)
+    st.plotly_chart(CH.dot_ci(t, "Indicator", ["All"] + levels), use_container_width=True, key="t5_pooled")
+    table_view(T.display(t), "T5_pooled")
+    st.markdown("---")
+    st.subheader("Per condition")
     key = st.radio("Condition", list(C.CONDITIONS), format_func=lambda k: C.CONDITIONS[k]["label"],
                    horizontal=True)
     n = int((A[f"dx_{key}"] == 1).sum())
@@ -434,9 +461,13 @@ def page_behaviour():
             "They are **not** a test of the Fogg Behaviour Model. The formal test – a motivation × ability × "
             "prompt map, the action line, segments needing a signal, facilitator or spark, and the treatment "
             "cascade – belongs in the follow-on survey with validated motivation and ability scales.")
-    breakdown = st.selectbox("Break down by", ["Population group", "Insured vs uninsured", "Household income"])
+    breakdown = st.selectbox("Break down by", ["Population group", "Insured vs uninsured", "Household income",
+                                               "Usual facility (Q10)", "Recruitment route"])
     blocks = [
-        R.Block("ind", "Care sought in the past 12 months (Q24)", cols=["care_any", "care_trained", "care_easy"]),
+        R.Block("ind", "Baseline indicators",
+                cols=["care_any", "care_trained", "care_trad_only", "care_easy", "prompt_any", "importance_high"],
+                note="Care-seeking denominator: women with symptoms that worried them (Q24 excluding 'no symptoms "
+                     "that worried me'), the closest Wave 1 proxy for the follow-on survey's episode group (N1)."),
         R.Block("dist", "Care sought (Q24) – all answers", field="seek_care_period_related_symptoms"),
         R.Block("dist", "Reasons for not speaking to a provider (Q26) – barriers to ability",
                 field="reasons_not_spoken_HCP"),
@@ -446,6 +477,26 @@ def page_behaviour():
     ]
     for i, b in enumerate(blocks):
         render_block(b, breakdown, f"beh_{i}")
+    st.subheader("Care sought by prompt and by importance")
+    st.caption("Associational baseline only. Q86–87 are asked after the fact and are not tied to a specific "
+               "episode, so they cannot show that a prompt or importance led to care-seeking.")
+    t = pd.concat([T.ind_table(A, ["care_any"], "prompt_lab", ["Prompted", "No prompt"], include_total=False)
+                   .assign(Indicator="By prompt (Q86)"),
+                   T.ind_table(A, ["care_any"], "importance_lab", ["Very important", "Less than very important"],
+                               include_total=False).assign(Indicator="By importance (Q87)")])
+    st.plotly_chart(CH.dot_ci(t, "Indicator", ["Prompted", "No prompt", "Very important",
+                                               "Less than very important"], "% who sought care (95% CI)"),
+                    use_container_width=True, key="beh_pi")
+    with st.expander("What Wave 1 cannot show (gaps for the follow-on survey)"):
+        st.markdown(
+            "- **No episode anchor:** motivation, ability and prompt are not tied to a specific worrying episode.\n"
+            "- **Ability:** one global ease rating (Q25) and Q26 reasons asked of non-seekers only; not the six "
+            "simplicity factors.\n"
+            "- **Perceived benefits / outcome expectancy** are not measured.\n"
+            "- **No treatment cascade:** offered → used → continued, and informed choice, are not measured.\n"
+            "- **Institutional behaviour** (being asked at FP/ANC/pharmacy visits, tested, referred, covered at the "
+            "point of care) is not measured.\n"
+            "These are the N1–N15 items and companion studies proposed for the follow-on survey.")
     st.subheader("Prompt × care sought")
     sub = A[A["care_any"].notna() & A["sth_someone_remind_seek_care"].notna()]
     if len(sub):
@@ -475,6 +526,16 @@ def page_quality():
     else:
         st.dataframe(flagged.assign(**{"% missing": flagged["% missing"].map("{:.1%}".format)}),
                      use_container_width=True, hide_index=True)
+    st.subheader("Completion time")
+    dur = T.durations(D)
+    if dur is None:
+        st.warning("The live form does not record Kobo's `start` and `end` metadata, so actual completion time "
+                   "cannot be measured. The analysis plan relies on it to replace the design estimates "
+                   "(16–36 minutes by path; the consent says 30–45). Add `start` and `end` rows to the XLSForm.")
+    else:
+        st.dataframe(dur, use_container_width=True, hide_index=True)
+        st.caption("Minutes from opening the form to finishing it. Design estimates come from the survey-flow "
+                   "diagram (self-completion on a phone).")
     st.subheader("Consistency checks")
     st.caption("Patterns the form currently allows. Complete-case analysis is used; these respondents are "
                "kept, and the derived indicators already apply the correct denominators.")

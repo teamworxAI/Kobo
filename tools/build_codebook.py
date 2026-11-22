@@ -25,11 +25,13 @@ TRANSFORM_URL = "https://ee.kobotoolbox.org/transform/xform/{id}"
 # Kobo field names. The form's own on-screen numbers also count "other, specify"
 # boxes, so they drift from the protocol numbering; this table is the bridge.
 PROTOCOL_Q = {
+    # Numbering follows the 11 Oct 2026 questionnaire revision used by the analysis plan.
+    # Items added to the live form after that revision (ever_tried_get_pregnant,
+    # had_menses, have_anaemia_low_iron, hear_about_this_survey) have no number.
     1: "how_old_are_you", 2: "residence", 3: "highest_level_education",
     4: "main_source_income", 5: "marital_status", 6: "children_have",
-    7: "like_have_children", 8: "ever_tried_get_pregnant",
-    9: "avg_monthly_household_income", 10: "describe_body_size",
-    11: "facility_usually_visited", 12: "period_12months",
+    7: "like_have_children", 8: "avg_monthly_household_income", 9: "describe_body_size",
+    10: "facility_usually_visited", 11: "age_at_menarche", 12: "period_12months",
     13: "age_entered_menopause", 14: "currently_using_HMC",
     15: "HMC_currently_using", 16: "long_using_HMC", 17: "main_reason_using_HMC",
     18: "avg_often_period_come", 19: "days_bleed_per_cycle",
@@ -71,8 +73,7 @@ PROTOCOL_Q = {
     85: "ever_seek_emergency_medical_care", 86: "sth_someone_remind_seek_care",
     87: "how_important_seeking_care", 88: "urgent_need_manage_condition",
     89: "use_health_app_device", 90: "data_privacy_mean",
-    91: "share_health_info_privacy_protected", 92: "hear_about_this_survey",
-    93: "comments",
+    91: "share_health_info_privacy_protected", 92: "comments",
 }
 
 SKIP_NOTES = {"wema_study", "_span_style_color_re_data_submission_span",

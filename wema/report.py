@@ -25,6 +25,8 @@ BREAKDOWNS: dict[str, tuple[str, list[str]]] = {
     "County / town": ("county", ["Nairobi", "Mombasa", "Kisumu", "Nakuru", "Eldoret", "Other county"]),
     "HMB proxy": ("hmb_group", ["HMB proxy", "No HMB"]),
     "Period in past 12 months": ("period12_lab", ["Period in past 12 months", "No period in past 12 months"]),
+    "Recruitment route": ("recruit_group", ["Support / advocacy group", "Other route"]),
+    "Usual facility (Q10)": ("facility_type", C.FACILITY_ORDER),
     "None (all respondents)": (None, []),
 }
 
@@ -42,6 +44,7 @@ class Block:
     note: str = ""
     drop_values: set | None = None
     chart: str = "auto"
+    choices_field: str | None = None
 
     def compute(self, a: pd.DataFrame, breakdown: str) -> pd.DataFrame:
         by, levels = BREAKDOWNS[breakdown]
@@ -50,7 +53,8 @@ class Block:
         if self.kind == "ind":
             return T.ind_table(a, self.cols, by, levels or None)
         if self.kind == "dist":
-            return T.dist_table(a, self.field, by, levels or None, drop_values=self.drop_values)
+            return T.dist_table(a, self.field, by, levels or None, drop_values=self.drop_values,
+                                choices_field=self.choices_field, title=self.title)
         if self.kind == "ord":
             return T.ordinal_table(a, self.field, self.order, by, levels or None)
         if self.kind == "cat":
@@ -97,25 +101,32 @@ def _insured(a):
 SHELLS: list[Shell] = [
     Shell("T1", "Sample", "Context",
           "Who the findings describe (and who they do not).",
-          ["Population group", "None (all respondents)", "Nairobi vs other counties"],
-          [Block("num", "Age (years)", field="age"),
+          ["Population group", "None (all respondents)", "Recruitment route", "Nairobi vs other counties"],
+          [Block("cat", "Condition status (analysis groups)", field="group",
+                 order=C.GROUP_ORDER + [C.GRP_UNCL],
+                 note="'Unclassified' = no answer to Q29. Under the live form this is mainly women in "
+                      "menopause, whom the form routes past Sections 3–7 (the design keeps them in)."),
+           Block("cat", "Recruited through a support or advocacy group", field="recruit_group",
+                 order=["Support / advocacy group", "Other route"]),
+           Block("num", "Age (years)", field="age"),
            Block("cat", "Age group", field="age_group", order=C.AGE_LABELS),
            Block("cat", "County / town of residence (Q2)", field="county",
                  order=BREAKDOWNS["County / town"][1]),
            Block("cat", "Education (Q3, grouped)", field="education", order=C.EDU_ORDER),
-           Block("cat", "Monthly household income (Q9, grouped)", field="income", order=C.INCOME_ORDER,
+           Block("cat", "Monthly household income (Q8, grouped)", field="income", order=C.INCOME_ORDER,
                  note="'Prefer not to say' excluded from the denominator."),
            Block("dist", "Occupation (Q4)", field="main_source_income"),
            Block("cat", "Health insurance (Q80)", field="insurance_type",
                  order=BREAKDOWNS["Insurance type"][1]),
-           Block("dist", "Recruitment route (Q92)", field="hear_about_this_survey",
+           Block("dist", "Recruitment route (item added after 11 Oct)", field="hear_about_this_survey",
                  note="Most women reached through support groups means the sample leans towards "
                       "women already engaged with these conditions."),
            Block("dist", "Menstrual status: period in the past 12 months (Q12)", field="period_12months"),
            Block("dist", "Current hormonal contraception (Q14)", field="currently_using_HMC")]),
     Shell("T2", "Symptom burden", "Scale of need",
           "Scale of need; heavy menstrual bleeding as a public-health issue.",
-          ["Population group", "Age group", "Nairobi vs other counties", "Household income"],
+          ["Population group", "Age group", "Nairobi vs other counties", "Household income",
+           "Recruitment route"],
           [Block("ind", "Cycle and symptom indicators – women with a period in the past 12 months",
                  cols=["hmb", "hmb_flow", "hmb_long", "sev_pain", "marker_sx", "irregular",
                        "fatigue_dizzy", "anaemia"], mask=_period),
@@ -125,8 +136,9 @@ SHELLS: list[Shell] = [
                  mask=_period),
            Block("ind", "Same indicators – women with NO period in the past 12 months (reported separately)",
                  cols=["hmb", "sev_pain", "marker_sx", "irregular"], mask=_no_period,
-                 note="Mostly women on hormonal contraception, pregnant or breastfeeding; their answers "
-                      "describe usual or past periods and are not pooled with the main estimates."),
+                 note="Women on hormonal contraception, pregnant or breastfeeding, and women in menopause "
+                      "(who answer by recall of age 20–30). Their answers describe usual or past periods "
+                      "and are not pooled with the main estimates."),
            Block("ind", "Emergency care for period symptoms (Q85) – all women",
                  cols=["emergency"])]),
     Shell("T3", "Awareness", "Objective 1",
@@ -139,8 +151,8 @@ SHELLS: list[Shell] = [
            Block("dist", "Most urgent need (Q88) – top unmet need", field="urgent_need_manage_condition")]),
     Shell("T4", "Care-seeking", "Objective 2",
           "Where women go first, and what stops them.",
-          ["Insured vs uninsured", "Household income", "Insurance type", "Population group",
-           "Nairobi vs other counties"],
+          ["Insured vs uninsured", "Household income", "Insurance type", "Usual facility (Q10)",
+           "Population group", "Nairobi vs other counties", "Recruitment route"],
           [Block("ind", "Care sought in the past 12 months – women with symptoms of concern",
                  cols=["care_any", "care_trained", "care_trad_only", "care_easy"],
                  note="Denominator excludes women who said they had no symptoms that worried them."),
@@ -151,7 +163,7 @@ SHELLS: list[Shell] = [
                  order=[v for v, _ in codebook.choices("obtain_period_related_symptoms")], mask=_sought,
                  note="The form also shows Q25 to women who did not seek care; those answers are excluded."),
            Block("dist", "Reasons for not speaking to a provider (Q26)", field="reasons_not_spoken_HCP"),
-           Block("dist", "Facility usually visited (Q11)", field="facility_usually_visited")]),
+           Block("dist", "Facility usually visited (Q10)", field="facility_usually_visited")]),
     # T5 is condition-specific and is rendered by a dedicated page / export routine
     Shell("T6", "Stigma and psychosocial", "Objectives 3 and 5",
           "Support services and messaging.",
@@ -202,8 +214,13 @@ SHELLS: list[Shell] = [
            Block("dist", "Claim denied (Q83) – insured", field="ever_denied_claim", mask=_insured)]),
     Shell("T9", "Coping and needs", "Objectives 5 and 6",
           "Priorities for services and research.",
-          ["Diagnosed vs suspected", "Population group", "Household income"],
-          [Block("ind", "Traditional care", cols=["trad_any", "care_trad_only"]),
+          ["Diagnosed vs suspected", "Population group", "Household income", "Recruitment route"],
+          [Block("ind", "Treatment and traditional care",
+                 cols=["treated_any", "hmc_therapeutic", "trad_any", "care_trad_only"]),
+           Block("dist", "Treatments received for any diagnosed condition (Q38/45/52/59/66 pooled)",
+                 field="treatments_any", choices_field="received_treatment_any_condition",
+                 note="Diagnosed women; a treatment counts if reported for any of her conditions. "
+                      "Offered-vs-used and continuation are not measured in Wave 1."),
            Block("dist", "How symptoms are managed (Q84)", field="manage_period_related_symptoms"),
            Block("dist", "Most urgent need (Q88)", field="urgent_need_manage_condition")]),
     Shell("T10", "Data and digital", "Objective 6",

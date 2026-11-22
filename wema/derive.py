@@ -35,7 +35,7 @@ INDICATORS: list[Indicator] = [
     Indicator("irregular", "Irregular cycle (<24 or >38 days)", "Q18",
               "Cycle length known (excl. stopped / other / don't know)"),
     Indicator("fatigue_dizzy", "Fatigue, weakness, dizziness or fainting", "Q23", "Answered Q23"),
-    Indicator("anaemia", "Ever told anaemia / low iron", "Q12b", "Yes or No"),
+    Indicator("anaemia", "Ever told anaemia / low iron", "(added after 11 Oct)", "Yes or No"),
     Indicator("emergency", "Emergency care for period symptoms (ever)", "Q85", "Answered Q85"),
     Indicator("care_any", "Care sought, past 12 months (any provider)", "Q24",
               "Had period symptoms of concern (excl. 'no symptoms that worried me')"),
@@ -46,6 +46,13 @@ INDICATORS: list[Indicator] = [
               "Sought care (Q24 = any provider)"),
     Indicator("trad_any", "Uses traditional / herbal care or remedies", "Q24, Q84",
               "Answered Q24 or Q84"),
+    Indicator("prompt_any", "Something or someone prompted care-seeking", "Q86",
+              "Answered Q86 (excl. don't remember)"),
+    Indicator("importance_high", "Seeking care is very important", "Q87", "Answered Q87"),
+    Indicator("hmc_therapeutic", "Uses hormonal method to manage symptoms", "Q14, Q17",
+              "Answered Q14 (excl. don't know / prefer not / reason unknown)"),
+    Indicator("treated_any", "Received any treatment (diagnosed women)", "Q38/45/52/59/66",
+              "Diagnosed with any condition, treatment item answered"),
     Indicator("aware_any", "Familiar with at least one condition before today", "Q27",
               "Answered Q27"),
     Indicator("understand_good", "Condition names made fairly good / a lot of sense", "Q28",
@@ -87,6 +94,15 @@ INDICATORS: list[Indicator] = [
               "Q33/40/47/54", "Diagnosed with a structural condition, method reported"),
     Indicator("dx_surgical_any", "Diagnosed at laparoscopy or other surgery (any condition)",
               "Q33/40/47", "Diagnosed with endometriosis, adenomyosis or fibroids, method reported"),
+    Indicator("dx_dismissed", "Dismissive providers were a diagnostic challenge", "Q37/44/51/58/65",
+              "Diagnosed, challenges item answered"),
+    Indicator("dx_no_equipment", "Lack of equipment or specialists was a challenge", "Q37/44/51/58/65",
+              "As above"),
+    Indicator("dx_cost_barrier", "Cost of tests or treatment was a challenge", "Q37/44/51/58/65", "As above"),
+    Indicator("dx_misdiagnosed", "Misdiagnosed or not believed for a while", "Q35/42/49/56/63",
+              "Diagnosed, pathway item answered"),
+    Indicator("dx_multi_doctors", "Saw multiple doctors before getting answers", "Q35/42/49/56/63",
+              "As above"),
     Indicator("uses_tracker", "Uses an app or device to track health", "Q89", "Answered Q89"),
     Indicator("share_yes", "Would share anonymised data for research", "Q91", "Answered Q91"),
 ]
@@ -152,9 +168,11 @@ def _derive(df: pd.DataFrame) -> pd.DataFrame:
     d["menstruated"] = get("had_menses").eq("Yes")
     d["menopause"] = get("period_12months").eq(C.PERIOD_MENOPAUSE)
     d["eligible_base"] = d["consented"] & d["adult"] & d["menstruated"]
-    # The form routes women in menopause past Sections 3-7, so they cannot enter
-    # condition-based analyses; they are counted in the sample flow and T1 only.
-    d["analytic"] = d["eligible_base"] & ~d["menopause"]
+    # Survey design (11 Oct flow): exits are decline, age < 18 and never menstruated.
+    # Women in menopause stay in, answering Q18-23 by recall (age 20-30). The live form
+    # (v12) still routes them past Sections 3-7, so they are in the population but have
+    # no condition status ("Unclassified") until the form is fixed.
+    d["analytic"] = d["eligible_base"]
     d["period12"] = get("period_12months").map(
         lambda v: np.nan if v is None else float(v == C.PERIOD_YES))
     d["period12_lab"] = d["period12"].map({1.0: "Period in past 12 months", 0.0: "No period in past 12 months"})
@@ -184,6 +202,34 @@ def _derive(df: pd.DataFrame) -> pd.DataFrame:
     sur = [f"dx_surgical_{k}" for k in C.CONDITIONS if C.METHOD_SURGICAL[k]]
     d["dx_imaging_any"] = d[img].max(axis=1, skipna=True)
     d["dx_surgical_any"] = d[sur].max(axis=1, skipna=True)
+    # demand-side view of diagnostic services (diagnosed women, pooled over conditions)
+    def pooled(kind: str, label_start: str) -> pd.Series:
+        parts = []
+        for key, c in C.CONDITIONS.items():
+            codes = {v for v, lab in codebook.choices(c[kind]) if lab.startswith(label_start)}
+            parts.append(_has(get(c[kind]), codes).where(d[f"dx_{key}"] == 1))
+        return pd.concat(parts, axis=1).max(axis=1, skipna=True)
+
+    d["dx_dismissed"] = pooled("challenge", "Dismissive")
+    d["dx_no_equipment"] = pooled("challenge", "Lack of diagnostic equipment")
+    d["dx_cost_barrier"] = pooled("challenge", "High cost")
+    d["dx_misdiagnosed"] = pooled("pathway", "I kept being misdiagnosed")
+    d["dx_multi_doctors"] = pooled("pathway", "I saw multiple doctors")
+    # union of treatments received across the diagnosed conditions (B3 baseline)
+    tlab = codebook.value_labels(C.CONDITIONS["adeno"]["treatment"])
+
+    def union_treat(row):
+        got = set()
+        for key, c in C.CONDITIONS.items():
+            v = row.get(c["treatment"])
+            if row.get(f"dx_{key}") == 1 and isinstance(v, str):
+                got |= set(v.split())
+        return " ".join(sorted(got, key=lambda x: int(x) if x.isdigit() else 99)) if got else None
+
+    d["treatments_any"] = pd.Series([union_treat(r) for r in d.to_dict("records")], index=d.index, dtype=object)
+    no_treat = {v for v, lab in tlab.items() if lab.startswith("No treatment")}
+    d["treated_any"] = d["treatments_any"].map(
+        lambda v: np.nan if not isinstance(v, str) else float(bool(set(v.split()) - no_treat)))
     dx_cols = [f"dx_{k}" for k in C.CONDITIONS]
     d["dx_any"] = d[dx_cols].max(axis=1, skipna=True).where(gates_answered)
     d["n_dx"] = d[dx_cols].sum(axis=1, min_count=1)
@@ -225,6 +271,10 @@ def _derive(df: pd.DataFrame) -> pd.DataFrame:
     d["insured"] = d["ins_any"].map({1.0: "Insured", 0.0: "Uninsured"})
     d["recruitment"] = get("hear_about_this_survey").map(
         lambda v: None if v is None else ("Support group" if "support group" in v else v))
+    d["recruit_group"] = d["recruitment"].map(
+        lambda v: None if v is None else ("Support / advocacy group" if v == "Support group" else "Other route"))
+    fac = get("facility_usually_visited")
+    d["facility_type"] = fac.map(lambda v: None if v is None else C.FACILITY_GROUP.get(v, "Other / none"))
 
     # ---- symptom burden ---------------------------------------------------
     flow = get("describe_mestrual_heaviest_days")
@@ -256,6 +306,19 @@ def _derive(df: pd.DataFrame) -> pd.DataFrame:
     d["ease_ord"] = _ordinal(ease, [v for v, _ in codebook.choices("obtain_period_related_symptoms")])
     d["care_easy"] = _in(ease, {"Easy", "Very easy"})
 
+    # baseline behavioural items (Q86-87); a formal Fogg test is for the follow-on survey
+    prompt = get("sth_someone_remind_seek_care")
+    d["prompt_any"] = _in(prompt, C.PROMPT_YES, exclude={C.PROMPT_DK})
+    d["prompt_lab"] = d["prompt_any"].map({1.0: "Prompted", 0.0: "No prompt"})
+    imp = get("how_important_seeking_care")
+    d["importance_high"] = _in(imp, C.IMPORTANCE_HIGH)
+    d["importance_lab"] = d["importance_high"].map({1.0: "Very important", 0.0: "Less than very important"})
+    hmc_use = get("currently_using_HMC")
+    reason = get("main_reason_using_HMC")
+    d["hmc_therapeutic"] = pd.Series(
+        [np.nan if u not in ("Yes", "No") else
+         (0.0 if u == "No" else (np.nan if r in (None, "11") else float(r in C.HMC_THERAPEUTIC)))
+         for u, r in zip(hmc_use, reason)], index=d.index)
     trad_cope = _has(get("manage_period_related_symptoms"), {"4"})  # herbal / traditional remedies
     d["trad_any"] = _any(_in(care, {C.CARE_TRAD_ONLY, C.CARE_BOTH}, valid=need), trad_cope)
 
@@ -318,25 +381,36 @@ def _derive(df: pd.DataFrame) -> pd.DataFrame:
     return d
 
 
-def analytic(d: pd.DataFrame, keep_no_condition: bool = True) -> pd.DataFrame:
-    """The B1 analysis population."""
+def analytic(d: pd.DataFrame, keep_no_condition: bool = True, keep_menopause: bool = True,
+             exclude_support_groups: bool = False) -> pd.DataFrame:
+    """The B1 analysis population (options mirror the open B1 decision and the
+    advocacy-group sensitivity analysis)."""
     a = d[d["analytic"]]
-    if not keep_no_condition:
-        a = a[a["group"] != C.GRP_NONE]
+    if not keep_no_condition:  # population = know or suspect a condition (plan §1)
+        a = a[a["know_or_suspect"]]
+    if not keep_menopause:
+        a = a[~a["menopause"]]
+    if exclude_support_groups:
+        a = a[a["recruit_group"] != "Support / advocacy group"]
     return a
 
 
-def sample_flow(d: pd.DataFrame, keep_no_condition: bool = True) -> list[tuple[str, int]]:
+def sample_flow(d: pd.DataFrame, keep_no_condition: bool = True, keep_menopause: bool = True,
+                exclude_support_groups: bool = False) -> list[tuple[str, int]]:
     steps = [("Submissions received", len(d))]
     m = d["consented"]
     steps.append(("Gave consent", int(m.sum())))
     m &= d["adult"]
     steps.append(("Aged 18 or over", int(m.sum())))
     m &= d["menstruated"]
-    steps.append(("Have ever menstruated", int(m.sum())))
-    m &= ~d["menopause"]
-    steps.append(("Not in menopause (routed past Sections 3-7 by the form)", int(m.sum())))
+    steps.append(("Have ever menstruated (eligible)", int(m.sum())))
+    if not keep_menopause:
+        m &= ~d["menopause"]
+        steps.append(("Not in menopause", int(m.sum())))
+    if exclude_support_groups:
+        m &= d["recruit_group"] != "Support / advocacy group"
+        steps.append(("Not recruited through a support group (sensitivity)", int(m.sum())))
     if not keep_no_condition:
-        m &= d["group"] != C.GRP_NONE
+        m &= d["know_or_suspect"]
         steps.append(("Know or suspect a condition (no-condition group dropped)", int(m.sum())))
     return steps

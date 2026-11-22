@@ -1,0 +1,3485 @@
+{
+ "form_uid": "aLWbr2Y7epAUXji3GkuABi",
+ "enketo_id": "XkauKNnq",
+ "groups": {
+  "Section1": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes'",
+  "Section2": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/had_menses  = 'Yes'",
+  "Section3": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/had_menses  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months  !='7'",
+  "section4": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section3/supect_following_conditions  != '6' and  /aLWbr2Y7epAUXji3GkuABi/had_menses  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months  !='7'",
+  "Endometriosis": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section3/supect_following_conditions  != '6' and  /aLWbr2Y7epAUXji3GkuABi/had_menses  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months  !='7'",
+  "Uterine_fibroids": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section3/supect_following_conditions  != '6' and  /aLWbr2Y7epAUXji3GkuABi/had_menses  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months  !='7'",
+  "pmos": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section3/supect_following_conditions  != '6' and  /aLWbr2Y7epAUXji3GkuABi/had_menses  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months  !='7'",
+  "pmdd": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section3/supect_following_conditions  != '6' and  /aLWbr2Y7epAUXji3GkuABi/had_menses  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months  !='7'",
+  "pei": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/had_menses  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months  !='7'",
+  "Health_insurance": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/had_menses  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months  !='7'",
+  "self_care": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/had_menses  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months  !='7'"
+ },
+ "fields": {
+  "consent": {
+   "q": null,
+   "label": "CONSENT FORM (STATEMENT OF CONSENT) Participant's statement I have read this consent form or had the information read to me. By selecting Yes, I have had my questions answered in a language that I understand. The risks and benefits have been explained to me. I understand that my participation in this study is voluntary and that I may choose to withdraw any time. I freely agree to participate in this research study. I understand that all efforts will be made to keep information regarding my personal identity confidential. By selecting Yes, I have not given up any of the legal rights that I have as a participant in a research study. I agree to participate in this research study",
+   "type": "select_one",
+   "group": null,
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    }
+   ]
+  },
+  "how_old_are_you": {
+   "q": 1,
+   "label": "How old are you? Age in years",
+   "type": "int",
+   "group": "Section1",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes'",
+   "required": true,
+   "choices": []
+  },
+  "residence": {
+   "q": 2,
+   "label": "What is your current county or town of residence?",
+   "type": "select_one",
+   "group": "Section1",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": true,
+   "choices": [
+    {
+     "value": "Nairobi",
+     "label": "Nairobi"
+    },
+    {
+     "value": "Mombasa",
+     "label": "Mombasa"
+    },
+    {
+     "value": "Kisumu",
+     "label": "Kisumu"
+    },
+    {
+     "value": "Nakuru",
+     "label": "Nakuru"
+    },
+    {
+     "value": "Eldoret",
+     "label": "Eldoret"
+    },
+    {
+     "value": "Other",
+     "label": "County and urban/rural, please specify:"
+    }
+   ]
+  },
+  "current_residence_other": {
+   "q": null,
+   "label": "What is your current county or town of residence others specify",
+   "type": "string",
+   "group": "Section1",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section1/residence , 'Other' ) and  /aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": false,
+   "choices": []
+  },
+  "highest_level_education": {
+   "q": 3,
+   "label": "What is your highest level of education completed?",
+   "type": "select_one",
+   "group": "Section1",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": true,
+   "choices": [
+    {
+     "value": "No formal education",
+     "label": "No formal education"
+    },
+    {
+     "value": "Primary school",
+     "label": "Primary school"
+    },
+    {
+     "value": "Secondary school",
+     "label": "Secondary school"
+    },
+    {
+     "value": "College or technical training",
+     "label": "College or technical training"
+    },
+    {
+     "value": "University (undergraduate)",
+     "label": "University (undergraduate)"
+    },
+    {
+     "value": "Postgraduate (Masters)",
+     "label": "Postgraduate (Masters)"
+    },
+    {
+     "value": "Postgraduate (PhD)",
+     "label": "Postgraduate (PhD)"
+    }
+   ]
+  },
+  "main_source_income": {
+   "q": 4,
+   "label": "What is your current occupation or main source of income?",
+   "type": "select_one",
+   "group": "Section1",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": true,
+   "choices": [
+    {
+     "value": "Student",
+     "label": "Student"
+    },
+    {
+     "value": "Unemployed",
+     "label": "Unemployed"
+    },
+    {
+     "value": "Self-employed (e.g., business, artisan)",
+     "label": "Self-employed (e.g., business, artisan)"
+    },
+    {
+     "value": "Employed in the public sector",
+     "label": "Employed in the public sector"
+    },
+    {
+     "value": "Employed in the private sector",
+     "label": "Employed in the private sector"
+    },
+    {
+     "value": "Informal work (casual, daily labor)",
+     "label": "Informal work (casual, daily labor)"
+    },
+    {
+     "value": "Homemaker",
+     "label": "Homemaker"
+    },
+    {
+     "value": "Other",
+     "label": "Other"
+    }
+   ]
+  },
+  "other_main_source_income": {
+   "q": null,
+   "label": "What is your current occupation or main source of income other specify",
+   "type": "string",
+   "group": "Section1",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section1/main_source_income , 'Other' ) and  /aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": false,
+   "choices": []
+  },
+  "marital_status": {
+   "q": 5,
+   "label": "What is your marital or relationship status?",
+   "type": "select_one",
+   "group": "Section1",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": true,
+   "choices": [
+    {
+     "value": "Single",
+     "label": "Single"
+    },
+    {
+     "value": "Married or cohabiting",
+     "label": "Married or cohabiting"
+    },
+    {
+     "value": "Separated or divorced",
+     "label": "Separated or divorced"
+    },
+    {
+     "value": "Widowed",
+     "label": "Widowed"
+    },
+    {
+     "value": "Prefer not to say",
+     "label": "Prefer not to say"
+    }
+   ]
+  },
+  "children_have": {
+   "q": 6,
+   "label": "How many children do you have?",
+   "type": "select_one",
+   "group": "Section1",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": true,
+   "choices": [
+    {
+     "value": "1 child",
+     "label": "1 child"
+    },
+    {
+     "value": "2 children",
+     "label": "2 children"
+    },
+    {
+     "value": "3 children",
+     "label": "3 children"
+    },
+    {
+     "value": "4 or more children",
+     "label": "4 or more children"
+    },
+    {
+     "value": "No, I don't have any biological children",
+     "label": "No, I don't have any biological children"
+    }
+   ]
+  },
+  "like_have_children": {
+   "q": 7,
+   "label": "Would you like to have children in the future?",
+   "type": "select_one",
+   "group": "Section1",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": true,
+   "choices": [
+    {
+     "value": "Yes, I am pregnant and I would like to have more children in the future.",
+     "label": "Yes, I am pregnant and I would like to have more children in the future."
+    },
+    {
+     "value": "Yes, I would like to have a child/more children in the future.",
+     "label": "Yes, I would like to have a child/more children in the future."
+    },
+    {
+     "value": "No, I am pregnant and I don't want to have more children.",
+     "label": "No, I am pregnant and I don't want to have more children."
+    },
+    {
+     "value": "No, I don't want any biological children.",
+     "label": "No, I don't want any biological children."
+    },
+    {
+     "value": "I am undecided.",
+     "label": "I am undecided."
+    }
+   ]
+  },
+  "ever_tried_get_pregnant": {
+   "q": 8,
+   "label": "Have you ever tried to get pregnant for 12 months or more without success?",
+   "type": "select_one",
+   "group": "Section1",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    },
+    {
+     "value": "Never tried",
+     "label": "Never tried"
+    },
+    {
+     "value": "Prefer not to say",
+     "label": "Prefer not to say"
+    }
+   ]
+  },
+  "avg_monthly_household_income": {
+   "q": 9,
+   "label": "What is your average monthly household income (in Kenyan Shillings)?",
+   "type": "select_one",
+   "group": "Section1",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": false,
+   "choices": [
+    {
+     "value": "Less than KES 30,000",
+     "label": "Less than KES 30,000"
+    },
+    {
+     "value": "KES 30,001-60,000",
+     "label": "KES 30,001-60,000"
+    },
+    {
+     "value": "KES 60,001-100,000",
+     "label": "KES 60,001-100,000"
+    },
+    {
+     "value": "KES 100,001-200,000",
+     "label": "KES 100,001-200,000"
+    },
+    {
+     "value": "More than KES 200,000",
+     "label": "More than KES 200,000"
+    },
+    {
+     "value": "Prefer not to say",
+     "label": "Prefer not to say"
+    }
+   ]
+  },
+  "describe_body_size": {
+   "q": 10,
+   "label": "Based on your own perception, how would you describe your body size compared to most women your age",
+   "type": "select_one",
+   "group": "Section1",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": false,
+   "choices": [
+    {
+     "value": "Underweight",
+     "label": "Underweight"
+    },
+    {
+     "value": "Normal weight",
+     "label": "Normal weight"
+    },
+    {
+     "value": "Overweight",
+     "label": "Overweight"
+    },
+    {
+     "value": "Obese",
+     "label": "Obese"
+    },
+    {
+     "value": "Prefer not to say",
+     "label": "Prefer not to say"
+    }
+   ]
+  },
+  "facility_usually_visited": {
+   "q": 11,
+   "label": "What type of health facility do you usually visit when you have a health problem?",
+   "type": "select_one",
+   "group": "Section1",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": false,
+   "choices": [
+    {
+     "value": "Public hospital or clinic",
+     "label": "Public hospital or clinic"
+    },
+    {
+     "value": "Private hospital or clinic",
+     "label": "Private hospital or clinic"
+    },
+    {
+     "value": "Faith-based (mission) hospital",
+     "label": "Faith-based (mission) hospital"
+    },
+    {
+     "value": "Community health center or dispensary",
+     "label": "Community health center or dispensary"
+    },
+    {
+     "value": "Traditional healer/herbalist",
+     "label": "Traditional healer/herbalist"
+    },
+    {
+     "value": "Pharmacy or chemist",
+     "label": "Pharmacy or chemist"
+    },
+    {
+     "value": "Other",
+     "label": "Other, please specify: __________"
+    },
+    {
+     "value": "I do not usually seek care",
+     "label": "I do not usually seek care"
+    }
+   ]
+  },
+  "facility_usually_visited_other": {
+   "q": null,
+   "label": "What type of health facility do you usually visit when you have a health problem Other specify",
+   "type": "string",
+   "group": "Section1",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section1/facility_usually_visited , 'Other' ) and  /aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": false,
+   "choices": []
+  },
+  "had_menses": {
+   "q": null,
+   "label": "Have you had menses?",
+   "type": "select_one",
+   "group": null,
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": true,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    }
+   ]
+  },
+  "age_at_menarche": {
+   "q": null,
+   "label": "How old were you when you had your first menstrual period ? _ years",
+   "type": "int",
+   "group": "Section2",
+   "relevant": null,
+   "required": true,
+   "choices": []
+  },
+  "period_12months": {
+   "q": 12,
+   "label": "Have you had a period in the past 12 months? (multiple check boxes)",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Yes"
+    },
+    {
+     "value": "2",
+     "label": "No, I'm using contraception (pills, implant or coil)."
+    },
+    {
+     "value": "3",
+     "label": "No, I had a hysterectomy."
+    },
+    {
+     "value": "4",
+     "label": "No, I'm pregnant."
+    },
+    {
+     "value": "5",
+     "label": "No, I'm breastfeeding."
+    },
+    {
+     "value": "6",
+     "label": "No, my period stopped coming (not menopause-related)."
+    },
+    {
+     "value": "7",
+     "label": "No, I'm in menopause."
+    },
+    {
+     "value": "9",
+     "label": "Other"
+    }
+   ]
+  },
+  "period_12months_other_specify": {
+   "q": null,
+   "label": "Have you had a period in the past 12 months others specify",
+   "type": "string",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months , '9' )",
+   "required": false,
+   "choices": []
+  },
+  "age_entered_menopause": {
+   "q": 13,
+   "label": "At what age did you enter into menopause (12 months with no period)?_ years",
+   "type": "int",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months , '7' )",
+   "required": true,
+   "choices": []
+  },
+  "currently_using_HMC": {
+   "q": 14,
+   "label": "Are you currently using any hormonal method of contraception?",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/period_12months  !='7'",
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    },
+    {
+     "value": "Don't know",
+     "label": "Don't know"
+    },
+    {
+     "value": "Prefer not to say",
+     "label": "Prefer not to say"
+    }
+   ]
+  },
+  "HMC_currently_using": {
+   "q": 15,
+   "label": "Which hormonal method are you currently using?",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/currently_using_HMC , 'Yes' ) and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months  !='7'",
+   "required": false,
+   "choices": [
+    {
+     "value": "Combined oral contraceptive pill (family planning pill)",
+     "label": "Combined oral contraceptive pill (family planning pill)"
+    },
+    {
+     "value": "Progestin-only pill (mini-pill)",
+     "label": "Progestin-only pill (mini-pill)"
+    },
+    {
+     "value": "Injectable (e.g., Depo-Provera, Sayana Press)",
+     "label": "Injectable (e.g., Depo-Provera, Sayana Press)"
+    },
+    {
+     "value": "Implant (e.g., Implanon, Jadelle)",
+     "label": "Implant (e.g., Implanon, Jadelle)"
+    },
+    {
+     "value": "Hormonal IUD (e.g., Mirena)",
+     "label": "Hormonal IUD (e.g., Mirena)"
+    },
+    {
+     "value": "Emergency contraceptive pill (\"morning-after\" pill)",
+     "label": "Emergency contraceptive pill (\"morning-after\" pill)"
+    },
+    {
+     "value": "Other hormonal method",
+     "label": "Other hormonal method (specify):"
+    },
+    {
+     "value": "Don't know the type",
+     "label": "Don't know the type"
+    },
+    {
+     "value": "Prefer not to say",
+     "label": "Prefer not to say"
+    }
+   ]
+  },
+  "HMC_currently_using_other_specify": {
+   "q": null,
+   "label": "Which hormonal method are you currently using other specify",
+   "type": "string",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/HMC_currently_using , 'Other hormonal method' ) and selected( /aLWbr2Y7epAUXji3GkuABi/Section2/currently_using_HMC , 'Yes' ) and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": []
+  },
+  "long_using_HMC": {
+   "q": 16,
+   "label": "How long have you been using ?",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/currently_using_HMC , 'Yes' ) and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": [
+    {
+     "value": "Less than 6 months",
+     "label": "Less than 6 months"
+    },
+    {
+     "value": "6-12 months (less than 1 year)",
+     "label": "6-12 months (less than 1 year)"
+    },
+    {
+     "value": "1-2 years",
+     "label": "1-2 years"
+    },
+    {
+     "value": "3-5 years",
+     "label": "3-5 years"
+    },
+    {
+     "value": "6-8 years",
+     "label": "6-8 years"
+    },
+    {
+     "value": "9-11 years",
+     "label": "9-11 years"
+    },
+    {
+     "value": "More than 11 years",
+     "label": "More than 11 years"
+    }
+   ]
+  },
+  "main_reason_using_HMC": {
+   "q": 17,
+   "label": "What is the main reason you are using ?",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/currently_using_HMC , 'Yes' ) and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "To reduce pain"
+    },
+    {
+     "value": "2",
+     "label": "To reduce heavy or long periods"
+    },
+    {
+     "value": "3",
+     "label": "To make periods more regular"
+    },
+    {
+     "value": "4",
+     "label": "To treat or manage a diagnosed condition"
+    },
+    {
+     "value": "5",
+     "label": "To prevent pregnancy"
+    },
+    {
+     "value": "6",
+     "label": "To help me get pregnant"
+    },
+    {
+     "value": "7",
+     "label": "To reduce excess hair growth or acne"
+    },
+    {
+     "value": "8",
+     "label": "To lose weight or manage weight"
+    },
+    {
+     "value": "9",
+     "label": "To improve mood before my period"
+    },
+    {
+     "value": "10",
+     "label": "Other reason"
+    },
+    {
+     "value": "11",
+     "label": "Don't know"
+    }
+   ]
+  },
+  "main_reason_using_HMC_other_specify": {
+   "q": null,
+   "label": "What is the main reason you are using other specify",
+   "type": "string",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/main_reason_using_HMC , '10' ) and selected( /aLWbr2Y7epAUXji3GkuABi/Section2/currently_using_HMC , 'Yes' ) and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": []
+  },
+  "avg_often_period_come": {
+   "q": 18,
+   "label": "On average, how often does your period come?",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "More frequently than once a month (less than 24 days per cycle)"
+    },
+    {
+     "value": "2",
+     "label": "Every month (between 24-38 days cycle)"
+    },
+    {
+     "value": "3",
+     "label": "Less frequently than once a month (more than 38 days per cycle)"
+    },
+    {
+     "value": "4",
+     "label": "My periods stopped naturally (menopause)"
+    },
+    {
+     "value": "5",
+     "label": "My periods stopped for other reasons (e.g., pregnancy, breastfeeding, contraception)"
+    },
+    {
+     "value": "6",
+     "label": "Other (specify): _______________________"
+    },
+    {
+     "value": "7",
+     "label": "Don't know"
+    }
+   ]
+  },
+  "avg_often_period_come_other_specify": {
+   "q": null,
+   "label": "On average how often does period come other specify",
+   "type": "string",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/avg_often_period_come , '6' ) and selected( /aLWbr2Y7epAUXji3GkuABi/Section2/currently_using_HMC , 'Yes' ) and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": []
+  },
+  "days_bleed_per_cycle": {
+   "q": 19,
+   "label": "How many days do you typically bleed per cycle?",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": [
+    {
+     "value": "1-2 days",
+     "label": "1-2 days"
+    },
+    {
+     "value": "3-5 days",
+     "label": "3-5 days"
+    },
+    {
+     "value": "6-7 days",
+     "label": "6-7 days"
+    },
+    {
+     "value": "More than 7 days",
+     "label": "More than 7 days"
+    },
+    {
+     "value": "Other",
+     "label": "Other"
+    },
+    {
+     "value": "Don't know",
+     "label": "Don't know"
+    }
+   ]
+  },
+  "days_bleed_per_cycle_other_specify": {
+   "q": null,
+   "label": "How many days do you typically bleed per cycle other specify",
+   "type": "string",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/days_bleed_per_cycle , 'Other' ) and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": []
+  },
+  "describe_mestrual_heaviest_days": {
+   "q": 20,
+   "label": "How would you describe your menstrual flow on the heaviest days?",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": [
+    {
+     "value": "Light flow (need to change protection less than 3 times a day)",
+     "label": "Light flow (need to change protection less than 3 times a day)"
+    },
+    {
+     "value": "Moderate flow (need to change protection every 3-4 hours)",
+     "label": "Moderate flow (need to change protection every 3-4 hours)"
+    },
+    {
+     "value": "Heavy flow (need to change protection every 1-2 hours or use double protection)",
+     "label": "Heavy flow (need to change protection every 1-2 hours or use double protection)"
+    },
+    {
+     "value": "Very heavy flow (clots, flooding, or changing protection every hour)",
+     "label": "Very heavy flow (clots, flooding, or changing protection every hour)"
+    },
+    {
+     "value": "Other",
+     "label": "Other"
+    }
+   ]
+  },
+  "describe_mestrual_heaviest_days_other_specify": {
+   "q": null,
+   "label": "How would you describe your menstrual flow on the heaviest days other specify",
+   "type": "string",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/describe_mestrual_heaviest_days , 'Other' ) and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": []
+  },
+  "have_anaemia_low_iron": {
+   "q": null,
+   "label": "Has a health worker ever told you that you have anaemia or low iron levels in your blood?",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    },
+    {
+     "value": "I don't remember",
+     "label": "I don't remember"
+    },
+    {
+     "value": "Prefer not to say",
+     "label": "Prefer not to say"
+    }
+   ]
+  },
+  "experience_pain_before_during_period": {
+   "q": 21,
+   "label": "Many women and girls experience different kinds of menstrual discomfort during their menstrual period. Do you experience pain before or during your period?",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": true,
+   "choices": [
+    {
+     "value": "No pain",
+     "label": "No pain"
+    },
+    {
+     "value": "Mild pain (manageable without medication)",
+     "label": "Mild pain (manageable without medication)"
+    },
+    {
+     "value": "Moderate pain (need pain relief but can continue daily activities)",
+     "label": "Moderate pain (need pain relief but can continue daily activities)"
+    },
+    {
+     "value": "Severe pain (miss school, work, or daily activities)",
+     "label": "Severe pain (miss school, work, or daily activities)"
+    },
+    {
+     "value": "Extremely severe pain (I need to visit the emergency room or be hospitalized)",
+     "label": "Extremely severe pain (I need to visit the emergency room or be hospitalized)"
+    }
+   ]
+  },
+  "where_feel_pain_or_discomfort": {
+   "q": 22,
+   "label": "Where do you usually feel pain or discomfort during your period? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "Section2",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Lower abdomen"
+    },
+    {
+     "value": "2",
+     "label": "Lower back"
+    },
+    {
+     "value": "3",
+     "label": "Thighs or legs"
+    },
+    {
+     "value": "4",
+     "label": "Headache or migraine"
+    },
+    {
+     "value": "5",
+     "label": "Pelvic or vaginal pain"
+    },
+    {
+     "value": "6",
+     "label": "Nausea or vomiting"
+    },
+    {
+     "value": "7",
+     "label": "Other"
+    }
+   ]
+  },
+  "where_feel_pain_or_discomfort_other_specify": {
+   "q": null,
+   "label": "Where do you usually feel pain or discomfort during your period other specify",
+   "type": "string",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/where_feel_pain_or_discomfort , '7' ) and  /aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": false,
+   "choices": []
+  },
+  "experienced_period_related_symptoms": {
+   "q": 23,
+   "label": "In addition to pain, have you ever experienced any of the following period-related symptoms? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "Section2",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Bloating or abdominal swelling"
+    },
+    {
+     "value": "2",
+     "label": "Fatigue or weakness"
+    },
+    {
+     "value": "3",
+     "label": "Dizziness or fainting"
+    },
+    {
+     "value": "4",
+     "label": "Brain fog (struggling to focus, loss of motivation)"
+    },
+    {
+     "value": "5",
+     "label": "Nausea or vomiting"
+    },
+    {
+     "value": "6",
+     "label": "Mood swings or irritability"
+    },
+    {
+     "value": "7",
+     "label": "Depression or anxiety"
+    },
+    {
+     "value": "8",
+     "label": "Pain during sex (dyspareunia)"
+    },
+    {
+     "value": "9",
+     "label": "Painful or unusual bowel movements during your period"
+    },
+    {
+     "value": "10",
+     "label": "Painful or unusual urination during your period"
+    },
+    {
+     "value": "11",
+     "label": "Spotting or bleeding in between periods"
+    },
+    {
+     "value": "12",
+     "label": "None of the above"
+    }
+   ]
+  },
+  "seek_care_period_related_symptoms": {
+   "q": 24,
+   "label": "Did you seek care for any of the period-related symptoms you experienced in the past 12 months?",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7'",
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Yes, with a doctor or nurse"
+    },
+    {
+     "value": "2",
+     "label": "Yes, with a Traditional African herbalist, Traditional Chinese Medicine (TCM) provider, Ayurvedic Medicine provider or alike"
+    },
+    {
+     "value": "3",
+     "label": "Yes, with both (doctor/nurse and traditional herbalist/TCM/Ayurvedic Medicine)"
+    },
+    {
+     "value": "4",
+     "label": "No, I have not discussed my menstrual symptoms with a healthcare provider"
+    },
+    {
+     "value": "5",
+     "label": "No, I did not have symptoms that worried me in the past 12 months"
+    }
+   ]
+  },
+  "obtain_period_related_symptoms": {
+   "q": 25,
+   "label": "How easy was it for you to obtain care for your period-related symptoms?",
+   "type": "select_one",
+   "group": "Section2",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7' and  /aLWbr2Y7epAUXji3GkuABi/Section2/seek_care_period_related_symptoms !='5'",
+   "required": false,
+   "choices": [
+    {
+     "value": "Very difficult",
+     "label": "Very difficult"
+    },
+    {
+     "value": "Somewhat difficult",
+     "label": "Somewhat difficult"
+    },
+    {
+     "value": "Ok",
+     "label": "Ok"
+    },
+    {
+     "value": "Easy",
+     "label": "Easy"
+    },
+    {
+     "value": "Very easy",
+     "label": "Very easy"
+    }
+   ]
+  },
+  "reasons_not_spoken_HCP": {
+   "q": 26,
+   "label": "Please share the reasons why you haven't spoken to a health care provider (Select all that apply)",
+   "type": "select_multiple",
+   "group": "Section2",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/period_12months !='7' and  /aLWbr2Y7epAUXji3GkuABi/Section2/seek_care_period_related_symptoms  ='4'",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "I did not think it was serious"
+    },
+    {
+     "value": "2",
+     "label": "Services are expensive"
+    },
+    {
+     "value": "3",
+     "label": "I was embarrassed or uncomfortable"
+    },
+    {
+     "value": "4",
+     "label": "I didn't know where to go"
+    },
+    {
+     "value": "5",
+     "label": "Other"
+    }
+   ]
+  },
+  "reasons_not_spoken_HCP_other_specify": {
+   "q": null,
+   "label": "If no please share the reasons why you haven't spoken to a health care provider others specify",
+   "type": "string",
+   "group": "Section2",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section2/reasons_not_spoken_HCP , '5' ) and  /aLWbr2Y7epAUXji3GkuABi/Section2/seek_care_period_related_symptoms  ='4'",
+   "required": false,
+   "choices": []
+  },
+  "familiar_with_these_conditions": {
+   "q": 27,
+   "label": "Are you familiar with any of these conditions? (Please choose all that apply.)",
+   "type": "select_multiple",
+   "group": "Section3",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Endometriosis"
+    },
+    {
+     "value": "2",
+     "label": "Adenomyosis"
+    },
+    {
+     "value": "3",
+     "label": "Uterine fibroids"
+    },
+    {
+     "value": "4",
+     "label": "Polyendocrine Metabolic Ovarian Syndrome PCOS/PMOS"
+    },
+    {
+     "value": "5",
+     "label": "PMDD or premenstrual dysphoric disorder, an extreme form of symptoms the week before your period arrives including mood changes."
+    },
+    {
+     "value": "6",
+     "label": "Other"
+    },
+    {
+     "value": "7",
+     "label": "None of them"
+    }
+   ]
+  },
+  "familiar_with_these_conditions_other_specify": {
+   "q": null,
+   "label": "Are you familiar with any of these conditions other specify",
+   "type": "string",
+   "group": "Section3",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section3/familiar_with_these_conditions , '6' )",
+   "required": false,
+   "choices": []
+  },
+  "condition_make_sense": {
+   "q": 28,
+   "label": "Before today, how well did these condition names make sense?",
+   "type": "select_one",
+   "group": "Section3",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "No sense at all",
+     "label": "No sense at all"
+    },
+    {
+     "value": "A little sense",
+     "label": "A little sense"
+    },
+    {
+     "value": "Fairly good sense",
+     "label": "Fairly good sense"
+    },
+    {
+     "value": "A lot of sense",
+     "label": "A lot of sense"
+    }
+   ]
+  },
+  "first_degree_female_relative_have_conditions": {
+   "q": 30,
+   "label": "Do any of your first-degree female relatives (mother, sister, daughter) have/had conditions such as endometriosis, adenomyosis, uterine fibroids or PCOS/PMOS?",
+   "type": "select_multiple",
+   "group": "Section3",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section3/supect_following_conditions  != '6'",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Mother"
+    },
+    {
+     "value": "2",
+     "label": "Sister"
+    },
+    {
+     "value": "3",
+     "label": "Daughter"
+    },
+    {
+     "value": "4",
+     "label": "None"
+    },
+    {
+     "value": "5",
+     "label": "Don't know"
+    }
+   ]
+  },
+  "which_conditions_applied_to_them": {
+   "q": 31,
+   "label": "If you have/had a first-degree female relative with a menstrual condition, which of the following conditions applied to them? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "Section3",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section3/supect_following_conditions  != '6'",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Endometriosis"
+    },
+    {
+     "value": "2",
+     "label": "Adenomyosis"
+    },
+    {
+     "value": "3",
+     "label": "Uterine fibroids"
+    },
+    {
+     "value": "4",
+     "label": "PMOS"
+    },
+    {
+     "value": "5",
+     "label": "PMDD"
+    },
+    {
+     "value": "6",
+     "label": "Other menstrual condition"
+    }
+   ]
+  },
+  "which_conditions_applied_to_them_other_specify": {
+   "q": null,
+   "label": "If you have/had a first-degree female relative with a menstrual condition, which of the following conditions applied to them other specify",
+   "type": "string",
+   "group": "Section3",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Section3/which_conditions_applied_to_them , '6' ) and  /aLWbr2Y7epAUXji3GkuABi/Section3/supect_following_conditions  != '6'",
+   "required": false,
+   "choices": []
+  },
+  "supect_following_conditions": {
+   "q": 29,
+   "label": "Do you know or suspect that you have any of the following conditions? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "Section3",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Endometriosis - a condition where tissue similar to the lining of the womb (uterus) grows outside the uterus, often causing pain, heavy periods, and sometimes infertility"
+    },
+    {
+     "value": "2",
+     "label": "Adenomyosis - a condition where tissue that normally lines the womb (uterus) grows into the muscular wall of the uterus, often causing heavy or painful periods, an enlarged uterus, and sometimes infertility."
+    },
+    {
+     "value": "3",
+     "label": "Uterine fibroids - non-cancerous (benign) growths or tumors in or around the womb. They are very common and can cause heavy or long periods, pelvic pain, pressure, frequent urination, and sometimes infertility."
+    },
+    {
+     "value": "4",
+     "label": "Polyendocrine Metabolic Ovarian Syndrome -  - a hormonal and metabolic condition that affects women of childbearing age. It can cause irregular or infrequent periods, excess hair growth on the face or body, acne, weight gain, and sometimes infertility."
+    },
+    {
+     "value": "5",
+     "label": "PMDD - a severe form of premenstrual syndrome (PMS) that causes extreme mood changes and physical symptoms in the week or two before your period."
+    },
+    {
+     "value": "6",
+     "label": "I know that I don't have any of these conditions"
+    },
+    {
+     "value": "7",
+     "label": "I don't suspect that I have any of these conditions"
+    }
+   ]
+  },
+  "diagnose_HCP_adenomyosis": {
+   "q": 32,
+   "label": "Have you ever been diagnosed by a healthcare provider with adenomyosis?",
+   "type": "select_one",
+   "group": "section4",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    }
+   ]
+  },
+  "how_diagnosed_adenomyosis": {
+   "q": 33,
+   "label": "How were you diagnosed with adenomyosis? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "section4",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/section4/diagnose_HCP_adenomyosis , 'Yes' )",
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Ultrasound or imaging test"
+    },
+    {
+     "value": "2",
+     "label": "MRI scan"
+    },
+    {
+     "value": "3",
+     "label": "Laparoscopy (surgery to look inside the abdomen)"
+    },
+    {
+     "value": "4",
+     "label": "Clinical examination and symptoms (without surgery)"
+    },
+    {
+     "value": "5",
+     "label": "Other medical test"
+    }
+   ]
+  },
+  "how_diagnosed_adenomyosis_other_specify": {
+   "q": null,
+   "label": "How were you diagnosed with adenomyosis other specify",
+   "type": "string",
+   "group": "section4",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/section4/how_diagnosed_adenomyosis , '5' ) and selected( /aLWbr2Y7epAUXji3GkuABi/section4/diagnose_HCP_adenomyosis , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "age_diagnosed_adenomyosis": {
+   "q": 34,
+   "label": "At what age were you diagnosed with adenomyosis?",
+   "type": "int",
+   "group": "section4",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/section4/diagnose_HCP_adenomyosis , 'Yes' )",
+   "required": true,
+   "choices": []
+  },
+  "describe_diagnosis_came_about": {
+   "q": 35,
+   "label": "Which of the following best describes how your diagnosis (if any) came about? Please select all that apply.",
+   "type": "select_multiple",
+   "group": "section4",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/section4/diagnose_HCP_adenomyosis , 'Yes' )",
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "I was experiencing symptoms and went to a clinic/hospital for help"
+    },
+    {
+     "value": "2",
+     "label": "I kept being misdiagnosed or not believed for a while"
+    },
+    {
+     "value": "3",
+     "label": "I saw multiple doctors before getting answers"
+    },
+    {
+     "value": "4",
+     "label": "I was diagnosed accidentally while being tested for something else"
+    },
+    {
+     "value": "5",
+     "label": "A friend or family member encouraged me to seek help"
+    },
+    {
+     "value": "6",
+     "label": "I self-researched and suspected the condition before seeing a doctor"
+    },
+    {
+     "value": "7",
+     "label": "Other"
+    }
+   ]
+  },
+  "describe_diagnosis_came_about_other_specify": {
+   "q": null,
+   "label": "Which of the following best describes how your diagnosis (if any) came about others Specify",
+   "type": "string",
+   "group": "section4",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/section4/describe_diagnosis_came_about , '7' )",
+   "required": false,
+   "choices": []
+  },
+  "long_first_noticed_receiving_diagnosis": {
+   "q": 36,
+   "label": "How long did it take from when you first noticed symptoms to receiving a diagnosis or confirmation?",
+   "type": "select_one",
+   "group": "section4",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/section4/diagnose_HCP_adenomyosis , 'Yes' )",
+   "required": true,
+   "choices": [
+    {
+     "value": "Less than 12 months",
+     "label": "Less than 12 months"
+    },
+    {
+     "value": "1-2 years",
+     "label": "1-2 years"
+    },
+    {
+     "value": "3-5 years",
+     "label": "3-5 years"
+    },
+    {
+     "value": "6-8 years",
+     "label": "6-8 years"
+    },
+    {
+     "value": "9-11 years",
+     "label": "9-11 years"
+    },
+    {
+     "value": "More than 11 years",
+     "label": "More than 11 years"
+    },
+    {
+     "value": "I was diagnosed without having symptoms",
+     "label": "I was diagnosed without having symptoms"
+    }
+   ]
+  },
+  "biggest_challenge_faced_get_diagnosis": {
+   "q": 37,
+   "label": "What were the biggest challenges you faced while trying to get diagnosed?",
+   "type": "select_multiple",
+   "group": "section4",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/section4/diagnose_HCP_adenomyosis , 'Yes' )",
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "High cost of tests or treatment"
+    },
+    {
+     "value": "2",
+     "label": "Lack of diagnostic equipment or specialists nearby"
+    },
+    {
+     "value": "3",
+     "label": "Dismissive attitude from providers"
+    },
+    {
+     "value": "4",
+     "label": "Long wait times for appointments"
+    },
+    {
+     "value": "5",
+     "label": "Fear, stigma, or embarrassment"
+    },
+    {
+     "value": "6",
+     "label": "Lack of family/partner support"
+    },
+    {
+     "value": "7",
+     "label": "I did not know where to seek care"
+    },
+    {
+     "value": "8",
+     "label": "None"
+    },
+    {
+     "value": "9",
+     "label": "Other"
+    }
+   ]
+  },
+  "biggest_challenge_faced_get_diagnosis_other_specify": {
+   "q": null,
+   "label": "What were the biggest challenges you faced while trying to get diagnosed other specify",
+   "type": "string",
+   "group": "section4",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/section4/biggest_challenge_faced_get_diagnosis , '9' ) and selected( /aLWbr2Y7epAUXji3GkuABi/section4/diagnose_HCP_adenomyosis , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "received_treatment_any_condition": {
+   "q": 38,
+   "label": "Have you received any of the following treatments for your condition(s) (Select all that apply)?",
+   "type": "select_multiple",
+   "group": "section4",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/section4/diagnose_HCP_adenomyosis , 'Yes' )",
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Hormonal therapy (e.g., birth control pills, injections, implant)"
+    },
+    {
+     "value": "2",
+     "label": "Surgery (e.g., laparoscopy, myomectomy, hysterectomy)"
+    },
+    {
+     "value": "3",
+     "label": "Pain management medication (e.g., NSAIDs)"
+    },
+    {
+     "value": "4",
+     "label": "Fertility treatment"
+    },
+    {
+     "value": "5",
+     "label": "Traditional African herbs or healing"
+    },
+    {
+     "value": "6",
+     "label": "Traditional Chinese Medicine, Ayurvedic Medicine or alike"
+    },
+    {
+     "value": "7",
+     "label": "Nutrition changes"
+    },
+    {
+     "value": "8",
+     "label": "Lifestyle changes"
+    },
+    {
+     "value": "9",
+     "label": "Other, please specify"
+    },
+    {
+     "value": "10",
+     "label": "No treatment received"
+    }
+   ]
+  },
+  "received_treatment_any_condition_other_specify": {
+   "q": null,
+   "label": "Have you received any of the following treatments for your condition(s) other specify",
+   "type": "string",
+   "group": "section4",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/section4/diagnose_HCP_adenomyosis , 'Yes' ) and selected( /aLWbr2Y7epAUXji3GkuABi/section4/received_treatment_any_condition , '9' )",
+   "required": false,
+   "choices": []
+  },
+  "diagnose_HCP_endometriosis": {
+   "q": 39,
+   "label": "Have you ever been diagnosed by a healthcare provider with endometriosis?",
+   "type": "select_one",
+   "group": "Endometriosis",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    }
+   ]
+  },
+  "how_diagnosed_endometriosis": {
+   "q": 40,
+   "label": "How were you diagnosed with endometriosis? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "Endometriosis",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/diagnose_HCP_endometriosis , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Pelvic examination by healthcare provider"
+    },
+    {
+     "value": "2",
+     "label": "Transvaginal ultrasound scan"
+    },
+    {
+     "value": "6",
+     "label": "Laparoscopy (surgery to look inside the abdomen)"
+    },
+    {
+     "value": "3",
+     "label": "MRI scan"
+    },
+    {
+     "value": "4",
+     "label": "After hysterectomy (surgery to remove the uterus)"
+    },
+    {
+     "value": "5",
+     "label": "Other imaging test (specify):"
+    }
+   ]
+  },
+  "how_diagnosed_endometriosis_other_specify": {
+   "q": null,
+   "label": "How were you diagnosed with endometriosis others specify",
+   "type": "string",
+   "group": "Endometriosis",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/diagnose_HCP_endometriosis , 'Yes' ) and selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/how_diagnosed_endometriosis , '5' )",
+   "required": false,
+   "choices": []
+  },
+  "age_diagnosed_endometriosis": {
+   "q": 41,
+   "label": "At what age were you diagnosed with endometriosis",
+   "type": "int",
+   "group": "Endometriosis",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/diagnose_HCP_endometriosis , 'Yes' )",
+   "required": true,
+   "choices": []
+  },
+  "describe_endometriosis_came_about": {
+   "q": 42,
+   "label": "Which of the following best describes how your diagnosis came about? (Please select all that apply.)",
+   "type": "select_multiple",
+   "group": "Endometriosis",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/diagnose_HCP_endometriosis , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "I was experiencing symptoms and went to a clinic/hospital for help"
+    },
+    {
+     "value": "2",
+     "label": "I kept being misdiagnosed or not believed for a while"
+    },
+    {
+     "value": "3",
+     "label": "I saw multiple doctors before getting answers"
+    },
+    {
+     "value": "4",
+     "label": "I was diagnosed accidentally while being tested for something else"
+    },
+    {
+     "value": "5",
+     "label": "A friend or family member encouraged me to seek help"
+    },
+    {
+     "value": "6",
+     "label": "I self-researched and suspected the condition before seeing a doctor"
+    },
+    {
+     "value": "7",
+     "label": "Other"
+    }
+   ]
+  },
+  "describe_endometriosis_came_about_other_specify": {
+   "q": null,
+   "label": "Which of the following best describes how your diagnosis came about other specify",
+   "type": "string",
+   "group": "Endometriosis",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/describe_endometriosis_came_about , '7' ) and selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/diagnose_HCP_endometriosis , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "long_first_noticed_endometriosis": {
+   "q": 43,
+   "label": "How long did it take from when you first noticed symptoms to receiving a diagnosis or confirmation?",
+   "type": "select_one",
+   "group": "Endometriosis",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/diagnose_HCP_endometriosis , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "Less than 12 months",
+     "label": "Less than 12 months"
+    },
+    {
+     "value": "1-2 years",
+     "label": "1-2 years"
+    },
+    {
+     "value": "3-5 years",
+     "label": "3-5 years"
+    },
+    {
+     "value": "6-8 years",
+     "label": "6-8 years"
+    },
+    {
+     "value": "9-11 years",
+     "label": "9-11 years"
+    },
+    {
+     "value": "More than 11 years",
+     "label": "More than 11 years"
+    },
+    {
+     "value": "I was diagnosed without having symptoms",
+     "label": "I was diagnosed without having symptoms"
+    }
+   ]
+  },
+  "biggest_challenge_faced_get_endometriosis": {
+   "q": 44,
+   "label": "What were the biggest challenges you faced while trying to get diagnosed?",
+   "type": "select_multiple",
+   "group": "Endometriosis",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/diagnose_HCP_endometriosis , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "High cost of tests or treatment"
+    },
+    {
+     "value": "2",
+     "label": "Lack of diagnostic equipment or specialists nearby"
+    },
+    {
+     "value": "3",
+     "label": "Dismissive attitude from providers"
+    },
+    {
+     "value": "4",
+     "label": "Long wait times for appointments"
+    },
+    {
+     "value": "5",
+     "label": "Fear, stigma, or embarrassment"
+    },
+    {
+     "value": "6",
+     "label": "Lack of family/partner support"
+    },
+    {
+     "value": "7",
+     "label": "I did not know where to seek care"
+    },
+    {
+     "value": "8",
+     "label": "None"
+    },
+    {
+     "value": "9",
+     "label": "Other"
+    }
+   ]
+  },
+  "biggest_challenge_faced_get_endomtriosis_other_specify": {
+   "q": null,
+   "label": "What were the biggest challenges you faced while trying to get diagnosed other specify",
+   "type": "string",
+   "group": "Endometriosis",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/biggest_challenge_faced_get_endometriosis , '9' ) and selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/diagnose_HCP_endometriosis , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "received_treatment_endometriosis": {
+   "q": 45,
+   "label": "Have you received any of the following treatments for your condition(s) (Select all that apply)?",
+   "type": "select_multiple",
+   "group": "Endometriosis",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/diagnose_HCP_endometriosis , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Hormonal therapy (e.g., birth control pills, injections, implant)"
+    },
+    {
+     "value": "2",
+     "label": "Surgery (e.g., laparoscopy, myomectomy, hysterectomy)"
+    },
+    {
+     "value": "3",
+     "label": "Pain management medication (e.g., NSAIDs)"
+    },
+    {
+     "value": "4",
+     "label": "Fertility treatment"
+    },
+    {
+     "value": "5",
+     "label": "Traditional African herbs or healing"
+    },
+    {
+     "value": "6",
+     "label": "Traditional Chinese Medicine, Ayurvedic Medicine or alike"
+    },
+    {
+     "value": "7",
+     "label": "Nutrition changes"
+    },
+    {
+     "value": "8",
+     "label": "Lifestyle changes"
+    },
+    {
+     "value": "9",
+     "label": "Other, please specify"
+    },
+    {
+     "value": "10",
+     "label": "No treatment received"
+    }
+   ]
+  },
+  "received_treatment_endometriosis_other_specify": {
+   "q": null,
+   "label": "Have you received any of the following treatments for your condition(s) other specify",
+   "type": "string",
+   "group": "Endometriosis",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/received_treatment_endometriosis , '9' ) and selected( /aLWbr2Y7epAUXji3GkuABi/Endometriosis/diagnose_HCP_endometriosis , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "diagnosed_HCP_uterine_fibroids": {
+   "q": 46,
+   "label": "Have you ever been diagnosed by a healthcare provider with uterine fibroids?",
+   "type": "select_one",
+   "group": "Uterine_fibroids",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    }
+   ]
+  },
+  "how_diagnosed_uterine_fibroids": {
+   "q": 47,
+   "label": "How were you diagnosed with uterine fibroids? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "Uterine_fibroids",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/diagnosed_HCP_uterine_fibroids , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Pelvic or abdominal examination by healthcare provider"
+    },
+    {
+     "value": "2",
+     "label": "Ultrasound scan (abdominal or transvaginal)"
+    },
+    {
+     "value": "3",
+     "label": "MRI scan"
+    },
+    {
+     "value": "4",
+     "label": "During surgery (e.g., cesarean section, hysterectomy)"
+    },
+    {
+     "value": "5",
+     "label": "Blood tests (for anemia) led to imaging"
+    },
+    {
+     "value": "6",
+     "label": "Other method (specify):"
+    }
+   ]
+  },
+  "how_diagnosed_uterine_fibroids_other_specify": {
+   "q": null,
+   "label": "How were you diagnosed with uterine fibroids others specify",
+   "type": "string",
+   "group": "Uterine_fibroids",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/how_diagnosed_uterine_fibroids , '6' ) and selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/diagnosed_HCP_uterine_fibroids , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "age_diagnosed_uterine_fibroids": {
+   "q": 48,
+   "label": "At what age were you diagnosed with uterine fibroids",
+   "type": "int",
+   "group": "Uterine_fibroids",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/diagnosed_HCP_uterine_fibroids , 'Yes' )",
+   "required": true,
+   "choices": []
+  },
+  "describe_uterine_fibroids_came_about": {
+   "q": 49,
+   "label": "Which of the following best describes how your diagnosis came about? (Please select all that apply.)",
+   "type": "select_multiple",
+   "group": "Uterine_fibroids",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/diagnosed_HCP_uterine_fibroids , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "I was experiencing symptoms and went to a clinic/hospital for help"
+    },
+    {
+     "value": "2",
+     "label": "I kept being misdiagnosed or not believed for a while"
+    },
+    {
+     "value": "3",
+     "label": "I saw multiple doctors before getting answers"
+    },
+    {
+     "value": "4",
+     "label": "I was diagnosed accidentally while being tested for something else"
+    },
+    {
+     "value": "5",
+     "label": "A friend or family member encouraged me to seek help"
+    },
+    {
+     "value": "6",
+     "label": "I self-researched and suspected the condition before seeing a doctor"
+    },
+    {
+     "value": "7",
+     "label": "Other"
+    }
+   ]
+  },
+  "describe_uterine_fibroids_came_about_other_specify": {
+   "q": null,
+   "label": "Which of the following best describes how your diagnosis came about other specify",
+   "type": "string",
+   "group": "Uterine_fibroids",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/describe_uterine_fibroids_came_about , '7' ) and selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/diagnosed_HCP_uterine_fibroids , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "long_first_noticed_uterine_fibroids": {
+   "q": 50,
+   "label": "How long did it take from when you first noticed symptoms to receiving a diagnosis or confirmation?",
+   "type": "select_one",
+   "group": "Uterine_fibroids",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/diagnosed_HCP_uterine_fibroids , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "Less than 12 months",
+     "label": "Less than 12 months"
+    },
+    {
+     "value": "1-2 years",
+     "label": "1-2 years"
+    },
+    {
+     "value": "3-5 years",
+     "label": "3-5 years"
+    },
+    {
+     "value": "6-8 years",
+     "label": "6-8 years"
+    },
+    {
+     "value": "9-11 years",
+     "label": "9-11 years"
+    },
+    {
+     "value": "More than 11 years",
+     "label": "More than 11 years"
+    },
+    {
+     "value": "I was diagnosed without having symptoms",
+     "label": "I was diagnosed without having symptoms"
+    }
+   ]
+  },
+  "biggest_challenge_faced_get_uterine_fibroids": {
+   "q": 51,
+   "label": "What were the biggest challenges you faced while trying to get diagnosed?",
+   "type": "select_one",
+   "group": "Uterine_fibroids",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/diagnosed_HCP_uterine_fibroids , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "High cost of tests or treatment"
+    },
+    {
+     "value": "2",
+     "label": "Lack of diagnostic equipment or specialists nearby"
+    },
+    {
+     "value": "3",
+     "label": "Dismissive attitude from providers"
+    },
+    {
+     "value": "4",
+     "label": "Long wait times for appointments"
+    },
+    {
+     "value": "5",
+     "label": "Fear, stigma, or embarrassment"
+    },
+    {
+     "value": "6",
+     "label": "Lack of family/partner support"
+    },
+    {
+     "value": "7",
+     "label": "I did not know where to seek care"
+    },
+    {
+     "value": "8",
+     "label": "None"
+    },
+    {
+     "value": "9",
+     "label": "Other"
+    }
+   ]
+  },
+  "biggest_challenge_faced_get_uterine_fibroids_other_specify": {
+   "q": null,
+   "label": "What were the biggest challenges you faced while trying to get diagnosed other specify",
+   "type": "string",
+   "group": "Uterine_fibroids",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/biggest_challenge_faced_get_uterine_fibroids , '9' ) and selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/diagnosed_HCP_uterine_fibroids , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "received_treatment_uterine_fibroids": {
+   "q": 52,
+   "label": "Have you received any of the following treatments for your condition(s) (Select all that apply)?",
+   "type": "select_multiple",
+   "group": "Uterine_fibroids",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/diagnosed_HCP_uterine_fibroids , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Hormonal therapy (e.g., birth control pills, injections, implant)"
+    },
+    {
+     "value": "2",
+     "label": "Surgery (e.g., laparoscopy, myomectomy, hysterectomy)"
+    },
+    {
+     "value": "3",
+     "label": "Pain management medication (e.g., NSAIDs)"
+    },
+    {
+     "value": "4",
+     "label": "Fertility treatment"
+    },
+    {
+     "value": "5",
+     "label": "Traditional African herbs or healing"
+    },
+    {
+     "value": "6",
+     "label": "Traditional Chinese Medicine, Ayurvedic Medicine or alike"
+    },
+    {
+     "value": "7",
+     "label": "Nutrition changes"
+    },
+    {
+     "value": "8",
+     "label": "Lifestyle changes"
+    },
+    {
+     "value": "9",
+     "label": "Other, please specify"
+    },
+    {
+     "value": "10",
+     "label": "No treatment received"
+    }
+   ]
+  },
+  "received_treatment_uterine_fibroids_other_specify": {
+   "q": null,
+   "label": "Have you received any of the following treatments for your condition(s) other specify",
+   "type": "string",
+   "group": "Uterine_fibroids",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/received_treatment_uterine_fibroids , '9' ) and selected( /aLWbr2Y7epAUXji3GkuABi/Uterine_fibroids/diagnosed_HCP_uterine_fibroids , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "diagnosed_HCP_pmos": {
+   "q": 53,
+   "label": "Have you ever been diagnosed by a healthcare provider with PMOS ?",
+   "type": "select_one",
+   "group": "pmos",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    }
+   ]
+  },
+  "how_diagnosed_pmos": {
+   "q": 54,
+   "label": "How were you diagnosed with PMOS? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "pmos",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmos/diagnosed_HCP_pmos , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Blood tests (hormone levels, insulin, glucose)"
+    },
+    {
+     "value": "2",
+     "label": "Ultrasound scan of ovaries"
+    },
+    {
+     "value": "3",
+     "label": "Physical examination (checking for excess hair, acne, weight)"
+    },
+    {
+     "value": "4",
+     "label": "Review of menstrual history"
+    },
+    {
+     "value": "5",
+     "label": "Other medical test (specify"
+    }
+   ]
+  },
+  "how_diagnosed_pmos_other_specify": {
+   "q": null,
+   "label": "How were you diagnosed with PMOS others specify",
+   "type": "string",
+   "group": "pmos",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmos/how_diagnosed_pmos , '5' ) and selected( /aLWbr2Y7epAUXji3GkuABi/pmos/diagnosed_HCP_pmos , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "age_diagnosed_pmos": {
+   "q": 55,
+   "label": "At what age were you diagnosed with PMOS?",
+   "type": "int",
+   "group": "pmos",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmos/diagnosed_HCP_pmos , 'Yes' )",
+   "required": true,
+   "choices": []
+  },
+  "describe_pmos_came_about": {
+   "q": 56,
+   "label": "Which of the following best describes how your diagnosis came about? (Please select all that apply.)",
+   "type": "select_multiple",
+   "group": "pmos",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmos/diagnosed_HCP_pmos , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "I was experiencing symptoms and went to a clinic/hospital for help"
+    },
+    {
+     "value": "2",
+     "label": "I kept being misdiagnosed or not believed for a while"
+    },
+    {
+     "value": "3",
+     "label": "I saw multiple doctors before getting answers"
+    },
+    {
+     "value": "4",
+     "label": "I was diagnosed accidentally while being tested for something else"
+    },
+    {
+     "value": "5",
+     "label": "A friend or family member encouraged me to seek help"
+    },
+    {
+     "value": "6",
+     "label": "I self-researched and suspected the condition before seeing a doctor"
+    },
+    {
+     "value": "7",
+     "label": "Other"
+    }
+   ]
+  },
+  "describe_pmos_came_about_other_specify": {
+   "q": null,
+   "label": "Which of the following best describes how your diagnosis came about other specify",
+   "type": "string",
+   "group": "pmos",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmos/describe_pmos_came_about , '7' ) and selected( /aLWbr2Y7epAUXji3GkuABi/pmos/diagnosed_HCP_pmos , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "long_first_noticed_pmos": {
+   "q": 57,
+   "label": "How long did it take from when you first noticed symptoms to receiving a diagnosis or confirmation?",
+   "type": "select_one",
+   "group": "pmos",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmos/diagnosed_HCP_pmos , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "Less than 12 months",
+     "label": "Less than 12 months"
+    },
+    {
+     "value": "1-2 years",
+     "label": "1-2 years"
+    },
+    {
+     "value": "3-5 years",
+     "label": "3-5 years"
+    },
+    {
+     "value": "6-8 years",
+     "label": "6-8 years"
+    },
+    {
+     "value": "9-11 years",
+     "label": "9-11 years"
+    },
+    {
+     "value": "More than 11 years",
+     "label": "More than 11 years"
+    },
+    {
+     "value": "I was diagnosed without having symptoms",
+     "label": "I was diagnosed without having symptoms"
+    }
+   ]
+  },
+  "biggest_challenge_faced_get_pmos": {
+   "q": 58,
+   "label": "What were the biggest challenges you faced while trying to get diagnosed?",
+   "type": "select_multiple",
+   "group": "pmos",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmos/diagnosed_HCP_pmos , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "High cost of tests or treatment"
+    },
+    {
+     "value": "2",
+     "label": "Lack of diagnostic equipment or specialists nearby"
+    },
+    {
+     "value": "3",
+     "label": "Dismissive attitude from providers"
+    },
+    {
+     "value": "4",
+     "label": "Long wait times for appointments"
+    },
+    {
+     "value": "5",
+     "label": "Fear, stigma, or embarrassment"
+    },
+    {
+     "value": "6",
+     "label": "Lack of family/partner support"
+    },
+    {
+     "value": "7",
+     "label": "I did not know where to seek care"
+    },
+    {
+     "value": "8",
+     "label": "None"
+    },
+    {
+     "value": "9",
+     "label": "Other"
+    }
+   ]
+  },
+  "biggest_challenge_faced_get_pmos_other_specify": {
+   "q": null,
+   "label": "What were the biggest challenges you faced while trying to get diagnosed other specify",
+   "type": "string",
+   "group": "pmos",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmos/biggest_challenge_faced_get_pmos , '9' ) and selected( /aLWbr2Y7epAUXji3GkuABi/pmos/diagnosed_HCP_pmos , 'Yes' )",
+   "required": false,
+   "choices": []
+  },
+  "received_treatment_pmos": {
+   "q": 59,
+   "label": "Have you received any of the following treatments for your condition(s) (Select all that apply)?",
+   "type": "select_multiple",
+   "group": "pmos",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmos/diagnosed_HCP_pmos , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Hormonal therapy (e.g., birth control pills, injections, implant)"
+    },
+    {
+     "value": "2",
+     "label": "Surgery (e.g., laparoscopy, myomectomy, hysterectomy)"
+    },
+    {
+     "value": "3",
+     "label": "Pain management medication (e.g., NSAIDs)"
+    },
+    {
+     "value": "4",
+     "label": "Fertility treatment"
+    },
+    {
+     "value": "5",
+     "label": "Traditional African herbs or healing"
+    },
+    {
+     "value": "6",
+     "label": "Traditional Chinese Medicine, Ayurvedic Medicine or alike"
+    },
+    {
+     "value": "7",
+     "label": "Nutrition changes"
+    },
+    {
+     "value": "8",
+     "label": "Lifestyle changes"
+    },
+    {
+     "value": "9",
+     "label": "Other, please specify"
+    },
+    {
+     "value": "10",
+     "label": "No treatment received"
+    }
+   ]
+  },
+  "received_treatment_pmos_other_specify": {
+   "q": null,
+   "label": "Have you received any of the following treatments for your condition(s) other specify",
+   "type": "string",
+   "group": "pmos",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmos/diagnosed_HCP_pmos , 'Yes' ) and selected( /aLWbr2Y7epAUXji3GkuABi/pmos/received_treatment_pmos , '9' )",
+   "required": false,
+   "choices": []
+  },
+  "diagnosed_HCP_pmdd": {
+   "q": 60,
+   "label": "Have you ever been diagnosed by a healthcare provider with Premenstrual Dysphoric Disorder (PMDD)?",
+   "type": "select_one",
+   "group": "pmdd",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    },
+    {
+     "value": "Prefer not to say",
+     "label": "Prefer not to say"
+    }
+   ]
+  },
+  "how_diagnosed_pmdd": {
+   "q": 61,
+   "label": "How were you diagnosed with PMDD? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "pmdd",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/diagnosed_HCP_pmdd , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Kept a daily symptom diary/tracking for at least 2 months"
+    },
+    {
+     "value": "2",
+     "label": "Medical history and physical examination"
+    },
+    {
+     "value": "3",
+     "label": "Evaluation by mental health professional (psychologist, psychiatrist)"
+    },
+    {
+     "value": "4",
+     "label": "Ruling out other conditions (thyroid, depression, anxiety)"
+    },
+    {
+     "value": "5",
+     "label": "Other medical test (specify):"
+    }
+   ]
+  },
+  "how_diagnosed_pmdd_other_specify": {
+   "q": null,
+   "label": "How were you diagnosed with PMDD others specify",
+   "type": "string",
+   "group": "pmdd",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/diagnosed_HCP_pmdd , 'Yes' ) and selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/how_diagnosed_pmdd , '5' )",
+   "required": false,
+   "choices": []
+  },
+  "age_diagnosed_pmdd": {
+   "q": 62,
+   "label": "At what age were you diagnosed with PMDD?",
+   "type": "int",
+   "group": "pmdd",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/diagnosed_HCP_pmdd , 'Yes' )",
+   "required": true,
+   "choices": []
+  },
+  "describe_pmdd_came_about": {
+   "q": 63,
+   "label": "Which of the following best describes how your diagnosis came about? (Please select all that apply.)",
+   "type": "select_multiple",
+   "group": "pmdd",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/diagnosed_HCP_pmdd , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "I was experiencing symptoms and went to a clinic/hospital for help"
+    },
+    {
+     "value": "2",
+     "label": "I kept being misdiagnosed or not believed for a while"
+    },
+    {
+     "value": "3",
+     "label": "I saw multiple doctors before getting answers"
+    },
+    {
+     "value": "4",
+     "label": "I was diagnosed accidentally while being tested for something else"
+    },
+    {
+     "value": "5",
+     "label": "A friend or family member encouraged me to seek help"
+    },
+    {
+     "value": "6",
+     "label": "I self-researched and suspected the condition before seeing a doctor"
+    },
+    {
+     "value": "7",
+     "label": "Other"
+    }
+   ]
+  },
+  "describe_pmdd_came_about_other_specify": {
+   "q": null,
+   "label": "Which of the following best describes how your diagnosis came about other specify",
+   "type": "string",
+   "group": "pmdd",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/diagnosed_HCP_pmdd , 'Yes' ) and selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/describe_pmdd_came_about , '7' )",
+   "required": false,
+   "choices": []
+  },
+  "long_first_noticed_pmdd": {
+   "q": 64,
+   "label": "How long did it take from when you first noticed symptoms to receiving a diagnosis or confirmation?",
+   "type": "select_one",
+   "group": "pmdd",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/diagnosed_HCP_pmdd , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "Less than 12 months",
+     "label": "Less than 12 months"
+    },
+    {
+     "value": "1-2 years",
+     "label": "1-2 years"
+    },
+    {
+     "value": "3-5 years",
+     "label": "3-5 years"
+    },
+    {
+     "value": "6-8 years",
+     "label": "6-8 years"
+    },
+    {
+     "value": "9-11 years",
+     "label": "9-11 years"
+    },
+    {
+     "value": "More than 11 years",
+     "label": "More than 11 years"
+    },
+    {
+     "value": "I was diagnosed without having symptoms",
+     "label": "I was diagnosed without having symptoms"
+    }
+   ]
+  },
+  "biggest_challenge_faced_get_pmdd": {
+   "q": 65,
+   "label": "What were the biggest challenges you faced while trying to get diagnosed?",
+   "type": "select_multiple",
+   "group": "pmdd",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/diagnosed_HCP_pmdd , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "High cost of tests or treatment"
+    },
+    {
+     "value": "2",
+     "label": "Lack of diagnostic equipment or specialists nearby"
+    },
+    {
+     "value": "3",
+     "label": "Dismissive attitude from providers"
+    },
+    {
+     "value": "4",
+     "label": "Long wait times for appointments"
+    },
+    {
+     "value": "5",
+     "label": "Fear, stigma, or embarrassment"
+    },
+    {
+     "value": "6",
+     "label": "Lack of family/partner support"
+    },
+    {
+     "value": "7",
+     "label": "I did not know where to seek care"
+    },
+    {
+     "value": "8",
+     "label": "None"
+    },
+    {
+     "value": "9",
+     "label": "Other"
+    }
+   ]
+  },
+  "biggest_challenge_faced_get_pmdd_other_specify": {
+   "q": null,
+   "label": "What were the biggest challenges you faced while trying to get diagnosed other specify",
+   "type": "string",
+   "group": "pmdd",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/diagnosed_HCP_pmdd , 'Yes' ) and selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/biggest_challenge_faced_get_pmdd , '9' )",
+   "required": false,
+   "choices": []
+  },
+  "received_treatment_pmdd": {
+   "q": 66,
+   "label": "Have you received any of the following treatments for your condition(s) (Select all that apply)?",
+   "type": "select_multiple",
+   "group": "pmdd",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/diagnosed_HCP_pmdd , 'Yes' )",
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Hormonal therapy (e.g., birth control pills, injections, implant)"
+    },
+    {
+     "value": "2",
+     "label": "Surgery (e.g., laparoscopy, myomectomy, hysterectomy)"
+    },
+    {
+     "value": "3",
+     "label": "Pain management medication (e.g., NSAIDs)"
+    },
+    {
+     "value": "4",
+     "label": "Fertility treatment"
+    },
+    {
+     "value": "5",
+     "label": "Traditional African herbs or healing"
+    },
+    {
+     "value": "6",
+     "label": "Traditional Chinese Medicine, Ayurvedic Medicine or alike"
+    },
+    {
+     "value": "7",
+     "label": "Nutrition changes"
+    },
+    {
+     "value": "8",
+     "label": "Lifestyle changes"
+    },
+    {
+     "value": "9",
+     "label": "Other, please specify"
+    },
+    {
+     "value": "10",
+     "label": "No treatment received"
+    }
+   ]
+  },
+  "received_treatment_pmdd_other_specify": {
+   "q": null,
+   "label": "Have you received any of the following treatments for your condition(s) other specify",
+   "type": "string",
+   "group": "pmdd",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/diagnosed_HCP_pmdd , 'Yes' ) and selected( /aLWbr2Y7epAUXji3GkuABi/pmdd/received_treatment_pmdd , '9' )",
+   "required": false,
+   "choices": []
+  },
+  "often_menstrual_affect_mood": {
+   "q": 67,
+   "label": "How often do your menstrual symptoms affect your mood or emotional wellbeing (for example, causing sadness, frustration, anxiety, or stress) in the past 12 months",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "Never",
+     "label": "Never"
+    },
+    {
+     "value": "Occasionally",
+     "label": "Occasionally"
+    },
+    {
+     "value": "Often",
+     "label": "Often"
+    },
+    {
+     "value": "Every month",
+     "label": "Every month"
+    }
+   ]
+  },
+  "symptoms_affected_relationships": {
+   "q": 68,
+   "label": "Have your symptoms ever affected your relationships with family, partner, or friends?",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes, very much",
+     "label": "Yes, very much"
+    },
+    {
+     "value": "Somewhat",
+     "label": "Somewhat"
+    },
+    {
+     "value": "Not really",
+     "label": "Not really"
+    },
+    {
+     "value": "Not at all",
+     "label": "Not at all"
+    }
+   ]
+  },
+  "feel_supported_people_around_you": {
+   "q": 69,
+   "label": "When you experience symptoms, do you feel supported by the people around you (family, friends, partner, employer, or teachers)?",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "Always",
+     "label": "Always"
+    },
+    {
+     "value": "Sometimes",
+     "label": "Sometimes"
+    },
+    {
+     "value": "Rarely",
+     "label": "Rarely"
+    },
+    {
+     "value": "Never",
+     "label": "Never"
+    }
+   ]
+  },
+  "ever_experiencedStigma_disbelief": {
+   "q": 70,
+   "label": "Have you ever experienced stigma, disbelief, or discrimination from your family or friends because of your symptoms or condition?",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes, many times",
+     "label": "Yes, many times"
+    },
+    {
+     "value": "Sometimes",
+     "label": "Sometimes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    },
+    {
+     "value": "Not sure",
+     "label": "Not sure"
+    }
+   ]
+  },
+  "have_someone_talk_to": {
+   "q": 71,
+   "label": "Do you have someone you can talk to about your menstrual condition when you need support?",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes, a partner or spouse",
+     "label": "Yes, a partner or spouse"
+    },
+    {
+     "value": "Yes, a friend or family member",
+     "label": "Yes, a friend or family member"
+    },
+    {
+     "value": "Yes, a counsellor or therapist",
+     "label": "Yes, a counsellor or therapist"
+    },
+    {
+     "value": "Yes, a healthcare provider",
+     "label": "Yes, a healthcare provider"
+    },
+    {
+     "value": "No, I don't have anyone to talk to",
+     "label": "No, I don't have anyone to talk to"
+    },
+    {
+     "value": "Prefer not to say",
+     "label": "Prefer not to say"
+    }
+   ]
+  },
+  "spend_manage_menstrual_condition": {
+   "q": 72,
+   "label": "How much did you spend on pads, tampons, period panties, menstrual cups, cotton, cloth or other blood collection methods in the past 30 days?",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "KES 1-200",
+     "label": "KES 1-200"
+    },
+    {
+     "value": "KES 201-500",
+     "label": "KES 201-500"
+    },
+    {
+     "value": "KES 501-1,000",
+     "label": "KES 501-1,000"
+    },
+    {
+     "value": "More than KES 1,000",
+     "label": "More than KES 1,000"
+    },
+    {
+     "value": "Not sure",
+     "label": "Not sure"
+    }
+   ]
+  },
+  "spend_pain_doctor_visit": {
+   "q": 73,
+   "label": "How much do you spend on pain medication, doctor visits, transport or alternative care for your period in the last 12 months?",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "Less than KES 1,000",
+     "label": "Less than KES 1,000"
+    },
+    {
+     "value": "KES 1,000–3,000",
+     "label": "KES 1,000–3,000"
+    },
+    {
+     "value": "KES 3,001–5,000",
+     "label": "KES 3,001–5,000"
+    },
+    {
+     "value": "KES 5,001–10,000",
+     "label": "KES 5,001–10,000"
+    },
+    {
+     "value": "KES 10,001-15,000",
+     "label": "KES 10,001-15,000"
+    },
+    {
+     "value": "KES 15,000-50,000",
+     "label": "KES 15,000-50,000"
+    },
+    {
+     "value": "KES 50,001-100,000",
+     "label": "KES 50,001-100,000"
+    },
+    {
+     "value": "More than KES 100,000",
+     "label": "More than KES 100,000"
+    },
+    {
+     "value": "Not sure",
+     "label": "Not sure"
+    }
+   ]
+  },
+  "borrow_sell_pay_health": {
+   "q": 74,
+   "label": "Have you ever had to borrow money, sell belongings, or receive financial help to pay for health-related costs?",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes, from family or friends",
+     "label": "Yes, from family or friends"
+    },
+    {
+     "value": "Yes, from a savings group or loan",
+     "label": "Yes, from a savings group or loan"
+    },
+    {
+     "value": "No, I used my own income",
+     "label": "No, I used my own income"
+    },
+    {
+     "value": "No, I could not afford to seek care",
+     "label": "No, I could not afford to seek care"
+    }
+   ]
+  },
+  "postpone_important_expenses": {
+   "q": 75,
+   "label": "Have you ever had to postpone or give up important expenses (such as rent, food, or school fees) to cover medical or treatment costs?",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    }
+   ]
+  },
+  "burden_condition_places": {
+   "q": 76,
+   "label": "How much of a financial burden do you feel your condition places on you or your family?",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "None",
+     "label": "None"
+    },
+    {
+     "value": "Slight burden",
+     "label": "Slight burden"
+    },
+    {
+     "value": "Moderate burden",
+     "label": "Moderate burden"
+    },
+    {
+     "value": "Severe burden",
+     "label": "Severe burden"
+    }
+   ]
+  },
+  "days_missed_each_month": {
+   "q": 77,
+   "label": "How many days of paid or unpaid work, school do you miss each month because of your period?",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "0 days",
+     "label": "0 days"
+    },
+    {
+     "value": "1–2 days",
+     "label": "1–2 days"
+    },
+    {
+     "value": "3–4 days",
+     "label": "3–4 days"
+    },
+    {
+     "value": "5 or more days",
+     "label": "5 or more days"
+    }
+   ]
+  },
+  "days_hh_duties_missed": {
+   "q": 78,
+   "label": "How many days of household duties do you miss each month because of your period?",
+   "type": "select_one",
+   "group": "pei",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "0 days",
+     "label": "0 days"
+    },
+    {
+     "value": "1–2 days",
+     "label": "1–2 days"
+    },
+    {
+     "value": "3–4 days",
+     "label": "3–4 days"
+    },
+    {
+     "value": "5 or more days",
+     "label": "5 or more days"
+    }
+   ]
+  },
+  "do_when_cannot_afford_treatment": {
+   "q": 79,
+   "label": "When you cannot afford treatment or medication, what do you usually do? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "pei",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Delay or skip treatment"
+    },
+    {
+     "value": "2",
+     "label": "Reduce dosage or use home remedies"
+    },
+    {
+     "value": "3",
+     "label": "Visit a traditional African herbalist or healer"
+    },
+    {
+     "value": "4",
+     "label": "Visit a Traditional Chinese Medicine practitioner, Ayurvedic Medicine practitioner or alike"
+    },
+    {
+     "value": "5",
+     "label": "Seek help from friends or family"
+    },
+    {
+     "value": "6",
+     "label": "Go without care"
+    },
+    {
+     "value": "8",
+     "label": "No, this hasn't happenned"
+    },
+    {
+     "value": "7",
+     "label": "Other, please specify"
+    }
+   ]
+  },
+  "do_when_cannot_afford_treatment_other_specify": {
+   "q": null,
+   "label": "When you cannot afford treatment or medication, what do you usually do others specify",
+   "type": "string",
+   "group": "pei",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/pei/do_when_cannot_afford_treatment , '7' )",
+   "required": false,
+   "choices": []
+  },
+  "Have_any_Health_insurance": {
+   "q": 80,
+   "label": "Do you have any health insurance (Social Health Authority - SHA, private, employer, or community plan)?",
+   "type": "select_one",
+   "group": "Health_insurance",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Yes, SHA paid by me or a family member"
+    },
+    {
+     "value": "2",
+     "label": "Yes, SHA and private insurance are paid by me or a family member"
+    },
+    {
+     "value": "3",
+     "label": "Yes, SHA and private insurance provided by my employer"
+    },
+    {
+     "value": "5",
+     "label": "Yes, private insurance paid by me or a family member"
+    },
+    {
+     "value": "6",
+     "label": "Yes, private insurance provided by my employer"
+    },
+    {
+     "value": "4",
+     "label": "I do not have health insurance"
+    }
+   ]
+  },
+  "health_insurance_cover_diag_treat": {
+   "q": 81,
+   "label": "Does your current health insurance cover the diagnosis and treatment of conditions like endometriosis, uterine fibroids, or Polyendocrine Metabolic Ovarian Syndrome or PMDD?",
+   "type": "select_one",
+   "group": "Health_insurance",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Health_insurance/Have_any_Health_insurance  != '4'",
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes, fully covered",
+     "label": "Yes, fully covered"
+    },
+    {
+     "value": "Yes, partially covered (e.g. specific treatment, medications excluded)",
+     "label": "Yes, partially covered (e.g. specific treatment, medications excluded)"
+    },
+    {
+     "value": "No, these conditions are specifically excluded",
+     "label": "No, these conditions are specifically excluded"
+    },
+    {
+     "value": "I don't know",
+     "label": "I don't know"
+    }
+   ]
+  },
+  "payout_of_pocket": {
+   "q": 82,
+   "label": "Do you have to pay out-of-pocket for specialist consultations or specific procedures (e.g. advanced scans,specialized surgeries) before your insurance reimburses you?",
+   "type": "select_one",
+   "group": "Health_insurance",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Health_insurance/Have_any_Health_insurance  != '4'",
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes, frequently",
+     "label": "Yes, frequently"
+    },
+    {
+     "value": "Yes, occasionally",
+     "label": "Yes, occasionally"
+    },
+    {
+     "value": "No, the hospital/clinic bills the insurer directly",
+     "label": "No, the hospital/clinic bills the insurer directly"
+    },
+    {
+     "value": "Not applicable",
+     "label": "Not applicable"
+    }
+   ]
+  },
+  "ever_denied_claim": {
+   "q": 83,
+   "label": "Have you ever been denied a claim by your insurer for consultation, diagnosis (e.g., MRI, laparoscopy), or treatment related to endometriosis, fibroids, or PMOS?",
+   "type": "select_one",
+   "group": "Health_insurance",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Health_insurance/Have_any_Health_insurance  != '4'",
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "value": "No",
+     "label": "No"
+    },
+    {
+     "value": "Not applicable (I have not sought treatment or filed a claim for these conditions)",
+     "label": "Not applicable (I have not sought treatment or filed a claim for these conditions)"
+    }
+   ]
+  },
+  "manage_period_related_symptoms": {
+   "q": 84,
+   "label": "How do you usually manage period-related symptoms or pain? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "self_care",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Over-the-counter pain medication (e.g., paracetamol, ibuprofen)"
+    },
+    {
+     "value": "2",
+     "label": "Prescription or hormonal treatment"
+    },
+    {
+     "value": "3",
+     "label": "Hot compress and rest"
+    },
+    {
+     "value": "10",
+     "label": "Regular exercise"
+    },
+    {
+     "value": "4",
+     "label": "Herbal or traditional remedies"
+    },
+    {
+     "value": "5",
+     "label": "Dietary changes (e.g., reducing sugar, caffeine, or red meat)"
+    },
+    {
+     "value": "6",
+     "label": "Supplements (e.g., iron, vitamins)"
+    },
+    {
+     "value": "7",
+     "label": "Mental health or emotional support (therapy, prayer, journaling, mindfulness)"
+    },
+    {
+     "value": "8",
+     "label": "I do not use any pain relief"
+    },
+    {
+     "value": "9",
+     "label": "Other, please specify:"
+    }
+   ]
+  },
+  "manage_period_related_symptoms_other_specify": {
+   "q": null,
+   "label": "How do you usually manage period-related symptoms or pain other specify",
+   "type": "string",
+   "group": "self_care",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/self_care/manage_period_related_symptoms , '9' )",
+   "required": false,
+   "choices": []
+  },
+  "ever_seek_emergency_medical_care": {
+   "q": 85,
+   "label": "Have you ever needed to seek emergency medical care when your symptoms were so severe you could not cope on your own?",
+   "type": "select_one",
+   "group": "self_care",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "Yes, one time per year",
+     "label": "Yes, one time per year"
+    },
+    {
+     "value": "Yes, 2-3 times per year",
+     "label": "Yes, 2-3 times per year"
+    },
+    {
+     "value": "Yes, more than 4 times per year",
+     "label": "Yes, more than 4 times per year"
+    },
+    {
+     "value": "Yes, every month",
+     "label": "Yes, every month"
+    },
+    {
+     "value": "No, never",
+     "label": "No, never"
+    }
+   ]
+  },
+  "sth_someone_remind_seek_care": {
+   "q": 86,
+   "label": "Did something or someone remind you to seek care the last time your period symptoms worried you in the past 12 months?",
+   "type": "select_one",
+   "group": "self_care",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/seek_care_period_related_symptoms  !='5'",
+   "required": false,
+   "choices": [
+    {
+     "value": "Yes, a media message",
+     "label": "Yes, a media message"
+    },
+    {
+     "value": "Yes, a family member or friend",
+     "label": "Yes, a family member or friend"
+    },
+    {
+     "value": "Yes, a health care professional",
+     "label": "Yes, a health care professional"
+    },
+    {
+     "value": "I don't remember.",
+     "label": "I don't remember."
+    },
+    {
+     "value": "No, nothing or no one prompted me.",
+     "label": "No, nothing or no one prompted me."
+    },
+    {
+     "value": "Other",
+     "label": "Other, please specify"
+    }
+   ]
+  },
+  "sth_someone_remind_seek_care_other_specify": {
+   "q": null,
+   "label": "Other specify Did something or someone remind you to seek care the last time your period symptoms worried you in the past 12 months?",
+   "type": "string",
+   "group": "self_care",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/self_care/sth_someone_remind_seek_care , 'Other' ) and  /aLWbr2Y7epAUXji3GkuABi/Section2/seek_care_period_related_symptoms  !='5'",
+   "required": false,
+   "choices": []
+  },
+  "how_important_seeking_care": {
+   "q": 87,
+   "label": "How important was seeking care for you the last time your period symptoms worried you in the past 12 months?",
+   "type": "select_one",
+   "group": "self_care",
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/Section2/seek_care_period_related_symptoms  !='5'",
+   "required": false,
+   "choices": [
+    {
+     "value": "Unimportant",
+     "label": "Unimportant"
+    },
+    {
+     "value": "Somewhat unimportant",
+     "label": "Somewhat unimportant"
+    },
+    {
+     "value": "Neither important nor unimportant",
+     "label": "Neither important nor unimportant"
+    },
+    {
+     "value": "Somewhat important",
+     "label": "Somewhat important"
+    },
+    {
+     "value": "Very important",
+     "label": "Very important"
+    }
+   ]
+  },
+  "urgent_need_manage_condition": {
+   "q": 88,
+   "label": "What is your most urgent need in relation to managing your period better? (Select 1 only)",
+   "type": "select_one",
+   "group": "self_care",
+   "relevant": null,
+   "required": true,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Access to affordable and reliable specialists"
+    },
+    {
+     "value": "2",
+     "label": "Counseling or mental health services"
+    },
+    {
+     "value": "3",
+     "label": "Better health insurance coverage"
+    },
+    {
+     "value": "4",
+     "label": "Financial support for treatment costs"
+    },
+    {
+     "value": "5",
+     "label": "More information and education about these conditions"
+    },
+    {
+     "value": "6",
+     "label": "Workplace or school flexibility (sick leave, rest days)"
+    },
+    {
+     "value": "7",
+     "label": "Government or NGO programs for women's health"
+    },
+    {
+     "value": "9",
+     "label": "No additional support needed"
+    },
+    {
+     "value": "8",
+     "label": "Other, please specify"
+    }
+   ]
+  },
+  "urgent_need_manage_condition_other_specify": {
+   "q": null,
+   "label": "What is your most urgent need in relation to managing your period better other specify",
+   "type": "string",
+   "group": "self_care",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/self_care/urgent_need_manage_condition , '8' )",
+   "required": false,
+   "choices": []
+  },
+  "use_health_app_device": {
+   "q": 89,
+   "label": "Do you use any device or mobile app to track your health, steps, sleep, or menstrual cycle? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "self_care",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "No, I don't use any device or app"
+    },
+    {
+     "value": "2",
+     "label": "My phone's health app (e.g., Samsung Health, Apple Health, Fitbit app)"
+    },
+    {
+     "value": "7",
+     "label": "A period tracking app (e.g., Flo, Clue, Fertitude)"
+    },
+    {
+     "value": "3",
+     "label": "A smartwatch (e.g., Fitbit, Apple Watch, Samsung Watch)"
+    },
+    {
+     "value": "4",
+     "label": "A fitness band or bracelet (e.g., Huawei Band, Garmin)"
+    },
+    {
+     "value": "5",
+     "label": "A smart ring (e.g., Oura Ring, Ultrahuman)"
+    },
+    {
+     "value": "6",
+     "label": "Another type of device, please specify"
+    }
+   ]
+  },
+  "use_health_app_device_other_specify": {
+   "q": null,
+   "label": "Do you use any device or mobile app to track your health, steps, sleep, or menstrual cycle other specify",
+   "type": "string",
+   "group": "self_care",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/self_care/use_health_app_device , '6' )",
+   "required": false,
+   "choices": []
+  },
+  "data_privacy_mean": {
+   "q": 90,
+   "label": "When you share your health information (for example, through surveys, clinics, or mobile apps), what does \"data privacy\" mean to you? (Select all that apply)",
+   "type": "select_multiple",
+   "group": "self_care",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "My personal information (name, contacts, ID) should be kept confidential"
+    },
+    {
+     "value": "2",
+     "label": "My data should only be used for research or health purposes that I agree to"
+    },
+    {
+     "value": "3",
+     "label": "My data should not be shared or sold without my permission"
+    },
+    {
+     "value": "4",
+     "label": "I should know who can access my data and how it will be used"
+    },
+    {
+     "value": "5",
+     "label": "My data should be stored safely and protected from hackers or leaks"
+    },
+    {
+     "value": "6",
+     "label": "I am not sure what data privacy means"
+    }
+   ]
+  },
+  "share_health_info_privacy_protected": {
+   "q": 91,
+   "label": "If in future, a secure research platform allows women to license their anonymous data for use by scientists (with consent and compensation, would you be willing to share your health information for research?",
+   "type": "select_one",
+   "group": "self_care",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "1",
+     "label": "Yes, I would share my information for research"
+    },
+    {
+     "value": "2",
+     "label": "No, I wouldn't want to share my information"
+    },
+    {
+     "value": "3",
+     "label": "Maybe, I'd need more information first"
+    },
+    {
+     "value": "4",
+     "label": "Other, please specify:"
+    }
+   ]
+  },
+  "share_health_info_privacy_protected_other_specify": {
+   "q": null,
+   "label": "Would you be willing to share your health information for research other specify",
+   "type": "string",
+   "group": "self_care",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/self_care/share_health_info_privacy_protected , '4' )",
+   "required": false,
+   "choices": []
+  },
+  "hear_about_this_survey": {
+   "q": 92,
+   "label": "How did you hear about this survey?",
+   "type": "select_one",
+   "group": "self_care",
+   "relevant": null,
+   "required": false,
+   "choices": [
+    {
+     "value": "Endometriosis/Adenomyosis support group",
+     "label": "Endometriosis/Adenomyosis support group"
+    },
+    {
+     "value": "Fibroid support group",
+     "label": "Fibroid support group"
+    },
+    {
+     "value": "PMOS/PCOS support group",
+     "label": "PMOS/PCOS support group"
+    },
+    {
+     "value": "PMDD support group",
+     "label": "PMDD support group"
+    },
+    {
+     "value": "Social media",
+     "label": "Social media"
+    },
+    {
+     "value": "Friend or family",
+     "label": "Friend or family"
+    },
+    {
+     "value": "Health worker",
+     "label": "Health worker"
+    },
+    {
+     "value": "Other",
+     "label": "Other, please specify:"
+    }
+   ]
+  },
+  "hear_about_this_survey_other_specify": {
+   "q": null,
+   "label": "How did you hear about this survey others specify",
+   "type": "string",
+   "group": "self_care",
+   "relevant": "selected( /aLWbr2Y7epAUXji3GkuABi/self_care/hear_about_this_survey , 'Other' )",
+   "required": false,
+   "choices": []
+  },
+  "comments": {
+   "q": 93,
+   "label": "Thank you for filling this survey. Is there anything else you would like to share with us about your journey, maybe something often overlooked? Please feel free to write out your answer",
+   "type": "string",
+   "group": "self_care",
+   "relevant": null,
+   "required": false,
+   "choices": []
+  },
+  "mpesa_phone_number": {
+   "q": null,
+   "label": "English: Please click the link below to share the phone number of your choice to receive KSh 150 reimbursement for airtime. Click here / Bofya hapa",
+   "type": "string",
+   "group": null,
+   "relevant": "/aLWbr2Y7epAUXji3GkuABi/consent  = 'Yes' and  /aLWbr2Y7epAUXji3GkuABi/Section1/how_old_are_you  >= 18",
+   "required": false,
+   "choices": []
+  }
+ }
+}

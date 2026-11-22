@@ -113,7 +113,9 @@ def dot_ci(t: pd.DataFrame, label_col: str = "Indicator", group_order: list[str]
     for i in range(len(labels) - 1):
         fig.add_hline(y=i + 0.5, line=dict(color=GRID, width=1))
     fig = _layout(fig, max(200, 90 + len(labels) * (26 + 14 * ng)), title_x, legend=ng > 1)
-    fig.update_layout(legend=dict(y=1.02, yanchor="bottom"), margin=dict(t=48 if ng > 1 else 12))
+    fig.update_xaxes(range=[-0.05, 1.15], tick0=0, automargin=True)
+    fig.update_layout(legend=dict(y=1.02, yanchor="bottom"),
+                      margin=dict(t=48 if ng > 1 else 12))
     return fig
 
 

@@ -20,7 +20,8 @@ st.set_page_config(page_title="WEMA Study dashboard", page_icon="📊", layout="
 
 CSS = """
 <style>
-  .block-container {padding-top: 1.6rem; max-width: 1280px;}
+  .block-container {padding-top: 3.5rem; width: 100%; max-width: 1280px; box-sizing: border-box;}
+  div[data-testid="stPlotlyChart"] {width: 100%; min-width: 0;}
   .kpi {border: 1px solid #e7e6e2; border-radius: 10px; padding: 14px 16px; background: #fff; height: 100%;}
   .kpi .v {font-size: 1.9rem; font-weight: 650; color: #0b0b0b; line-height: 1.1;}
   .kpi .l {font-size: .86rem; color: #52514e; margin-top: 4px;}
@@ -28,7 +29,7 @@ CSS = """
   .statement {border-left: 3px solid #2a78d6; background: #f3f7fd; padding: 8px 12px; border-radius: 4px;
               color: #1f2f46; margin: 4px 0 14px 0; font-size: .95rem;}
   .demo {background: #fff4e5; border: 1px solid #fab219; padding: 8px 12px; border-radius: 6px;
-         color: #5c3b00; font-weight: 600; margin-bottom: 10px;}
+         color: #5c3b00; font-weight: 600; line-height: 1.5; margin-bottom: 10px;}
   .legendnote {color: #8a8984; font-size: .8rem;}
 </style>
 """

@@ -1,0 +1,613 @@
+n,mix,icc,Group,Median n,5th pct,95th pct,P(n ≥ 40),P(n ≥ 100),Half-width at median (pp)
+200,Planned targets,0.0,Know or suspect fibroids,100.0,89.0,112.0,1.0,0.523,9.79981992270027
+200,Planned targets,0.0,Know or suspect endometriosis / adenomyosis,60.0,50.0,71.0,0.999,0.0,12.651513118816599
+200,Planned targets,0.0,Know or suspect PMOS / PCOS,40.0,31.0,49.0,0.533,0.0,15.49487580761404
+200,Planned targets,0.0,Diagnosed (any),80.0,69.95,92.0,1.0,0.002,10.95653175720727
+200,Planned targets,0.0,Suspected only,66.0,55.0,77.0,1.0,0.0,12.062744456141456
+200,Planned targets,0.0,No condition,53.0,43.0,64.0,0.993,0.0,13.461087911777073
+200,Planned targets,0.0,Diagnosed fibroids,55.0,45.0,65.0,0.994,0.0,13.214074488098124
+200,Planned targets,0.0,Diagnosed endometriosis / adenomyosis,33.0,25.0,42.0,0.106,0.0,17.059296809316113
+200,Planned targets,0.0,Diagnosed PMOS / PCOS,22.0,15.0,29.049999999999955,0.0,0.0,20.893286276756807
+200,Planned targets,0.0,Insured,120.0,108.0,131.0,1.0,0.997,8.945970718585784
+200,Planned targets,0.0,Uninsured,80.0,69.0,92.0,1.0,0.004,10.95653175720727
+200,Planned targets,0.0,HMB proxy,95.0,83.0,107.0,1.0,0.281,10.054403095023286
+200,Planned targets,0.0,Nairobi,100.0,89.0,112.0,1.0,0.53,9.79981992270027
+200,Planned targets,0.0,Lowest income band,80.0,69.0,91.0,1.0,0.0,10.95653175720727
+200,Planned targets,0.0,Highest income band,40.0,31.0,50.0,0.528,0.0,15.49487580761404
+200,Planned targets,0.0,"Nairobi, diagnosed",40.0,31.0,50.0,0.556,0.0,15.49487580761404
+200,Planned targets,0.0,"Other counties, diagnosed",40.0,31.0,50.0,0.55,0.0,15.49487580761404
+200,Planned targets,0.02,Know or suspect fibroids,100.0,88.0,113.0,1.0,0.512,9.79981992270027
+200,Planned targets,0.02,Know or suspect endometriosis / adenomyosis,60.0,48.95,73.0,0.999,0.0,12.651513118816599
+200,Planned targets,0.02,Know or suspect PMOS / PCOS,41.0,31.0,51.0,0.565,0.0,15.3047474315901
+200,Planned targets,0.02,Diagnosed (any),81.0,69.0,93.04999999999995,1.0,0.005,10.8886888030003
+200,Planned targets,0.02,Suspected only,66.0,54.0,78.0,1.0,0.0,12.062744456141456
+200,Planned targets,0.02,No condition,53.0,42.0,64.0,0.981,0.0,13.461087911777073
+200,Planned targets,0.02,Diagnosed fibroids,55.0,44.0,67.0,0.994,0.0,13.214074488098124
+200,Planned targets,0.02,Diagnosed endometriosis / adenomyosis,33.0,24.0,43.0,0.141,0.0,17.059296809316113
+200,Planned targets,0.02,Diagnosed PMOS / PCOS,22.0,15.0,30.0,0.0,0.0,20.893286276756807
+200,Planned targets,0.02,Insured,121.0,108.0,132.0,1.0,0.998,8.908927202454791
+200,Planned targets,0.02,Uninsured,79.0,68.0,92.0,1.0,0.004,11.025658826283877
+200,Planned targets,0.02,HMB proxy,95.0,83.0,108.0,1.0,0.285,10.054403095023286
+200,Planned targets,0.02,Nairobi,100.0,87.0,111.0,1.0,0.514,9.79981992270027
+200,Planned targets,0.02,Lowest income band,80.0,68.0,91.0,1.0,0.002,10.95653175720727
+200,Planned targets,0.02,Highest income band,40.0,31.0,50.0,0.539,0.0,15.49487580761404
+200,Planned targets,0.02,"Nairobi, diagnosed",40.0,31.0,50.0,0.542,0.0,15.49487580761404
+200,Planned targets,0.02,"Other counties, diagnosed",40.0,31.0,50.049999999999955,0.57,0.0,15.49487580761404
+200,Planned targets,0.05,Know or suspect fibroids,101.0,86.0,115.0,1.0,0.553,9.75118528044755
+200,Planned targets,0.05,Know or suspect endometriosis / adenomyosis,60.0,46.0,73.0,0.995,0.0,12.651513118816599
+200,Planned targets,0.05,Know or suspect PMOS / PCOS,40.0,28.0,52.0,0.52,0.0,15.49487580761404
+200,Planned targets,0.05,Diagnosed (any),81.0,67.0,95.0,1.0,0.018,10.8886888030003
+200,Planned targets,0.05,Suspected only,66.0,52.0,79.0,1.0,0.0,12.062744456141456
+200,Planned targets,0.05,No condition,53.0,41.0,66.0,0.969,0.0,13.461087911777073
+200,Planned targets,0.05,Diagnosed fibroids,55.0,44.0,68.0,0.994,0.0,13.214074488098124
+200,Planned targets,0.05,Diagnosed endometriosis / adenomyosis,33.0,23.0,43.0,0.147,0.0,17.059296809316113
+200,Planned targets,0.05,Diagnosed PMOS / PCOS,22.0,14.0,31.0,0.001,0.0,20.893286276756807
+200,Planned targets,0.05,Insured,120.0,105.0,134.0,1.0,0.99,8.945970718585784
+200,Planned targets,0.05,Uninsured,80.0,66.0,95.0,1.0,0.016,10.95653175720727
+200,Planned targets,0.05,HMB proxy,95.0,80.0,110.0,1.0,0.313,10.054403095023286
+200,Planned targets,0.05,Nairobi,100.0,85.0,115.0,1.0,0.533,9.79981992270027
+200,Planned targets,0.05,Lowest income band,79.0,69.0,91.0,1.0,0.003,11.025658826283877
+200,Planned targets,0.05,Highest income band,40.0,30.0,49.0,0.527,0.0,15.49487580761404
+200,Planned targets,0.05,"Nairobi, diagnosed",40.0,31.0,53.0,0.54,0.0,15.49487580761404
+200,Planned targets,0.05,"Other counties, diagnosed",41.0,30.0,52.0,0.544,0.0,15.3047474315901
+200,Planned targets,0.1,Know or suspect fibroids,100.0,83.0,117.0,1.0,0.521,9.79981992270027
+200,Planned targets,0.1,Know or suspect endometriosis / adenomyosis,60.0,45.0,76.0,0.988,0.0,12.651513118816599
+200,Planned targets,0.1,Know or suspect PMOS / PCOS,40.0,28.0,54.0,0.545,0.0,15.49487580761404
+200,Planned targets,0.1,Diagnosed (any),81.0,65.0,97.0,1.0,0.032,10.8886888030003
+200,Planned targets,0.1,Suspected only,66.0,52.95,83.0,1.0,0.001,12.062744456141456
+200,Planned targets,0.1,No condition,52.0,39.0,67.0,0.942,0.0,13.589905085234374
+200,Planned targets,0.1,Diagnosed fibroids,55.0,41.0,69.0,0.972,0.0,13.214074488098124
+200,Planned targets,0.1,Diagnosed endometriosis / adenomyosis,33.0,21.950000000000003,45.0,0.179,0.0,17.059296809316113
+200,Planned targets,0.1,Diagnosed PMOS / PCOS,22.0,13.0,32.0,0.003,0.0,20.893286276756807
+200,Planned targets,0.1,Insured,119.0,104.0,136.0,1.0,0.982,8.983480194286459
+200,Planned targets,0.1,Uninsured,81.0,64.0,96.0,1.0,0.023,10.8886888030003
+200,Planned targets,0.1,HMB proxy,95.0,78.0,112.0,1.0,0.335,10.054403095023286
+200,Planned targets,0.1,Nairobi,100.0,84.0,117.0,1.0,0.521,9.79981992270027
+200,Planned targets,0.1,Lowest income band,80.0,69.0,92.0,1.0,0.004,10.95653175720727
+200,Planned targets,0.1,Highest income band,40.0,32.0,50.0,0.533,0.0,15.49487580761404
+200,Planned targets,0.1,"Nairobi, diagnosed",40.0,29.0,54.0,0.549,0.0,15.49487580761404
+200,Planned targets,0.1,"Other counties, diagnosed",40.0,28.0,52.0,0.529,0.0,15.49487580761404
+200,Fibroid-heavy,0.0,Know or suspect fibroids,130.0,120.0,142.0,1.0,1.0,8.595010650969062
+200,Fibroid-heavy,0.0,Know or suspect endometriosis / adenomyosis,36.0,27.0,45.0,0.258,0.0,16.33303320450045
+200,Fibroid-heavy,0.0,Know or suspect PMOS / PCOS,20.0,13.0,27.0,0.0,0.0,21.91306351441454
+200,Fibroid-heavy,0.0,Diagnosed (any),82.0,72.0,94.0,1.0,0.006,10.822090693224757
+200,Fibroid-heavy,0.0,Suspected only,67.0,56.95,78.0,1.0,0.0,11.972385547481421
+200,Fibroid-heavy,0.0,No condition,50.0,40.0,60.0,0.956,0.0,13.859038243496776
+200,Fibroid-heavy,0.0,Diagnosed fibroids,71.0,61.0,83.0,1.0,0.0,11.630246537863387
+200,Fibroid-heavy,0.0,Diagnosed endometriosis / adenomyosis,20.0,13.0,27.0,0.0,0.0,21.91306351441454
+200,Fibroid-heavy,0.0,Diagnosed PMOS / PCOS,11.0,6.0,17.0,0.0,0.0,29.54756881513314
+200,Fibroid-heavy,0.0,Insured,120.0,109.0,131.0,1.0,1.0,8.945970718585784
+200,Fibroid-heavy,0.0,Uninsured,80.0,69.0,91.0,1.0,0.0,10.95653175720727
+200,Fibroid-heavy,0.0,HMB proxy,100.0,88.0,111.0,1.0,0.518,9.79981992270027
+200,Fibroid-heavy,0.0,Nairobi,100.0,88.0,112.0,1.0,0.525,9.79981992270027
+200,Fibroid-heavy,0.0,Lowest income band,80.0,68.0,91.0,1.0,0.0,10.95653175720727
+200,Fibroid-heavy,0.0,Highest income band,40.0,31.0,49.0,0.539,0.0,15.49487580761404
+200,Fibroid-heavy,0.0,"Nairobi, diagnosed",41.0,32.0,50.0,0.643,0.0,15.3047474315901
+200,Fibroid-heavy,0.0,"Other counties, diagnosed",41.0,32.0,51.0,0.617,0.0,15.3047474315901
+200,Fibroid-heavy,0.02,Know or suspect fibroids,131.0,119.0,142.0,1.0,1.0,8.562142421010885
+200,Fibroid-heavy,0.02,Know or suspect endometriosis / adenomyosis,36.0,27.0,46.0,0.27,0.0,16.33303320450045
+200,Fibroid-heavy,0.02,Know or suspect PMOS / PCOS,20.0,13.0,28.0,0.0,0.0,21.91306351441454
+200,Fibroid-heavy,0.02,Diagnosed (any),83.0,71.0,94.0,1.0,0.008,10.756699818474196
+200,Fibroid-heavy,0.02,Suspected only,68.0,57.0,78.0,1.0,0.0,11.884027250978091
+200,Fibroid-heavy,0.02,No condition,50.0,39.0,60.0,0.944,0.0,13.859038243496776
+200,Fibroid-heavy,0.02,Diagnosed fibroids,72.0,61.0,83.0,1.0,0.0,11.549198536247316
+200,Fibroid-heavy,0.02,Diagnosed endometriosis / adenomyosis,20.0,13.0,27.049999999999955,0.0,0.0,21.91306351441454
+200,Fibroid-heavy,0.02,Diagnosed PMOS / PCOS,11.0,6.0,17.0,0.0,0.0,29.54756881513314
+200,Fibroid-heavy,0.02,Insured,120.0,108.0,132.0,1.0,0.998,8.945970718585784
+200,Fibroid-heavy,0.02,Uninsured,80.0,68.0,92.0,1.0,0.003,10.95653175720727
+200,Fibroid-heavy,0.02,HMB proxy,99.0,86.0,112.0,1.0,0.495,9.84918960504438
+200,Fibroid-heavy,0.02,Nairobi,101.0,87.0,111.0,1.0,0.562,9.75118528044755
+200,Fibroid-heavy,0.02,Lowest income band,80.0,69.0,91.0,1.0,0.002,10.95653175720727
+200,Fibroid-heavy,0.02,Highest income band,40.0,30.0,49.0,0.539,0.0,15.49487580761404
+200,Fibroid-heavy,0.02,"Nairobi, diagnosed",41.0,32.0,51.0,0.63,0.0,15.3047474315901
+200,Fibroid-heavy,0.02,"Other counties, diagnosed",41.0,32.0,51.0,0.6,0.0,15.3047474315901
+200,Fibroid-heavy,0.05,Know or suspect fibroids,130.0,117.0,143.0,1.0,1.0,8.595010650969062
+200,Fibroid-heavy,0.05,Know or suspect endometriosis / adenomyosis,36.0,26.0,48.049999999999955,0.294,0.0,16.33303320450045
+200,Fibroid-heavy,0.05,Know or suspect PMOS / PCOS,20.0,13.0,28.0,0.0,0.0,21.91306351441454
+200,Fibroid-heavy,0.05,Diagnosed (any),83.0,70.0,95.0,1.0,0.02,10.756699818474196
+200,Fibroid-heavy,0.05,Suspected only,68.0,55.0,80.0,1.0,0.0,11.884027250978091
+200,Fibroid-heavy,0.05,No condition,50.0,38.0,62.0,0.928,0.0,13.859038243496776
+200,Fibroid-heavy,0.05,Diagnosed fibroids,72.0,59.0,85.0,1.0,0.001,11.549198536247316
+200,Fibroid-heavy,0.05,Diagnosed endometriosis / adenomyosis,20.0,13.0,28.0,0.0,0.0,21.91306351441454
+200,Fibroid-heavy,0.05,Diagnosed PMOS / PCOS,11.0,6.0,17.0,0.0,0.0,29.54756881513314
+200,Fibroid-heavy,0.05,Insured,120.0,107.0,133.0,1.0,0.996,8.945970718585784
+200,Fibroid-heavy,0.05,Uninsured,80.0,67.0,93.0,1.0,0.008,10.95653175720727
+200,Fibroid-heavy,0.05,HMB proxy,100.0,87.0,113.0,1.0,0.515,9.79981992270027
+200,Fibroid-heavy,0.05,Nairobi,100.0,86.0,113.0,1.0,0.529,9.79981992270027
+200,Fibroid-heavy,0.05,Lowest income band,80.0,68.0,91.0,1.0,0.002,10.95653175720727
+200,Fibroid-heavy,0.05,Highest income band,40.0,31.0,50.0,0.555,0.0,15.49487580761404
+200,Fibroid-heavy,0.05,"Nairobi, diagnosed",41.0,32.0,52.0,0.594,0.0,15.3047474315901
+200,Fibroid-heavy,0.05,"Other counties, diagnosed",41.0,31.0,51.0,0.61,0.0,15.3047474315901
+200,Fibroid-heavy,0.1,Know or suspect fibroids,130.0,117.0,144.0,1.0,1.0,8.595010650969062
+200,Fibroid-heavy,0.1,Know or suspect endometriosis / adenomyosis,36.5,27.0,48.0,0.326,0.0,16.22077735053909
+200,Fibroid-heavy,0.1,Know or suspect PMOS / PCOS,21.0,13.0,30.0,0.001,0.0,21.384960282242986
+200,Fibroid-heavy,0.1,Diagnosed (any),83.0,70.0,96.0,1.0,0.025,10.756699818474196
+200,Fibroid-heavy,0.1,Suspected only,68.0,56.0,81.0,1.0,0.0,11.884027250978091
+200,Fibroid-heavy,0.1,No condition,49.0,38.0,60.0,0.907,0.0,13.999742746714672
+200,Fibroid-heavy,0.1,Diagnosed fibroids,71.0,58.0,84.0,1.0,0.001,11.630246537863387
+200,Fibroid-heavy,0.1,Diagnosed endometriosis / adenomyosis,20.0,12.0,29.0,0.0,0.0,21.91306351441454
+200,Fibroid-heavy,0.1,Diagnosed PMOS / PCOS,11.0,6.0,18.0,0.0,0.0,29.54756881513314
+200,Fibroid-heavy,0.1,Insured,120.0,106.95,133.0,1.0,0.988,8.945970718585784
+200,Fibroid-heavy,0.1,Uninsured,80.0,67.0,93.04999999999995,1.0,0.014,10.95653175720727
+200,Fibroid-heavy,0.1,HMB proxy,99.0,86.0,114.0,1.0,0.49,9.84918960504438
+200,Fibroid-heavy,0.1,Nairobi,100.0,87.0,113.0,1.0,0.526,9.79981992270027
+200,Fibroid-heavy,0.1,Lowest income band,80.0,68.0,91.0,1.0,0.003,10.95653175720727
+200,Fibroid-heavy,0.1,Highest income band,40.0,31.0,49.0,0.557,0.0,15.49487580761404
+200,Fibroid-heavy,0.1,"Nairobi, diagnosed",41.0,31.0,53.0,0.609,0.0,15.3047474315901
+200,Fibroid-heavy,0.1,"Other counties, diagnosed",41.0,32.0,52.0,0.604,0.0,15.3047474315901
+200,Endometriosis-heavy,0.0,Know or suspect fibroids,60.0,49.0,71.0,0.999,0.0,12.651513118816599
+200,Endometriosis-heavy,0.0,Know or suspect endometriosis / adenomyosis,100.0,88.0,112.0,1.0,0.52,9.79981992270027
+200,Endometriosis-heavy,0.0,Know or suspect PMOS / PCOS,30.0,22.0,38.0,0.029,0.0,17.891941437171567
+200,Endometriosis-heavy,0.0,Diagnosed (any),80.0,68.0,91.0,1.0,0.003,10.95653175720727
+200,Endometriosis-heavy,0.0,Suspected only,65.0,55.0,76.0,1.0,0.0,12.155180631341652
+200,Endometriosis-heavy,0.0,No condition,55.0,45.0,65.0,0.996,0.0,13.214074488098124
+200,Endometriosis-heavy,0.0,Diagnosed fibroids,33.0,24.0,42.0,0.104,0.0,17.059296809316113
+200,Endometriosis-heavy,0.0,Diagnosed endometriosis / adenomyosis,55.0,45.0,66.0,0.998,0.0,13.214074488098124
+200,Endometriosis-heavy,0.0,Diagnosed PMOS / PCOS,16.0,10.0,23.0,0.0,0.0,24.499549806750675
+200,Endometriosis-heavy,0.0,Insured,120.0,108.95,131.0,1.0,0.999,8.945970718585784
+200,Endometriosis-heavy,0.0,Uninsured,80.0,69.0,91.04999999999995,1.0,0.002,10.95653175720727
+200,Endometriosis-heavy,0.0,HMB proxy,89.0,78.0,101.0,1.0,0.07,10.387788342506378
+200,Endometriosis-heavy,0.0,Nairobi,100.0,88.0,111.0,1.0,0.532,9.79981992270027
+200,Endometriosis-heavy,0.0,Lowest income band,80.0,68.0,91.04999999999995,1.0,0.002,10.95653175720727
+200,Endometriosis-heavy,0.0,Highest income band,40.0,31.0,50.0,0.526,0.0,15.49487580761404
+200,Endometriosis-heavy,0.0,"Nairobi, diagnosed",40.0,31.0,49.049999999999955,0.514,0.0,15.49487580761404
+200,Endometriosis-heavy,0.0,"Other counties, diagnosed",40.0,30.0,49.0,0.523,0.0,15.49487580761404
+200,Endometriosis-heavy,0.02,Know or suspect fibroids,60.0,49.0,71.0,1.0,0.0,12.651513118816599
+200,Endometriosis-heavy,0.02,Know or suspect endometriosis / adenomyosis,100.5,87.95,112.0,1.0,0.544,9.7754118650671
+200,Endometriosis-heavy,0.02,Know or suspect PMOS / PCOS,30.0,22.0,39.0,0.046,0.0,17.891941437171567
+200,Endometriosis-heavy,0.02,Diagnosed (any),80.0,68.0,92.0,1.0,0.003,10.95653175720727
+200,Endometriosis-heavy,0.02,Suspected only,66.0,54.0,76.0,1.0,0.0,12.062744456141456
+200,Endometriosis-heavy,0.02,No condition,54.0,45.0,65.04999999999995,0.992,0.0,13.335865767653637
+200,Endometriosis-heavy,0.02,Diagnosed fibroids,33.0,24.0,41.0,0.1,0.0,17.059296809316113
+200,Endometriosis-heavy,0.02,Diagnosed endometriosis / adenomyosis,55.0,44.0,66.0,0.986,0.0,13.214074488098124
+200,Endometriosis-heavy,0.02,Diagnosed PMOS / PCOS,16.0,10.0,23.0,0.0,0.0,24.499549806750675
+200,Endometriosis-heavy,0.02,Insured,119.0,108.0,130.04999999999995,1.0,0.997,8.983480194286459
+200,Endometriosis-heavy,0.02,Uninsured,81.0,69.95,92.0,1.0,0.003,10.8886888030003
+200,Endometriosis-heavy,0.02,HMB proxy,89.0,77.0,101.0,1.0,0.07,10.387788342506378
+200,Endometriosis-heavy,0.02,Nairobi,100.5,88.0,113.0,1.0,0.55,9.7754118650671
+200,Endometriosis-heavy,0.02,Lowest income band,80.0,69.0,91.0,1.0,0.0,10.95653175720727
+200,Endometriosis-heavy,0.02,Highest income band,40.0,31.0,49.0,0.538,0.0,15.49487580761404
+200,Endometriosis-heavy,0.02,"Nairobi, diagnosed",40.0,31.0,50.0,0.529,0.0,15.49487580761404
+200,Endometriosis-heavy,0.02,"Other counties, diagnosed",40.0,30.0,50.0,0.502,0.0,15.49487580761404
+200,Endometriosis-heavy,0.05,Know or suspect fibroids,60.0,48.0,72.04999999999995,0.999,0.0,12.651513118816599
+200,Endometriosis-heavy,0.05,Know or suspect endometriosis / adenomyosis,100.0,86.0,114.0,1.0,0.524,9.79981992270027
+200,Endometriosis-heavy,0.05,Know or suspect PMOS / PCOS,30.0,21.0,40.0,0.053,0.0,17.891941437171567
+200,Endometriosis-heavy,0.05,Diagnosed (any),81.0,67.95,94.0,1.0,0.009,10.8886888030003
+200,Endometriosis-heavy,0.05,Suspected only,65.0,53.0,78.0,1.0,0.0,12.155180631341652
+200,Endometriosis-heavy,0.05,No condition,54.0,43.0,66.0,0.986,0.0,13.335865767653637
+200,Endometriosis-heavy,0.05,Diagnosed fibroids,33.0,24.0,42.0,0.132,0.0,17.059296809316113
+200,Endometriosis-heavy,0.05,Diagnosed endometriosis / adenomyosis,55.0,43.0,68.0,0.992,0.0,13.214074488098124
+200,Endometriosis-heavy,0.05,Diagnosed PMOS / PCOS,17.0,10.0,24.0,0.0,0.0,23.768054501956183
+200,Endometriosis-heavy,0.05,Insured,120.0,107.0,134.0,1.0,0.996,8.945970718585784
+200,Endometriosis-heavy,0.05,Uninsured,80.0,66.0,93.0,1.0,0.005,10.95653175720727
+200,Endometriosis-heavy,0.05,HMB proxy,89.0,75.0,103.0,1.0,0.105,10.387788342506378
+200,Endometriosis-heavy,0.05,Nairobi,100.0,87.0,114.0,1.0,0.545,9.79981992270027
+200,Endometriosis-heavy,0.05,Lowest income band,80.0,69.0,91.0,1.0,0.002,10.95653175720727
+200,Endometriosis-heavy,0.05,Highest income band,40.0,31.0,49.0,0.506,0.0,15.49487580761404
+200,Endometriosis-heavy,0.05,"Nairobi, diagnosed",40.0,30.0,51.0,0.539,0.0,15.49487580761404
+200,Endometriosis-heavy,0.05,"Other counties, diagnosed",40.0,30.0,51.0,0.534,0.0,15.49487580761404
+200,Endometriosis-heavy,0.1,Know or suspect fibroids,60.0,46.0,74.0,0.999,0.0,12.651513118816599
+200,Endometriosis-heavy,0.1,Know or suspect endometriosis / adenomyosis,100.0,85.0,115.0,1.0,0.517,9.79981992270027
+200,Endometriosis-heavy,0.1,Know or suspect PMOS / PCOS,30.0,21.0,42.0,0.091,0.0,17.891941437171567
+200,Endometriosis-heavy,0.1,Diagnosed (any),80.0,67.0,94.0,1.0,0.016,10.95653175720727
+200,Endometriosis-heavy,0.1,Suspected only,66.0,52.0,78.0,0.999,0.0,12.062744456141456
+200,Endometriosis-heavy,0.1,No condition,54.0,42.0,68.0,0.974,0.0,13.335865767653637
+200,Endometriosis-heavy,0.1,Diagnosed fibroids,33.0,24.0,44.0,0.149,0.0,17.059296809316113
+200,Endometriosis-heavy,0.1,Diagnosed endometriosis / adenomyosis,55.0,43.0,68.04999999999995,0.981,0.0,13.214074488098124
+200,Endometriosis-heavy,0.1,Diagnosed PMOS / PCOS,17.0,10.0,25.0,0.0,0.0,23.768054501956183
+200,Endometriosis-heavy,0.1,Insured,120.0,106.0,135.0,1.0,0.991,8.945970718585784
+200,Endometriosis-heavy,0.1,Uninsured,80.0,65.0,94.0,1.0,0.011,10.95653175720727
+200,Endometriosis-heavy,0.1,HMB proxy,89.0,74.0,104.0,1.0,0.127,10.387788342506378
+200,Endometriosis-heavy,0.1,Nairobi,100.0,85.0,116.0,1.0,0.54,9.79981992270027
+200,Endometriosis-heavy,0.1,Lowest income band,80.0,68.95,92.04999999999995,1.0,0.002,10.95653175720727
+200,Endometriosis-heavy,0.1,Highest income band,40.0,31.0,50.0,0.52,0.0,15.49487580761404
+200,Endometriosis-heavy,0.1,"Nairobi, diagnosed",40.0,29.0,52.0,0.516,0.0,15.49487580761404
+200,Endometriosis-heavy,0.1,"Other counties, diagnosed",40.0,29.0,52.0,0.508,0.0,15.49487580761404
+400,Planned targets,0.0,Know or suspect fibroids,200.0,183.0,216.0,1.0,1.0,6.929519121748388
+400,Planned targets,0.0,Know or suspect endometriosis / adenomyosis,119.0,105.0,136.0,1.0,0.99,8.983480194286459
+400,Planned targets,0.0,Know or suspect PMOS / PCOS,80.0,67.0,94.0,1.0,0.005,10.95653175720727
+400,Planned targets,0.0,Diagnosed (any),161.0,145.0,177.0,1.0,1.0,7.723340060349342
+400,Planned targets,0.0,Suspected only,132.0,116.0,147.04999999999995,1.0,1.0,8.529648404658056
+400,Planned targets,0.0,No condition,106.0,92.0,121.0,1.0,0.781,9.518426544565829
+400,Planned targets,0.0,Diagnosed fibroids,110.0,95.0,124.04999999999995,1.0,0.878,9.343761677638339
+400,Planned targets,0.0,Diagnosed endometriosis / adenomyosis,66.0,54.0,78.0,0.999,0.0,12.062744456141456
+400,Planned targets,0.0,Diagnosed PMOS / PCOS,44.0,34.0,55.0,0.758,0.0,14.77378440756657
+400,Planned targets,0.0,Insured,241.0,225.0,257.0,1.0,1.0,6.312618940742257
+400,Planned targets,0.0,Uninsured,159.0,143.0,175.0,1.0,1.0,7.77176272944971
+400,Planned targets,0.0,HMB proxy,190.0,174.0,207.0,1.0,1.0,7.1095366092739765
+400,Planned targets,0.0,Nairobi,200.0,182.95,216.04999999999995,1.0,1.0,6.929519121748388
+400,Planned targets,0.0,Lowest income band,160.0,144.0,176.0,1.0,1.0,7.74743790380702
+400,Planned targets,0.0,Highest income band,79.0,67.0,93.0,1.0,0.009,11.025658826283877
+400,Planned targets,0.0,"Nairobi, diagnosed",80.0,67.95,93.0,1.0,0.011,10.95653175720727
+400,Planned targets,0.0,"Other counties, diagnosed",81.0,68.0,95.0,1.0,0.01,10.8886888030003
+400,Planned targets,0.02,Know or suspect fibroids,199.0,181.0,218.04999999999995,1.0,1.0,6.946908155668466
+400,Planned targets,0.02,Know or suspect endometriosis / adenomyosis,120.0,102.95,137.0,1.0,0.979,8.945970718585784
+400,Planned targets,0.02,Know or suspect PMOS / PCOS,80.0,66.0,95.0,1.0,0.018,10.95653175720727
+400,Planned targets,0.02,Diagnosed (any),161.0,143.0,180.04999999999995,1.0,1.0,7.723340060349342
+400,Planned targets,0.02,Suspected only,132.0,115.0,150.0,1.0,1.0,8.529648404658056
+400,Planned targets,0.02,No condition,107.0,91.0,124.0,1.0,0.766,9.473843505351006
+400,Planned targets,0.02,Diagnosed fibroids,110.0,94.0,126.0,1.0,0.853,9.343761677638339
+400,Planned targets,0.02,Diagnosed endometriosis / adenomyosis,66.0,52.95,80.0,0.999,0.0,12.062744456141456
+400,Planned targets,0.02,Diagnosed PMOS / PCOS,44.0,34.0,56.0,0.75,0.0,14.77378440756657
+400,Planned targets,0.02,Insured,240.0,222.0,259.0,1.0,1.0,6.325756559408299
+400,Planned targets,0.02,Uninsured,160.0,141.0,178.0,1.0,1.0,7.74743790380702
+400,Planned targets,0.02,HMB proxy,190.0,171.0,208.04999999999995,1.0,1.0,7.1095366092739765
+400,Planned targets,0.02,Nairobi,200.0,182.0,219.0,1.0,1.0,6.929519121748388
+400,Planned targets,0.02,Lowest income band,160.0,143.0,177.0,1.0,1.0,7.74743790380702
+400,Planned targets,0.02,Highest income band,80.0,67.0,93.0,1.0,0.011,10.95653175720727
+400,Planned targets,0.02,"Nairobi, diagnosed",80.0,65.95,94.0,1.0,0.011,10.95653175720727
+400,Planned targets,0.02,"Other counties, diagnosed",81.0,67.95,95.0,1.0,0.015,10.8886888030003
+400,Planned targets,0.05,Know or suspect fibroids,200.0,177.0,223.0,1.0,1.0,6.929519121748388
+400,Planned targets,0.05,Know or suspect endometriosis / adenomyosis,120.0,99.0,141.0,1.0,0.944,8.945970718585784
+400,Planned targets,0.05,Know or suspect PMOS / PCOS,80.0,62.0,98.0,1.0,0.042,10.95653175720727
+400,Planned targets,0.05,Diagnosed (any),162.0,141.0,183.0,1.0,1.0,7.699465690831543
+400,Planned targets,0.05,Suspected only,132.0,112.0,153.0,1.0,0.999,8.529648404658056
+400,Planned targets,0.05,No condition,106.0,87.0,124.0,1.0,0.71,9.518426544565829
+400,Planned targets,0.05,Diagnosed fibroids,110.0,92.0,130.0,1.0,0.834,9.343761677638339
+400,Planned targets,0.05,Diagnosed endometriosis / adenomyosis,66.0,51.0,81.0,0.999,0.0,12.062744456141456
+400,Planned targets,0.05,Diagnosed PMOS / PCOS,44.0,32.0,58.0,0.711,0.0,14.77378440756657
+400,Planned targets,0.05,Insured,240.0,216.95,262.0,1.0,1.0,6.325756559408299
+400,Planned targets,0.05,Uninsured,160.0,138.0,183.04999999999995,1.0,1.0,7.74743790380702
+400,Planned targets,0.05,HMB proxy,190.0,167.95,213.0,1.0,1.0,7.1095366092739765
+400,Planned targets,0.05,Nairobi,199.0,175.95,220.0,1.0,1.0,6.946908155668466
+400,Planned targets,0.05,Lowest income band,160.0,144.0,176.04999999999995,1.0,1.0,7.74743790380702
+400,Planned targets,0.05,Highest income band,80.0,67.0,93.0,1.0,0.008,10.95653175720727
+400,Planned targets,0.05,"Nairobi, diagnosed",80.0,65.0,98.0,1.0,0.032,10.95653175720727
+400,Planned targets,0.05,"Other counties, diagnosed",81.0,66.0,97.04999999999995,1.0,0.038,10.8886888030003
+400,Planned targets,0.1,Know or suspect fibroids,199.0,170.0,232.0,1.0,1.0,6.946908155668466
+400,Planned targets,0.1,Know or suspect endometriosis / adenomyosis,118.0,90.0,148.0,1.0,0.863,9.021465480812179
+400,Planned targets,0.1,Know or suspect PMOS / PCOS,80.0,55.95,108.0,0.998,0.133,10.95653175720727
+400,Planned targets,0.1,Diagnosed (any),162.0,136.0,190.04999999999995,1.0,1.0,7.699465690831543
+400,Planned targets,0.1,Suspected only,132.0,106.0,162.0,1.0,0.984,8.529648404658056
+400,Planned targets,0.1,No condition,105.0,83.0,131.04999999999995,1.0,0.639,9.563644977445684
+400,Planned targets,0.1,Diagnosed fibroids,109.0,86.0,136.0,1.0,0.757,9.386525112396232
+400,Planned targets,0.1,Diagnosed endometriosis / adenomyosis,64.0,46.0,87.0,0.994,0.006,12.249774903375338
+400,Planned targets,0.1,Diagnosed PMOS / PCOS,44.0,28.0,63.0,0.65,0.0,14.77378440756657
+400,Planned targets,0.1,Insured,239.0,208.0,272.0,1.0,1.0,6.338976545738915
+400,Planned targets,0.1,Uninsured,161.0,128.0,192.0,1.0,1.0,7.723340060349342
+400,Planned targets,0.1,HMB proxy,189.0,158.0,222.0,1.0,1.0,7.128320094080996
+400,Planned targets,0.1,Nairobi,201.0,169.95,231.0,1.0,1.0,6.912260018680383
+400,Planned targets,0.1,Lowest income band,160.0,145.0,176.0,1.0,1.0,7.74743790380702
+400,Planned targets,0.1,Highest income band,80.0,68.0,93.0,1.0,0.015,10.95653175720727
+400,Planned targets,0.1,"Nairobi, diagnosed",80.0,62.0,104.0,1.0,0.085,10.95653175720727
+400,Planned targets,0.1,"Other counties, diagnosed",80.0,62.0,103.0,1.0,0.081,10.95653175720727
+400,Fibroid-heavy,0.0,Know or suspect fibroids,260.0,245.0,275.0,1.0,1.0,6.077590315670826
+400,Fibroid-heavy,0.0,Know or suspect endometriosis / adenomyosis,72.0,59.0,84.0,1.0,0.001,11.549198536247316
+400,Fibroid-heavy,0.0,Know or suspect PMOS / PCOS,40.0,31.0,50.0,0.538,0.0,15.49487580761404
+400,Fibroid-heavy,0.0,Diagnosed (any),165.0,149.0,182.0,1.0,1.0,7.629149462795218
+400,Fibroid-heavy,0.0,Suspected only,134.5,120.0,150.0,1.0,1.0,8.450004752087406
+400,Fibroid-heavy,0.0,No condition,100.0,87.0,113.0,1.0,0.51,9.79981992270027
+400,Fibroid-heavy,0.0,Diagnosed fibroids,143.0,127.0,159.0,1.0,1.0,8.195021109866406
+400,Fibroid-heavy,0.0,Diagnosed endometriosis / adenomyosis,40.0,30.0,50.0,0.512,0.0,15.49487580761404
+400,Fibroid-heavy,0.0,Diagnosed PMOS / PCOS,22.0,15.0,30.0,0.0,0.0,20.893286276756807
+400,Fibroid-heavy,0.0,Insured,240.0,223.0,255.0,1.0,1.0,6.325756559408299
+400,Fibroid-heavy,0.0,Uninsured,160.0,145.0,177.0,1.0,1.0,7.74743790380702
+400,Fibroid-heavy,0.0,HMB proxy,199.0,182.95,215.0,1.0,1.0,6.946908155668466
+400,Fibroid-heavy,0.0,Nairobi,200.0,184.0,216.0,1.0,1.0,6.929519121748388
+400,Fibroid-heavy,0.0,Lowest income band,160.0,145.0,176.0,1.0,1.0,7.74743790380702
+400,Fibroid-heavy,0.0,Highest income band,80.0,67.95,92.0,1.0,0.004,10.95653175720727
+400,Fibroid-heavy,0.0,"Nairobi, diagnosed",83.0,70.0,96.0,1.0,0.018,10.756699818474196
+400,Fibroid-heavy,0.0,"Other counties, diagnosed",83.0,69.0,95.0,1.0,0.02,10.756699818474196
+400,Fibroid-heavy,0.02,Know or suspect fibroids,260.0,242.0,279.0,1.0,1.0,6.077590315670826
+400,Fibroid-heavy,0.02,Know or suspect endometriosis / adenomyosis,72.0,58.0,87.0,1.0,0.001,11.549198536247316
+400,Fibroid-heavy,0.02,Know or suspect PMOS / PCOS,40.0,30.0,52.0,0.506,0.0,15.49487580761404
+400,Fibroid-heavy,0.02,Diagnosed (any),165.0,147.95,183.0,1.0,1.0,7.629149462795218
+400,Fibroid-heavy,0.02,Suspected only,135.0,118.0,151.04999999999995,1.0,0.998,8.434342079211067
+400,Fibroid-heavy,0.02,No condition,100.0,84.0,116.04999999999995,1.0,0.508,9.79981992270027
+400,Fibroid-heavy,0.02,Diagnosed fibroids,143.0,125.95,160.0,1.0,1.0,8.195021109866406
+400,Fibroid-heavy,0.02,Diagnosed endometriosis / adenomyosis,39.0,29.0,51.0,0.497,0.0,15.69227071844306
+400,Fibroid-heavy,0.02,Diagnosed PMOS / PCOS,22.0,15.0,31.0,0.001,0.0,20.893286276756807
+400,Fibroid-heavy,0.02,Insured,240.0,223.0,259.04999999999995,1.0,1.0,6.325756559408299
+400,Fibroid-heavy,0.02,Uninsured,160.0,140.95,177.0,1.0,1.0,7.74743790380702
+400,Fibroid-heavy,0.02,HMB proxy,199.0,181.0,218.0,1.0,1.0,6.946908155668466
+400,Fibroid-heavy,0.02,Nairobi,200.0,180.0,219.0,1.0,1.0,6.929519121748388
+400,Fibroid-heavy,0.02,Lowest income band,161.0,143.0,176.0,1.0,1.0,7.723340060349342
+400,Fibroid-heavy,0.02,Highest income band,80.0,67.0,93.0,1.0,0.008,10.95653175720727
+400,Fibroid-heavy,0.02,"Nairobi, diagnosed",82.0,69.0,98.0,1.0,0.034,10.822090693224757
+400,Fibroid-heavy,0.02,"Other counties, diagnosed",82.0,68.0,98.0,1.0,0.041,10.822090693224757
+400,Fibroid-heavy,0.05,Know or suspect fibroids,261.0,240.0,278.04999999999995,1.0,1.0,6.065936248733457
+400,Fibroid-heavy,0.05,Know or suspect endometriosis / adenomyosis,72.0,57.0,88.0,0.999,0.001,11.549198536247316
+400,Fibroid-heavy,0.05,Know or suspect PMOS / PCOS,40.0,29.0,53.0,0.543,0.0,15.49487580761404
+400,Fibroid-heavy,0.05,Diagnosed (any),165.0,145.0,185.0,1.0,1.0,7.629149462795218
+400,Fibroid-heavy,0.05,Suspected only,136.0,117.0,153.0,1.0,0.999,8.403276256972333
+400,Fibroid-heavy,0.05,No condition,99.0,83.0,117.0,1.0,0.492,9.84918960504438
+400,Fibroid-heavy,0.05,Diagnosed fibroids,143.0,124.0,163.0,1.0,1.0,8.195021109866406
+400,Fibroid-heavy,0.05,Diagnosed endometriosis / adenomyosis,39.0,29.0,51.0,0.495,0.0,15.69227071844306
+400,Fibroid-heavy,0.05,Diagnosed PMOS / PCOS,22.0,14.0,32.0,0.001,0.0,20.893286276756807
+400,Fibroid-heavy,0.05,Insured,240.0,220.0,260.0,1.0,1.0,6.325756559408299
+400,Fibroid-heavy,0.05,Uninsured,160.0,140.0,180.0,1.0,1.0,7.74743790380702
+400,Fibroid-heavy,0.05,HMB proxy,200.0,179.0,220.0,1.0,1.0,6.929519121748388
+400,Fibroid-heavy,0.05,Nairobi,200.0,180.95,219.04999999999995,1.0,1.0,6.929519121748388
+400,Fibroid-heavy,0.05,Lowest income band,160.0,145.0,176.0,1.0,1.0,7.74743790380702
+400,Fibroid-heavy,0.05,Highest income band,80.0,67.0,93.0,1.0,0.009,10.95653175720727
+400,Fibroid-heavy,0.05,"Nairobi, diagnosed",83.0,68.95,98.04999999999995,1.0,0.041,10.756699818474196
+400,Fibroid-heavy,0.05,"Other counties, diagnosed",82.0,68.0,98.04999999999995,1.0,0.039,10.822090693224757
+400,Fibroid-heavy,0.1,Know or suspect fibroids,260.0,236.0,281.0,1.0,1.0,6.077590315670826
+400,Fibroid-heavy,0.1,Know or suspect endometriosis / adenomyosis,73.0,57.0,91.0,0.999,0.011,11.469821660683351
+400,Fibroid-heavy,0.1,Know or suspect PMOS / PCOS,42.0,29.0,56.0,0.65,0.0,15.121450430979003
+400,Fibroid-heavy,0.1,Diagnosed (any),165.0,146.0,186.0,1.0,1.0,7.629149462795218
+400,Fibroid-heavy,0.1,Suspected only,136.0,115.0,155.0,1.0,0.999,8.403276256972333
+400,Fibroid-heavy,0.1,No condition,98.0,80.95,118.0,1.0,0.437,9.899313031069127
+400,Fibroid-heavy,0.1,Diagnosed fibroids,142.0,123.0,163.0,1.0,1.0,8.223826193794567
+400,Fibroid-heavy,0.1,Diagnosed endometriosis / adenomyosis,40.0,28.0,54.0,0.548,0.0,15.49487580761404
+400,Fibroid-heavy,0.1,Diagnosed PMOS / PCOS,23.0,15.0,34.0,0.002,0.0,20.434037090466948
+400,Fibroid-heavy,0.1,Insured,240.0,217.95,262.0,1.0,1.0,6.325756559408299
+400,Fibroid-heavy,0.1,Uninsured,160.0,138.0,182.04999999999995,1.0,1.0,7.74743790380702
+400,Fibroid-heavy,0.1,HMB proxy,199.0,176.0,222.04999999999995,1.0,1.0,6.946908155668466
+400,Fibroid-heavy,0.1,Nairobi,200.0,176.0,222.0,1.0,1.0,6.929519121748388
+400,Fibroid-heavy,0.1,Lowest income band,159.0,144.0,176.0,1.0,1.0,7.77176272944971
+400,Fibroid-heavy,0.1,Highest income band,80.0,66.95,92.04999999999995,1.0,0.009,10.95653175720727
+400,Fibroid-heavy,0.1,"Nairobi, diagnosed",82.5,68.0,101.0,1.0,0.066,10.78924663965641
+400,Fibroid-heavy,0.1,"Other counties, diagnosed",82.0,67.0,101.0,1.0,0.069,10.822090693224757
+400,Endometriosis-heavy,0.0,Know or suspect fibroids,120.0,104.95,136.0,1.0,0.989,8.945970718585784
+400,Endometriosis-heavy,0.0,Know or suspect endometriosis / adenomyosis,200.0,183.0,216.0,1.0,1.0,6.929519121748388
+400,Endometriosis-heavy,0.0,Know or suspect PMOS / PCOS,60.0,49.0,71.0,0.999,0.0,12.651513118816599
+400,Endometriosis-heavy,0.0,Diagnosed (any),159.0,143.0,176.0,1.0,1.0,7.77176272944971
+400,Endometriosis-heavy,0.0,Suspected only,131.0,116.0,146.0,1.0,0.999,8.562142421010885
+400,Endometriosis-heavy,0.0,No condition,110.0,95.0,125.0,1.0,0.876,9.343761677638339
+400,Endometriosis-heavy,0.0,Diagnosed fibroids,66.0,54.0,79.0,1.0,0.0,12.062744456141456
+400,Endometriosis-heavy,0.0,Diagnosed endometriosis / adenomyosis,110.0,94.0,125.0,1.0,0.866,9.343761677638339
+400,Endometriosis-heavy,0.0,Diagnosed PMOS / PCOS,33.0,24.0,42.0,0.114,0.0,17.059296809316113
+400,Endometriosis-heavy,0.0,Insured,241.0,224.0,256.0,1.0,1.0,6.312618940742257
+400,Endometriosis-heavy,0.0,Uninsured,159.0,144.0,176.0,1.0,1.0,7.77176272944971
+400,Endometriosis-heavy,0.0,HMB proxy,178.0,162.0,194.0,1.0,1.0,7.3452755785168256
+400,Endometriosis-heavy,0.0,Nairobi,200.0,183.0,217.0,1.0,1.0,6.929519121748388
+400,Endometriosis-heavy,0.0,Lowest income band,160.0,144.0,177.0,1.0,1.0,7.74743790380702
+400,Endometriosis-heavy,0.0,Highest income band,80.0,67.0,93.0,1.0,0.007,10.95653175720727
+400,Endometriosis-heavy,0.0,"Nairobi, diagnosed",79.0,66.0,93.04999999999995,1.0,0.01,11.025658826283877
+400,Endometriosis-heavy,0.0,"Other counties, diagnosed",80.0,67.0,94.0,1.0,0.007,10.95653175720727
+400,Endometriosis-heavy,0.02,Know or suspect fibroids,119.0,103.95,136.0,1.0,0.978,8.983480194286459
+400,Endometriosis-heavy,0.02,Know or suspect endometriosis / adenomyosis,200.0,181.95,218.0,1.0,1.0,6.929519121748388
+400,Endometriosis-heavy,0.02,Know or suspect PMOS / PCOS,59.0,47.0,73.0,0.998,0.0,12.758278835445298
+400,Endometriosis-heavy,0.02,Diagnosed (any),160.0,141.0,178.0,1.0,1.0,7.74743790380702
+400,Endometriosis-heavy,0.02,Suspected only,130.0,114.0,148.0,1.0,0.999,8.595010650969062
+400,Endometriosis-heavy,0.02,No condition,109.0,95.0,127.0,1.0,0.857,9.386525112396232
+400,Endometriosis-heavy,0.02,Diagnosed fibroids,66.0,53.0,79.0,1.0,0.0,12.062744456141456
+400,Endometriosis-heavy,0.02,Diagnosed endometriosis / adenomyosis,110.0,94.0,127.0,1.0,0.845,9.343761677638339
+400,Endometriosis-heavy,0.02,Diagnosed PMOS / PCOS,33.0,23.0,43.0,0.137,0.0,17.059296809316113
+400,Endometriosis-heavy,0.02,Insured,241.0,220.0,261.0,1.0,1.0,6.312618940742257
+400,Endometriosis-heavy,0.02,Uninsured,159.0,139.0,180.0,1.0,1.0,7.77176272944971
+400,Endometriosis-heavy,0.02,HMB proxy,178.0,158.0,199.0,1.0,1.0,7.3452755785168256
+400,Endometriosis-heavy,0.02,Nairobi,200.0,181.0,220.0,1.0,1.0,6.929519121748388
+400,Endometriosis-heavy,0.02,Lowest income band,160.0,142.95,176.0,1.0,1.0,7.74743790380702
+400,Endometriosis-heavy,0.02,Highest income band,80.0,66.0,93.0,1.0,0.009,10.95653175720727
+400,Endometriosis-heavy,0.02,"Nairobi, diagnosed",80.0,65.95,95.0,1.0,0.018,10.95653175720727
+400,Endometriosis-heavy,0.02,"Other counties, diagnosed",80.0,65.0,95.0,1.0,0.014,10.95653175720727
+400,Endometriosis-heavy,0.05,Know or suspect fibroids,120.0,102.0,138.0,1.0,0.97,8.945970718585784
+400,Endometriosis-heavy,0.05,Know or suspect endometriosis / adenomyosis,201.0,182.0,221.0,1.0,1.0,6.912260018680383
+400,Endometriosis-heavy,0.05,Know or suspect PMOS / PCOS,60.0,46.0,74.0,0.998,0.0,12.651513118816599
+400,Endometriosis-heavy,0.05,Diagnosed (any),160.0,141.0,178.0,1.0,1.0,7.74743790380702
+400,Endometriosis-heavy,0.05,Suspected only,131.0,114.0,150.0,1.0,0.999,8.562142421010885
+400,Endometriosis-heavy,0.05,No condition,109.0,92.0,126.0,1.0,0.814,9.386525112396232
+400,Endometriosis-heavy,0.05,Diagnosed fibroids,66.0,52.95,80.0,1.0,0.0,12.062744456141456
+400,Endometriosis-heavy,0.05,Diagnosed endometriosis / adenomyosis,110.0,94.0,127.0,1.0,0.856,9.343761677638339
+400,Endometriosis-heavy,0.05,Diagnosed PMOS / PCOS,33.0,23.0,44.0,0.141,0.0,17.059296809316113
+400,Endometriosis-heavy,0.05,Insured,240.0,220.0,260.0,1.0,1.0,6.325756559408299
+400,Endometriosis-heavy,0.05,Uninsured,160.0,140.0,180.0,1.0,1.0,7.74743790380702
+400,Endometriosis-heavy,0.05,HMB proxy,178.0,158.0,198.0,1.0,1.0,7.3452755785168256
+400,Endometriosis-heavy,0.05,Nairobi,200.0,181.0,220.0,1.0,1.0,6.929519121748388
+400,Endometriosis-heavy,0.05,Lowest income band,160.0,144.0,176.0,1.0,1.0,7.74743790380702
+400,Endometriosis-heavy,0.05,Highest income band,80.0,67.0,93.0,1.0,0.008,10.95653175720727
+400,Endometriosis-heavy,0.05,"Nairobi, diagnosed",80.0,65.0,94.0,1.0,0.02,10.95653175720727
+400,Endometriosis-heavy,0.05,"Other counties, diagnosed",80.0,66.0,95.0,1.0,0.013,10.95653175720727
+400,Endometriosis-heavy,0.1,Know or suspect fibroids,121.0,101.0,142.0,1.0,0.966,8.908927202454791
+400,Endometriosis-heavy,0.1,Know or suspect endometriosis / adenomyosis,200.0,178.0,222.04999999999995,1.0,1.0,6.929519121748388
+400,Endometriosis-heavy,0.1,Know or suspect PMOS / PCOS,62.0,46.0,79.0,0.992,0.0,12.445783747619314
+400,Endometriosis-heavy,0.1,Diagnosed (any),161.0,140.0,180.0,1.0,1.0,7.723340060349342
+400,Endometriosis-heavy,0.1,Suspected only,132.0,111.0,152.0,1.0,0.997,8.529648404658056
+400,Endometriosis-heavy,0.1,No condition,107.0,90.0,127.0,1.0,0.747,9.473843505351006
+400,Endometriosis-heavy,0.1,Diagnosed fibroids,66.0,51.0,82.0,0.999,0.0,12.062744456141456
+400,Endometriosis-heavy,0.1,Diagnosed endometriosis / adenomyosis,110.0,92.0,129.0,1.0,0.837,9.343761677638339
+400,Endometriosis-heavy,0.1,Diagnosed PMOS / PCOS,34.0,23.0,47.0,0.219,0.0,16.806552513944666
+400,Endometriosis-heavy,0.1,Insured,240.0,217.0,261.0,1.0,1.0,6.325756559408299
+400,Endometriosis-heavy,0.1,Uninsured,160.0,139.0,183.0,1.0,1.0,7.74743790380702
+400,Endometriosis-heavy,0.1,HMB proxy,178.0,157.0,200.0,1.0,1.0,7.3452755785168256
+400,Endometriosis-heavy,0.1,Nairobi,201.0,176.0,222.0,1.0,1.0,6.912260018680383
+400,Endometriosis-heavy,0.1,Lowest income band,160.0,144.0,176.0,1.0,1.0,7.74743790380702
+400,Endometriosis-heavy,0.1,Highest income band,80.0,67.0,93.0,1.0,0.002,10.95653175720727
+400,Endometriosis-heavy,0.1,"Nairobi, diagnosed",81.0,64.0,97.0,1.0,0.023,10.8886888030003
+400,Endometriosis-heavy,0.1,"Other counties, diagnosed",80.0,64.0,96.0,1.0,0.026,10.95653175720727
+800,Planned targets,0.0,Know or suspect fibroids,400.0,375.95,422.04999999999995,1.0,1.0,4.899909961350135
+800,Planned targets,0.0,Know or suspect endometriosis / adenomyosis,240.5,218.0,260.0,1.0,1.0,6.319177507644472
+800,Planned targets,0.0,Know or suspect PMOS / PCOS,160.0,142.0,179.0,1.0,1.0,7.74743790380702
+800,Planned targets,0.0,Diagnosed (any),323.0,300.0,347.0,1.0,1.0,5.452765666241787
+800,Planned targets,0.0,Suspected only,264.0,242.0,287.0,1.0,1.0,6.031372228070728
+800,Planned targets,0.0,No condition,212.5,193.0,233.04999999999995,1.0,1.0,6.7226210055778655
+800,Planned targets,0.0,Diagnosed fibroids,220.0,199.0,241.0,1.0,1.0,6.607037244049062
+800,Planned targets,0.0,Diagnosed endometriosis / adenomyosis,133.0,115.0,149.0,1.0,0.999,8.497521554514496
+800,Planned targets,0.0,Diagnosed PMOS / PCOS,88.0,74.0,103.0,1.0,0.107,10.446643138378404
+800,Planned targets,0.0,Insured,481.0,457.0,502.0,1.0,1.0,4.468333267176913
+800,Planned targets,0.0,Uninsured,319.0,298.0,343.0,1.0,1.0,5.48684578343586
+800,Planned targets,0.0,HMB proxy,379.0,356.0,404.0,1.0,1.0,5.033829370491985
+800,Planned targets,0.0,Nairobi,400.0,377.0,425.0,1.0,1.0,4.899909961350135
+800,Planned targets,0.0,Lowest income band,321.0,299.0,343.0,1.0,1.0,5.469726098074791
+800,Planned targets,0.0,Highest income band,160.0,140.95,179.0,1.0,1.0,7.74743790380702
+800,Planned targets,0.0,"Nairobi, diagnosed",161.0,143.0,180.04999999999995,1.0,1.0,7.723340060349342
+800,Planned targets,0.0,"Other counties, diagnosed",162.0,143.0,180.04999999999995,1.0,1.0,7.699465690831543
+800,Planned targets,0.02,Know or suspect fibroids,400.0,369.95,430.04999999999995,1.0,1.0,4.899909961350135
+800,Planned targets,0.02,Know or suspect endometriosis / adenomyosis,240.0,214.0,270.0,1.0,1.0,6.325756559408299
+800,Planned targets,0.02,Know or suspect PMOS / PCOS,159.0,135.0,185.0,1.0,1.0,7.77176272944971
+800,Planned targets,0.02,Diagnosed (any),323.0,294.0,350.0,1.0,1.0,5.452765666241787
+800,Planned targets,0.02,Suspected only,263.0,238.0,292.0,1.0,1.0,6.042827836166501
+800,Planned targets,0.02,No condition,212.0,189.0,239.0,1.0,1.0,6.730543955888536
+800,Planned targets,0.02,Diagnosed fibroids,220.0,195.0,245.0,1.0,1.0,6.607037244049062
+800,Planned targets,0.02,Diagnosed endometriosis / adenomyosis,132.0,113.0,153.0,1.0,0.998,8.529648404658056
+800,Planned targets,0.02,Diagnosed PMOS / PCOS,88.0,69.95,106.0,1.0,0.135,10.446643138378404
+800,Planned targets,0.02,Insured,481.0,451.0,511.0,1.0,1.0,4.468333267176913
+800,Planned targets,0.02,Uninsured,319.0,289.0,349.0,1.0,1.0,5.48684578343586
+800,Planned targets,0.02,HMB proxy,380.0,349.0,412.0,1.0,1.0,5.027201547511643
+800,Planned targets,0.02,Nairobi,400.0,368.0,431.0,1.0,1.0,4.899909961350135
+800,Planned targets,0.02,Lowest income band,319.0,296.0,341.04999999999995,1.0,1.0,5.48684578343586
+800,Planned targets,0.02,Highest income band,161.0,142.0,180.0,1.0,1.0,7.723340060349342
+800,Planned targets,0.02,"Nairobi, diagnosed",162.0,140.0,183.04999999999995,1.0,1.0,7.699465690831543
+800,Planned targets,0.02,"Other counties, diagnosed",161.0,140.0,184.0,1.0,1.0,7.723340060349342
+800,Planned targets,0.05,Know or suspect fibroids,401.0,359.0,442.0,1.0,1.0,4.893796534189296
+800,Planned targets,0.05,Know or suspect endometriosis / adenomyosis,241.0,202.0,275.0,1.0,1.0,6.312618940742257
+800,Planned targets,0.05,Know or suspect PMOS / PCOS,160.5,129.0,195.0,1.0,0.997,7.7353608303634385
+800,Planned targets,0.05,Diagnosed (any),322.5,288.0,361.0,1.0,1.0,5.456990979286705
+800,Planned targets,0.05,Suspected only,266.0,230.0,303.0,1.0,1.0,6.008655114476053
+800,Planned targets,0.05,No condition,210.0,181.0,243.0,1.0,1.0,6.762518216412508
+800,Planned targets,0.05,Diagnosed fibroids,219.0,189.95,252.04999999999995,1.0,1.0,6.622104623352533
+800,Planned targets,0.05,Diagnosed endometriosis / adenomyosis,131.0,105.0,158.04999999999995,1.0,0.982,8.562142421010885
+800,Planned targets,0.05,Diagnosed PMOS / PCOS,88.0,67.0,112.0,1.0,0.204,10.446643138378404
+800,Planned targets,0.05,Insured,479.0,438.0,522.05,1.0,1.0,4.47765201195417
+800,Planned targets,0.05,Uninsured,321.0,277.95,362.0,1.0,1.0,5.469726098074791
+800,Planned targets,0.05,HMB proxy,382.0,335.0,426.0,1.0,1.0,5.014024063385379
+800,Planned targets,0.05,Nairobi,400.0,357.0,442.0,1.0,1.0,4.899909961350135
+800,Planned targets,0.05,Lowest income band,320.5,298.0,343.0,1.0,1.0,5.473990992366498
+800,Planned targets,0.05,Highest income band,159.0,142.0,178.0,1.0,1.0,7.77176272944971
+800,Planned targets,0.05,"Nairobi, diagnosed",161.0,133.0,190.0,1.0,1.0,7.723340060349342
+800,Planned targets,0.05,"Other counties, diagnosed",161.5,133.0,190.0,1.0,1.0,7.711375157641501
+800,Planned targets,0.1,Know or suspect fibroids,399.0,355.95,447.0,1.0,1.0,4.906046356943591
+800,Planned targets,0.1,Know or suspect endometriosis / adenomyosis,241.0,198.0,286.0,1.0,1.0,6.312618940742257
+800,Planned targets,0.1,Know or suspect PMOS / PCOS,160.0,127.0,198.04999999999995,1.0,1.0,7.74743790380702
+800,Planned targets,0.1,Diagnosed (any),325.0,283.0,369.0,1.0,1.0,5.435962034093749
+800,Planned targets,0.1,Suspected only,263.0,226.0,307.04999999999995,1.0,1.0,6.042827836166501
+800,Planned targets,0.1,No condition,210.0,176.0,248.0,1.0,1.0,6.762518216412508
+800,Planned targets,0.1,Diagnosed fibroids,219.0,185.0,263.0,1.0,1.0,6.622104623352533
+800,Planned targets,0.1,Diagnosed endometriosis / adenomyosis,131.0,102.0,168.0,1.0,0.961,8.562142421010885
+800,Planned targets,0.1,Diagnosed PMOS / PCOS,88.0,64.95,116.0,1.0,0.249,10.446643138378404
+800,Planned targets,0.1,Insured,483.0,430.95,527.0,1.0,1.0,4.459072462885713
+800,Planned targets,0.1,Uninsured,317.0,273.0,369.04999999999995,1.0,1.0,5.5041272302689705
+800,Planned targets,0.1,HMB proxy,381.0,334.0,427.04999999999995,1.0,1.0,5.0205998354745125
+800,Planned targets,0.1,Nairobi,400.0,353.95,446.0,1.0,1.0,4.899909961350135
+800,Planned targets,0.1,Lowest income band,319.0,297.0,343.0,1.0,1.0,5.48684578343586
+800,Planned targets,0.1,Highest income band,160.0,141.0,179.0,1.0,1.0,7.74743790380702
+800,Planned targets,0.1,"Nairobi, diagnosed",161.0,132.0,197.04999999999995,1.0,0.999,7.723340060349342
+800,Planned targets,0.1,"Other counties, diagnosed",162.0,132.0,197.0,1.0,1.0,7.699465690831543
+800,Fibroid-heavy,0.0,Know or suspect fibroids,521.0,497.95,541.0,1.0,1.0,4.293379059218163
+800,Fibroid-heavy,0.0,Know or suspect endometriosis / adenomyosis,143.0,126.95,161.0,1.0,1.0,8.195021109866406
+800,Fibroid-heavy,0.0,Know or suspect PMOS / PCOS,80.0,66.95,95.0,1.0,0.015,10.95653175720727
+800,Fibroid-heavy,0.0,Diagnosed (any),329.0,306.0,352.0,1.0,1.0,5.402815615086642
+800,Fibroid-heavy,0.0,Suspected only,270.0,249.0,292.0,1.0,1.0,5.963980479057191
+800,Fibroid-heavy,0.0,No condition,200.0,182.0,220.0,1.0,1.0,6.929519121748388
+800,Fibroid-heavy,0.0,Diagnosed fibroids,286.0,264.0,309.0,1.0,1.0,5.794754998753443
+800,Fibroid-heavy,0.0,Diagnosed endometriosis / adenomyosis,79.0,65.0,93.0,1.0,0.008,11.025658826283877
+800,Fibroid-heavy,0.0,Diagnosed PMOS / PCOS,44.0,34.0,54.0,0.762,0.0,14.77378440756657
+800,Fibroid-heavy,0.0,Insured,480.0,457.0,503.0,1.0,1.0,4.472985359292892
+800,Fibroid-heavy,0.0,Uninsured,320.0,297.0,343.0,1.0,1.0,5.478265878603635
+800,Fibroid-heavy,0.0,HMB proxy,398.0,374.0,423.0,1.0,1.0,4.912205865153304
+800,Fibroid-heavy,0.0,Nairobi,400.0,378.0,422.0,1.0,1.0,4.899909961350135
+800,Fibroid-heavy,0.0,Lowest income band,321.0,299.0,342.0,1.0,1.0,5.469726098074791
+800,Fibroid-heavy,0.0,Highest income band,159.0,141.0,178.0,1.0,1.0,7.77176272944971
+800,Fibroid-heavy,0.0,"Nairobi, diagnosed",165.0,145.0,184.0,1.0,1.0,7.629149462795218
+800,Fibroid-heavy,0.0,"Other counties, diagnosed",165.0,147.0,185.0,1.0,1.0,7.629149462795218
+800,Fibroid-heavy,0.02,Know or suspect fibroids,520.0,494.95,545.0,1.0,1.0,4.297505325484531
+800,Fibroid-heavy,0.02,Know or suspect endometriosis / adenomyosis,144.0,124.0,165.0,1.0,1.0,8.166516602250224
+800,Fibroid-heavy,0.02,Know or suspect PMOS / PCOS,80.0,66.0,95.04999999999995,1.0,0.024,10.95653175720727
+800,Fibroid-heavy,0.02,Diagnosed (any),330.0,304.0,355.0,1.0,1.0,5.394623319828205
+800,Fibroid-heavy,0.02,Suspected only,270.0,245.0,293.0,1.0,1.0,5.963980479057191
+800,Fibroid-heavy,0.02,No condition,200.0,177.0,223.04999999999995,1.0,1.0,6.929519121748388
+800,Fibroid-heavy,0.02,Diagnosed fibroids,286.0,261.0,311.0,1.0,1.0,5.794754998753443
+800,Fibroid-heavy,0.02,Diagnosed endometriosis / adenomyosis,79.0,64.95,95.04999999999995,1.0,0.017,11.025658826283877
+800,Fibroid-heavy,0.02,Diagnosed PMOS / PCOS,44.0,33.0,56.0,0.761,0.0,14.77378440756657
+800,Fibroid-heavy,0.02,Insured,480.0,454.0,505.0,1.0,1.0,4.472985359292892
+800,Fibroid-heavy,0.02,Uninsured,320.0,295.0,346.0,1.0,1.0,5.478265878603635
+800,Fibroid-heavy,0.02,HMB proxy,398.0,371.0,425.0,1.0,1.0,4.912205865153304
+800,Fibroid-heavy,0.02,Nairobi,401.0,372.95,426.0,1.0,1.0,4.893796534189296
+800,Fibroid-heavy,0.02,Lowest income band,320.0,297.0,343.0,1.0,1.0,5.478265878603635
+800,Fibroid-heavy,0.02,Highest income band,160.0,141.95,179.0,1.0,1.0,7.74743790380702
+800,Fibroid-heavy,0.02,"Nairobi, diagnosed",165.0,144.95,185.0,1.0,1.0,7.629149462795218
+800,Fibroid-heavy,0.02,"Other counties, diagnosed",165.0,145.0,184.0,1.0,1.0,7.629149462795218
+800,Fibroid-heavy,0.05,Know or suspect fibroids,520.0,482.0,556.05,1.0,1.0,4.297505325484531
+800,Fibroid-heavy,0.05,Know or suspect endometriosis / adenomyosis,143.0,115.0,171.0,1.0,0.995,8.195021109866406
+800,Fibroid-heavy,0.05,Know or suspect PMOS / PCOS,82.0,62.0,104.04999999999995,0.999,0.096,10.822090693224757
+800,Fibroid-heavy,0.05,Diagnosed (any),331.0,298.0,364.04999999999995,1.0,1.0,5.386468177871703
+800,Fibroid-heavy,0.05,Suspected only,269.0,237.0,304.0,1.0,1.0,5.975055661259556
+800,Fibroid-heavy,0.05,No condition,200.0,169.95,231.0,1.0,1.0,6.929519121748388
+800,Fibroid-heavy,0.05,Diagnosed fibroids,286.0,253.0,319.04999999999995,1.0,1.0,5.794754998753443
+800,Fibroid-heavy,0.05,Diagnosed endometriosis / adenomyosis,78.5,61.0,100.0,1.0,0.055,11.06071665346997
+800,Fibroid-heavy,0.05,Diagnosed PMOS / PCOS,45.0,31.950000000000003,60.0,0.742,0.0,14.608709009609694
+800,Fibroid-heavy,0.05,Insured,481.0,441.0,515.0,1.0,1.0,4.468333267176913
+800,Fibroid-heavy,0.05,Uninsured,319.0,285.0,359.0,1.0,1.0,5.48684578343586
+800,Fibroid-heavy,0.05,HMB proxy,398.0,363.0,436.0,1.0,1.0,4.912205865153304
+800,Fibroid-heavy,0.05,Nairobi,399.0,364.95,435.0,1.0,1.0,4.906046356943591
+800,Fibroid-heavy,0.05,Lowest income band,321.0,296.0,343.0,1.0,1.0,5.469726098074791
+800,Fibroid-heavy,0.05,Highest income band,160.0,141.0,179.0,1.0,1.0,7.74743790380702
+800,Fibroid-heavy,0.05,"Nairobi, diagnosed",164.0,140.0,192.0,1.0,1.0,7.65237371579505
+800,Fibroid-heavy,0.05,"Other counties, diagnosed",165.5,140.0,192.04999999999995,1.0,1.0,7.617616350437256
+800,Fibroid-heavy,0.1,Know or suspect fibroids,519.0,484.0,552.0,1.0,1.0,4.301643511638791
+800,Fibroid-heavy,0.1,Know or suspect endometriosis / adenomyosis,145.0,119.0,171.0,1.0,0.996,8.138307479608848
+800,Fibroid-heavy,0.1,Know or suspect PMOS / PCOS,85.0,65.0,107.0,1.0,0.141,10.629397111858786
+800,Fibroid-heavy,0.1,Diagnosed (any),331.0,300.0,364.0,1.0,1.0,5.386468177871703
+800,Fibroid-heavy,0.1,Suspected only,271.0,242.0,305.0,1.0,1.0,5.952966655292409
+800,Fibroid-heavy,0.1,No condition,196.0,168.0,225.0,1.0,1.0,6.999871373357336
+800,Fibroid-heavy,0.1,Diagnosed fibroids,285.0,253.0,317.04999999999995,1.0,1.0,5.804912333452701
+800,Fibroid-heavy,0.1,Diagnosed endometriosis / adenomyosis,80.0,62.0,100.04999999999995,0.999,0.053,10.95653175720727
+800,Fibroid-heavy,0.1,Diagnosed PMOS / PCOS,46.0,32.0,63.0,0.79,0.0,14.449046193686607
+800,Fibroid-heavy,0.1,Insured,480.0,447.95,514.05,1.0,1.0,4.472985359292892
+800,Fibroid-heavy,0.1,Uninsured,320.0,285.95,352.04999999999995,1.0,1.0,5.478265878603635
+800,Fibroid-heavy,0.1,HMB proxy,398.0,361.0,433.0,1.0,1.0,4.912205865153304
+800,Fibroid-heavy,0.1,Nairobi,401.0,366.0,433.0,1.0,1.0,4.893796534189296
+800,Fibroid-heavy,0.1,Lowest income band,320.0,297.0,343.0,1.0,1.0,5.478265878603635
+800,Fibroid-heavy,0.1,Highest income band,160.0,142.0,179.0,1.0,1.0,7.74743790380702
+800,Fibroid-heavy,0.1,"Nairobi, diagnosed",165.0,141.0,192.0,1.0,1.0,7.629149462795218
+800,Fibroid-heavy,0.1,"Other counties, diagnosed",164.0,140.95,194.0,1.0,1.0,7.65237371579505
+800,Endometriosis-heavy,0.0,Know or suspect fibroids,240.0,218.0,261.04999999999995,1.0,1.0,6.325756559408299
+800,Endometriosis-heavy,0.0,Know or suspect endometriosis / adenomyosis,400.0,376.0,423.0,1.0,1.0,4.899909961350135
+800,Endometriosis-heavy,0.0,Know or suspect PMOS / PCOS,120.0,104.0,137.04999999999995,1.0,0.989,8.945970718585784
+800,Endometriosis-heavy,0.0,Diagnosed (any),320.0,297.0,342.0,1.0,1.0,5.478265878603635
+800,Endometriosis-heavy,0.0,Suspected only,262.0,240.0,283.0,1.0,1.0,6.0543489673818005
+800,Endometriosis-heavy,0.0,No condition,219.0,199.0,240.0,1.0,1.0,6.622104623352533
+800,Endometriosis-heavy,0.0,Diagnosed fibroids,131.0,115.0,149.0,1.0,1.0,8.562142421010885
+800,Endometriosis-heavy,0.0,Diagnosed endometriosis / adenomyosis,219.0,199.0,241.0,1.0,1.0,6.622104623352533
+800,Endometriosis-heavy,0.0,Diagnosed PMOS / PCOS,67.0,54.0,79.0,1.0,0.0,11.972385547481421
+800,Endometriosis-heavy,0.0,Insured,479.0,456.0,503.0,1.0,1.0,4.47765201195417
+800,Endometriosis-heavy,0.0,Uninsured,321.0,297.0,344.0,1.0,1.0,5.469726098074791
+800,Endometriosis-heavy,0.0,HMB proxy,355.0,333.0,380.0,1.0,1.0,5.2012043707488225
+800,Endometriosis-heavy,0.0,Nairobi,400.0,378.0,423.0,1.0,1.0,4.899909961350135
+800,Endometriosis-heavy,0.0,Lowest income band,321.0,298.0,344.0,1.0,1.0,5.469726098074791
+800,Endometriosis-heavy,0.0,Highest income band,160.0,142.0,178.0,1.0,1.0,7.74743790380702
+800,Endometriosis-heavy,0.0,"Nairobi, diagnosed",160.0,141.0,177.04999999999995,1.0,1.0,7.74743790380702
+800,Endometriosis-heavy,0.0,"Other counties, diagnosed",160.0,142.0,178.0,1.0,1.0,7.74743790380702
+800,Endometriosis-heavy,0.02,Know or suspect fibroids,239.0,210.0,270.0,1.0,1.0,6.338976545738915
+800,Endometriosis-heavy,0.02,Know or suspect endometriosis / adenomyosis,401.0,368.0,435.0,1.0,1.0,4.893796534189296
+800,Endometriosis-heavy,0.02,Know or suspect PMOS / PCOS,119.0,97.0,143.0,1.0,0.927,8.983480194286459
+800,Endometriosis-heavy,0.02,Diagnosed (any),319.0,290.95,348.04999999999995,1.0,1.0,5.48684578343586
+800,Endometriosis-heavy,0.02,Suspected only,261.0,235.0,290.0,1.0,1.0,6.065936248733457
+800,Endometriosis-heavy,0.02,No condition,219.0,192.0,245.0,1.0,1.0,6.622104623352533
+800,Endometriosis-heavy,0.02,Diagnosed fibroids,131.0,111.0,152.0,1.0,0.996,8.562142421010885
+800,Endometriosis-heavy,0.02,Diagnosed endometriosis / adenomyosis,220.0,192.0,246.0,1.0,1.0,6.607037244049062
+800,Endometriosis-heavy,0.02,Diagnosed PMOS / PCOS,65.0,50.0,82.0,0.998,0.0,12.155180631341652
+800,Endometriosis-heavy,0.02,Insured,480.5,447.0,513.0,1.0,1.0,4.470657497902187
+800,Endometriosis-heavy,0.02,Uninsured,319.5,287.0,353.0,1.0,1.0,5.482550795863045
+800,Endometriosis-heavy,0.02,HMB proxy,357.0,321.95,388.0,1.0,1.0,5.18661470843096
+800,Endometriosis-heavy,0.02,Nairobi,399.0,367.0,436.0,1.0,1.0,4.906046356943591
+800,Endometriosis-heavy,0.02,Lowest income band,321.0,297.0,343.0,1.0,1.0,5.469726098074791
+800,Endometriosis-heavy,0.02,Highest income band,160.0,142.0,178.0,1.0,1.0,7.74743790380702
+800,Endometriosis-heavy,0.02,"Nairobi, diagnosed",160.0,137.0,183.0,1.0,1.0,7.74743790380702
+800,Endometriosis-heavy,0.02,"Other counties, diagnosed",159.0,137.0,183.0,1.0,1.0,7.77176272944971
+800,Endometriosis-heavy,0.05,Know or suspect fibroids,240.5,205.95,275.0,1.0,1.0,6.319177507644472
+800,Endometriosis-heavy,0.05,Know or suspect endometriosis / adenomyosis,400.0,362.0,439.0,1.0,1.0,4.899909961350135
+800,Endometriosis-heavy,0.05,Know or suspect PMOS / PCOS,120.0,94.0,149.0,1.0,0.907,8.945970718585784
+800,Endometriosis-heavy,0.05,Diagnosed (any),320.0,289.95,352.04999999999995,1.0,1.0,5.478265878603635
+800,Endometriosis-heavy,0.05,Suspected only,262.0,231.0,294.0,1.0,1.0,6.0543489673818005
+800,Endometriosis-heavy,0.05,No condition,218.0,189.0,248.0,1.0,1.0,6.6372755587531955
+800,Endometriosis-heavy,0.05,Diagnosed fibroids,132.0,108.0,157.0,1.0,0.996,8.529648404658056
+800,Endometriosis-heavy,0.05,Diagnosed endometriosis / adenomyosis,220.5,190.0,250.0,1.0,1.0,6.599542020712751
+800,Endometriosis-heavy,0.05,Diagnosed PMOS / PCOS,66.0,48.0,86.0,0.995,0.001,12.062744456141456
+800,Endometriosis-heavy,0.05,Insured,479.0,443.95,515.0,1.0,1.0,4.47765201195417
+800,Endometriosis-heavy,0.05,Uninsured,321.0,285.0,356.04999999999995,1.0,1.0,5.469726098074791
+800,Endometriosis-heavy,0.05,HMB proxy,355.0,317.0,395.0,1.0,1.0,5.2012043707488225
+800,Endometriosis-heavy,0.05,Nairobi,399.0,362.0,438.0,1.0,1.0,4.906046356943591
+800,Endometriosis-heavy,0.05,Lowest income band,319.0,298.0,343.0,1.0,1.0,5.48684578343586
+800,Endometriosis-heavy,0.05,Highest income band,160.0,142.0,179.0,1.0,1.0,7.74743790380702
+800,Endometriosis-heavy,0.05,"Nairobi, diagnosed",160.0,135.95,186.0,1.0,1.0,7.74743790380702
+800,Endometriosis-heavy,0.05,"Other counties, diagnosed",160.0,135.0,187.0,1.0,1.0,7.74743790380702
+800,Endometriosis-heavy,0.1,Know or suspect fibroids,241.0,202.0,278.0,1.0,1.0,6.312618940742257
+800,Endometriosis-heavy,0.1,Know or suspect endometriosis / adenomyosis,400.0,359.0,442.0,1.0,1.0,4.899909961350135
+800,Endometriosis-heavy,0.1,Know or suspect PMOS / PCOS,122.0,93.0,153.0,1.0,0.894,8.872340077840052
+800,Endometriosis-heavy,0.1,Diagnosed (any),321.0,283.95,360.04999999999995,1.0,1.0,5.469726098074791
+800,Endometriosis-heavy,0.1,Suspected only,261.0,226.95,302.0,1.0,1.0,6.065936248733457
+800,Endometriosis-heavy,0.1,No condition,215.0,184.0,252.0,1.0,1.0,6.683421715111557
+800,Endometriosis-heavy,0.1,Diagnosed fibroids,132.0,105.95,163.0,1.0,0.976,8.529648404658056
+800,Endometriosis-heavy,0.1,Diagnosed endometriosis / adenomyosis,219.0,187.0,256.0,1.0,1.0,6.622104623352533
+800,Endometriosis-heavy,0.1,Diagnosed PMOS / PCOS,66.0,48.0,90.0,0.997,0.013,12.062744456141456
+800,Endometriosis-heavy,0.1,Insured,480.0,439.0,521.0,1.0,1.0,4.472985359292892
+800,Endometriosis-heavy,0.1,Uninsured,320.0,279.0,361.0,1.0,1.0,5.478265878603635
+800,Endometriosis-heavy,0.1,HMB proxy,356.0,317.95,397.04999999999995,1.0,1.0,5.193894171253189
+800,Endometriosis-heavy,0.1,Nairobi,399.0,359.0,441.0,1.0,1.0,4.906046356943591
+800,Endometriosis-heavy,0.1,Lowest income band,320.0,296.0,342.0,1.0,1.0,5.478265878603635
+800,Endometriosis-heavy,0.1,Highest income band,160.0,141.0,178.0,1.0,1.0,7.74743790380702
+800,Endometriosis-heavy,0.1,"Nairobi, diagnosed",160.0,133.0,191.0,1.0,1.0,7.74743790380702
+800,Endometriosis-heavy,0.1,"Other counties, diagnosed",159.0,133.0,190.0,1.0,1.0,7.77176272944971

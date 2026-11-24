@@ -17,3 +17,4 @@ reproduced here: it is not for circulation until the PIs agree it.
 | Fogg document §3 (existing items mapped to Fogg) | Baseline indicators `prompt_any`, `importance_high`, `hmc_therapeutic`, `treated_any`, `dx_dismissed`, `dx_no_equipment`, `dx_misdiagnosed` |
 
 Differences between the plan or design and the live form are listed in `docs/FORM_ISSUES.md`.
+| Reviewer request: sample size and composition (variance, associations, outcomes, clustering) | `wema/power.py`, `tools/run_power_sim.py`, `docs/SAMPLE_SIZE.md`; dashboard page *What this sample can show* |

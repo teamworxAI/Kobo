@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-from wema import charts as CH, codebook, config as C, demo, derive, export, ingest, report as R, tables as T
+from wema import charts as CH, codebook, config as C, demo, derive, export, ingest, power as PW, report as R, tables as T
 
 st.set_page_config(page_title="WEMA Study dashboard", page_icon="📊", layout="wide",
                    initial_sidebar_state="expanded")
@@ -79,7 +79,8 @@ def _shell(key):
 
 
 pages = {
-    "Summary": [st.Page(_p("page_overview"), title="Overview", icon="🏠", default=True)],
+    "Summary": [st.Page(_p("page_overview"), title="Overview", icon="🏠", default=True),
+                st.Page(_p("page_sample_size"), title="What this sample can show", url_path="sample-size")],
     "Table shells": [
         st.Page(_shell("T1"), title="T1 Sample", url_path="t1"),
         st.Page(_shell("T2"), title="T2 Symptom burden", url_path="t2"),
@@ -543,6 +544,210 @@ def page_quality():
     with st.expander("All items"):
         st.dataframe(mm, use_container_width=True, hide_index=True)
 
+
+
+@st.cache_data(show_spinner=False)
+def power_results():
+    return PW.load()
+
+
+def _fmt_pct_cols(df: pd.DataFrame, cols: list[str], digits: int = 0) -> pd.DataFrame:
+    out = df.copy()
+    for c in cols:
+        if c in out:
+            out[c] = out[c].map(lambda v: "–" if pd.isna(v) else f"{v:.{digits}f}")
+    return out
+
+
+def page_sample_size():
+    header("What this sample can show",
+           "Which findings the sample can support, which must be presented as descriptive only, and where to "
+           "set recruitment targets.")
+    st.markdown(
+        "This page answers three questions: **how precise** each estimate is, **how large a difference** each "
+        "planned comparison can reliably detect, and **how many covariates** each model can carry. The first tab "
+        "applies these checks to the data now loaded. The second uses a simulation of many synthetic studies, "
+        "at 200, 400 and 800 women, with effects of known size planted in them, to show how often the planned "
+        "analyses find those effects.")
+    res = power_results()
+    if res is not None:
+        st.subheader("In brief")
+        for line in PW.brief(res):
+            st.markdown(f"- {line}")
+        st.caption("From the planning simulation (planned condition mix, modest clustering, ICC 0.02). "
+                   "Assumptions are on the last tab.")
+    tabs = st.tabs(["Your data now", "Planning simulation", "Calculator", "Assumptions"])
+
+    # ---------------------------------------------------------------- data now
+    with tabs[0]:
+        if is_demo:
+            st.caption("Demo mode: these checks run on synthetic data. With real data they show what the "
+                       "responses collected so far can support.")
+        st.markdown(f"**{len(A)} women** in the analysis. A percentage for the whole sample has a margin of "
+                    f"error of about **±{100 * PW.half_width(max(len(A), 1)):.0f} points** before allowing for "
+                    "clustering.")
+        st.subheader("Recruitment against targets")
+        rt = PW.recruitment_vs_targets(A)
+        st.plotly_chart(CH.recruitment_bars(rt), use_container_width=True, key="ss_rt")
+        st.dataframe(rt.assign(**{"% of target": rt["% of target"].map("{:.0%}".format)}).set_index("Condition"),
+                     use_container_width=True)
+        st.caption("Targets from the study plan: about 200 women, with about 100 fibroids, 60 endometriosis or "
+                   "adenomyosis and 40 PMOS. Condition-specific results (T5) need at least 40 *diagnosed* women; "
+                   "below that they are descriptive only.")
+
+        st.subheader("Clustering by recruitment channel")
+        chan = A["hear_about_this_survey"] if "hear_about_this_survey" in A else pd.Series(dtype=object)
+        m = PW.mean_cluster_size(chan)
+        icc = st.select_slider("Assumed similarity of women recruited through the same channel (ICC)",
+                               options=[0.0, 0.01, 0.02, 0.05, 0.10], value=0.02,
+                               help="0 = channels make no difference. 0.02–0.05 is typical for community "
+                                    "recruitment. It can be estimated once real data are in.")
+        deff = PW.design_effect(m, icc)
+        c = st.columns(3)
+        kpi(c[0], f"{m:.0f}", "Average channel size", "size-weighted, from 'how did you hear about the survey'")
+        kpi(c[1], f"{deff:.1f}", "Design effect", f"at ICC {icc}")
+        kpi(c[2], f"±{100 * PW.half_width(max(len(A), 1)) * deff ** 0.5:.0f}",
+            "Real margin of error, whole sample", f"vs ±{100 * PW.half_width(max(len(A), 1)):.0f} ignoring clustering")
+        st.caption("Clustering widens margins of error for percentages of the whole sample or of one group. "
+                   "Comparisons between groups are much less affected, because both groups usually come from the "
+                   "same channels (see the simulation).")
+
+        st.subheader("Planned comparisons: what can be detected now")
+        cc = PW.comparison_capacity(A, icc, m)
+        show = _fmt_pct_cols(cc, ["± A (pp)", "± B (pp)", "± A with clustering", "± B with clustering",
+                                  "Detectable difference (pp)"])
+        st.dataframe(show.set_index("Comparison"), use_container_width=True)
+        st.caption("Detectable difference: the smallest gap in percentage points that the comparison would "
+                   "find 80% of the time (two-sided 5% test), given the current group sizes and the observed "
+                   "rate in the second group.")
+
+        st.subheader("Models: how many covariates each outcome can carry")
+        st.dataframe(PW.model_capacity(A).set_index("Outcome"), use_container_width=True)
+        st.caption("About one parameter per 10 events (or non-events, if fewer). Education uses two parameters.")
+
+        st.subheader("Is there enough spread to be informative?")
+        proj = st.toggle("Project to the planned sample of 200", value=False,
+                         help="Scales the counts to n = 200 at the proportions observed now.")
+        inds = ["hmb", "sev_pain", "marker_sx", "irregular", "emergency", "care_any", "care_trained", "care_trad_only",
+                "care_easy", "delay_long_any", "stigma", "confidant", "hardship", "hard_borrow", "hard_cannot",
+                "hard_forwent", "days_work3", "days_hh3", "ins_any", "ins_sha", "ins_covered", "ins_upfront",
+                "ins_denied", "spend_prod_500", "spend_care_5k", "uses_tracker", "share_yes"]
+        inf = PW.informativeness(A, inds, PW.TARGET_N if proj else None)
+        flagged = inf[inf["Verdict"] != "OK"]
+        st.markdown(f"**{len(flagged)} of {len(inf)}** indicators and answer scales are flagged.")
+        st.dataframe(inf.assign(**{"%": inf["%"].map(lambda v: "–" if pd.isna(v) else f"{v:.0%}")})
+                     .set_index("Indicator"), use_container_width=True)
+        st.caption("For answer scales, % is the share in the most common band. A rare indicator can still be "
+                   "reported as a count with its CI, but cannot be compared or modelled.")
+
+    # ------------------------------------------------------------ simulation
+    with tabs[1]:
+        if res is None:
+            st.info("No simulation results found. Run `python tools/run_power_sim.py` and redeploy.")
+        else:
+            meta = res["_meta"]
+            c1, c2 = st.columns(2)
+            mix = c1.selectbox("Condition mix", meta["grid"]["mixes"], key="ss_mix")
+            iccs = meta["grid"]["iccs"]
+            icc_s = c2.select_slider("Clustering by recruitment channel (ICC)", options=iccs, value=0.02 if 0.02 in iccs
+                                     else iccs[0], key="ss_icc")
+            comp = res["comparisons"]
+            sel = comp[(comp["mix"] == mix) & (comp["icc"] == icc_s)]
+            st.subheader("How often each planned comparison finds a real difference")
+            st.plotly_chart(CH.power_curves(sel, meta["grid"]["ns"]), use_container_width=True, key="ss_pc")
+            st.caption(f"Each point is {meta['reps']:,} simulated studies with a difference of known size planted "
+                       "in them. Grey line: 80%, the usual target. Hover for the typical group sizes.")
+            null = sel[sel["delta"] == 0].pivot_table(index="label", columns="n", values="power")
+            covg = sel[sel["delta"] > 0].groupby(["label", "n"])["coverage"].mean().unstack()
+            with st.expander("False positives and CI coverage at this setting"):
+                st.markdown("**How often a difference is reported when there is none** (should be about 5%)")
+                st.dataframe(null.map(lambda v: f"{v:.1%}"), use_container_width=True)
+                st.markdown("**How often the 95% CI contains the true difference** (should be about 95%)")
+                st.dataframe(covg.map(lambda v: f"{v:.1%}"), use_container_width=True)
+                st.caption("Strong clustering (ICC 0.10) pushes false positives above 5%, more so in larger samples, "
+                           "because many women come from the same few channels.")
+
+            st.subheader("Total sample needed for each comparison")
+            st.dataframe(PW.needed_table(comp).set_index("Comparison"), use_container_width=True)
+            st.caption("80% power, two-sided 5% test, planned condition mix. Calculated exactly for the group "
+                       "shares the simulation produced, and checked against the simulated power at 200, 400 and 800.")
+
+            st.subheader("Group sizes each design produces")
+            co = res["composition"]
+            cs = co[(co["mix"] == mix) & (co["icc"] == icc_s)]
+            piv = cs.pivot_table(index="Group", columns="n", values="Median n", sort=False)
+            p40 = cs.pivot_table(index="Group", columns="n", values="P(n ≥ 40)", sort=False)
+            tab = piv.astype(int).astype(str) + "  (" + p40.map(lambda v: f"{v:.0%}") + " ≥40)"
+            st.dataframe(tab, use_container_width=True)
+            st.caption("Median group size across simulated studies, and how often the group reaches 40 – the "
+                       "minimum for reporting more than description.")
+
+            st.subheader("Clustering and whole-sample estimates")
+            st.plotly_chart(CH.coverage_chart(res["prevalence_coverage"]), use_container_width=True, key="ss_cov")
+            st.caption("With 60% recruited through six support groups, the real margin of error grows with "
+                       "clustering, and more so in larger samples drawn from the same channels. Hover for how often "
+                       "a nominal 95% CI covers the truth.")
+
+            st.subheader("Interactions and models")
+            c1, c2 = st.columns(2)
+            it = res["interaction"]
+            c1.markdown("**Interaction vs main effect** (20-point effect)")
+            c1.dataframe(it[it["icc"] == icc_s][["n", "power_interaction", "power_main_effect_same_size"]]
+                         .rename(columns={"power_interaction": "Interaction", "power_main_effect_same_size": "Main effect"})
+                         .set_index("n").map(lambda v: f"{v:.0%}"), use_container_width=True)
+            fi = res["firth"]
+            c2.markdown("**Firth models** (odds ratio 2 for insurance)")
+            c2.dataframe(fi.rename(columns={"outcome": "Outcome", "power": "Power", "median_events": "Events",
+                                            "median_budget": "Parameter budget",
+                                            "p_all_4_covariates": "Room for all 4 covariates"})
+                         [["n", "Outcome", "Events", "Parameter budget", "Room for all 4 covariates", "Power"]]
+                         .assign(Power=lambda d: d["Power"].map("{:.0%}".format),
+                                 **{"Room for all 4 covariates": lambda d: d["Room for all 4 covariates"].map("{:.0%}".format)}),
+                         use_container_width=True, hide_index=True)
+
+    # ------------------------------------------------------------ calculator
+    with tabs[2]:
+        st.markdown("Quick answers for any group sizes, without re-running the simulation.")
+        c1, c2, c3 = st.columns(3)
+        n1 = c1.number_input("Women in group A", 2, 5000, 100, step=10)
+        n2 = c2.number_input("Women in group B", 2, 5000, 100, step=10)
+        pr = c3.slider("Expected % in group B", 5, 95, 50) / 100
+        d = PW.mdd(n1, n2, pr)
+        c = st.columns(3)
+        kpi(c[0], f"{100 * d:.0f} pts" if pd.notna(d) else "–", "Smallest difference detected 80% of the time")
+        kpi(c[1], f"±{100 * PW.half_width(n1, pr):.0f}", "Margin of error, group A")
+        kpi(c[2], f"±{100 * PW.half_width(n2, pr):.0f}", "Margin of error, group B")
+        st.markdown("")
+        c1, c2 = st.columns(2)
+        target = c1.slider("Difference to detect (points)", 5, 40, 20) / 100
+        icc_c = c2.select_slider("ICC for a single-group estimate", options=[0.0, 0.01, 0.02, 0.05, 0.10], value=0.0,
+                                 key="calc_icc")
+        st.markdown(f"Two equal groups need **{PW.n_per_group(target, pr)} women each** to detect a "
+                    f"{100 * target:.0f}-point difference. An interaction of the same size needs about four times "
+                    f"as many. With recruitment-channel clustering (ICC {icc_c}, channel size {30}), a single-group "
+                    f"margin of error is about **{PW.design_effect(30, icc_c) ** 0.5:.1f}×** wider.")
+
+    # ------------------------------------------------------------ assumptions
+    with tabs[3]:
+        if res is None:
+            st.info("No simulation results found.")
+        else:
+            meta = res["_meta"]
+            st.markdown(f"**Simulated studies per setting:** {meta['reps']:,} (Firth models: {meta['firth_reps']}).")
+            st.markdown("**Condition mixes** – chance that a woman knows or suspects each condition "
+                        "(women can report several):")
+            st.dataframe(pd.DataFrame(meta["mixes"]).T.map(lambda v: f"{v:.0%}"), use_container_width=True)
+            st.markdown("**Other assumptions**")
+            st.json(meta["assumptions"], expanded=False)
+            st.markdown(
+                "- Effects are planted as differences in percentage points against the reference group's rate.\n"
+                "- Clustering: each recruitment channel shifts both group membership and outcomes; the ICC is the "
+                "share of variation between channels. 60% of women come through six support groups of unequal "
+                "size; the rest through social media, friends, health workers and other routes.\n"
+                "- Analyses are those the dashboard runs: chi-square (Fisher's exact when counts are small), "
+                "Newcombe CIs, and Firth logistic regression with covariates in the pre-specified order.\n"
+                "- These are planning assumptions. Replace them with pilot or early real data "
+                "(`wema/power.py`) and re-run `python tools/run_power_sim.py`.")
 
 def page_methods():
     header("Methods and limitations")

@@ -43,6 +43,10 @@ def workbook(d: pd.DataFrame, a: pd.DataFrame, demo: bool = False) -> bytes:
                 start += len(m["result"].names) + 4
             else:
                 start += 3
+        from . import power as PW
+        PW.comparison_capacity(a).to_excel(xw, sheet_name="What sample can show", index=False)
+        PW.recruitment_vs_targets(a).to_excel(xw, sheet_name="Recruitment vs targets", index=False)
+        PW.model_capacity(a).to_excel(xw, sheet_name="Model capacity", index=False)
         mm = T.missingness(d)
         T.missing_by_section(mm).to_excel(xw, sheet_name="Missing data", index=False)
         mm.to_excel(xw, sheet_name="Missing by item", index=False)

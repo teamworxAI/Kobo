@@ -1,0 +1,10 @@
+n,outcome,or,power,median_events,median_budget,p_all_4_covariates,median_parameters_used
+200,care_any,2.0,0.565,92.0,7.0,1.0,5.0
+200,hardship,2.0,0.635,89.0,8.0,1.0,5.0
+200,delay_long,2.0,0.34,39.0,3.0,0.015,3.0
+400,care_any,2.0,0.895,187.0,15.0,1.0,5.0
+400,hardship,2.0,0.89,181.0,18.0,1.0,5.0
+400,delay_long,2.0,0.59,79.0,7.0,1.0,5.0
+800,care_any,2.0,1.0,372.0,30.0,1.0,5.0
+800,hardship,2.0,1.0,359.5,35.5,1.0,5.0
+800,delay_long,2.0,0.85,160.0,16.0,1.0,5.0

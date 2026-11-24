@@ -1,0 +1,1081 @@
+n,mix,icc,comparison,label,delta,power,coverage,mean_est,n_group1,n_group0,p_small_group,reps
+200,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.04,0.96,0.001618265969364188,68.65,56.042,0.003,1000
+200,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.211,0.951,0.10728860320848826,68.65,56.042,0.003,1000
+200,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.418,0.95,0.154543338431148,68.65,56.042,0.003,1000
+200,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.633,0.941,0.2000863959991324,68.65,56.042,0.003,1000
+200,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.819,0.95,0.2498693990668934,68.65,56.042,0.003,1000
+200,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.057,0.942,0.001151650153196378,120.359,79.641,0.0,1000
+200,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.287,0.953,0.10113260368904105,120.359,79.641,0.0,1000
+200,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.525,0.954,0.1447474564229482,120.359,79.641,0.0,1000
+200,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.778,0.947,0.19918536344228135,120.359,79.641,0.0,1000
+200,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.946,0.946,0.24995852308502106,120.359,79.641,0.0,1000
+200,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.046,0.955,-0.003469424190052667,95.105,104.895,0.0,1000
+200,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.352,0.946,0.1011548550810557,95.105,104.895,0.0,1000
+200,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.605,0.954,0.14743689471042437,95.105,104.895,0.0,1000
+200,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.841,0.957,0.20033245431610905,95.105,104.895,0.0,1000
+200,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.965,0.954,0.2480262879501475,95.105,104.895,0.0,1000
+200,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.0,0.047,0.953,0.0024496101746029507,80.179,39.606,0.488,1000
+200,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.1,0.184,0.952,0.10244694939237896,80.179,39.606,0.488,1000
+200,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.15,0.34,0.955,0.1486197856229433,80.179,39.606,0.488,1000
+200,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.2,0.533,0.946,0.19477055463609502,80.179,39.606,0.488,1000
+200,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.25,0.768,0.954,0.2516001273146881,80.179,39.606,0.488,1000
+200,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.0,0.033,0.967,-0.00120312690759024,84.669,85.234,0.0,1000
+200,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.1,0.275,0.949,0.1032992071811265,84.669,85.234,0.0,1000
+200,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.15,0.508,0.962,0.15205993015187289,84.669,85.234,0.0,1000
+200,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.2,0.74,0.939,0.19598886898512174,84.669,85.234,0.0,1000
+200,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.25,0.924,0.954,0.24818796047810582,84.669,85.234,0.0,1000
+200,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.048,0.951,-0.0003349275393944013,40.291,40.624,0.722,1000
+200,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.149,0.944,0.10378068387368314,40.291,40.624,0.722,1000
+200,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.261,0.939,0.14826721512505409,40.291,40.624,0.722,1000
+200,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.473,0.964,0.20598978468848844,40.291,40.624,0.722,1000
+200,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.65,0.96,0.2536465957186269,40.291,40.624,0.722,1000
+200,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.057,0.941,-0.0025205002848694208,68.985,56.073,0.003,1000
+200,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.194,0.95,0.09742870032030596,68.985,56.073,0.003,1000
+200,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.397,0.959,0.14752640164243888,68.985,56.073,0.003,1000
+200,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.625,0.953,0.20164587648953455,68.985,56.073,0.003,1000
+200,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.831,0.954,0.24959055542659497,68.985,56.073,0.003,1000
+200,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.058,0.942,-0.0029551787397016412,119.786,80.214,0.0,1000
+200,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.28,0.944,0.10084382563543193,119.786,80.214,0.0,1000
+200,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.561,0.954,0.15083678466322215,119.786,80.214,0.0,1000
+200,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.79,0.958,0.1987268751180168,119.786,80.214,0.0,1000
+200,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.944,0.941,0.2526051954672463,119.786,80.214,0.0,1000
+200,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.048,0.952,0.0015248429562840355,94.966,105.034,0.0,1000
+200,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.336,0.942,0.09892224236200865,94.966,105.034,0.0,1000
+200,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.663,0.953,0.1549676778213814,94.966,105.034,0.0,1000
+200,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.852,0.96,0.19915285872424573,94.966,105.034,0.0,1000
+200,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.958,0.954,0.25022999695221765,94.966,105.034,0.0,1000
+200,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.0,0.042,0.958,0.0008945113150060595,79.362,39.99,0.488,1000
+200,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.1,0.162,0.942,0.09762343267743108,79.362,39.99,0.488,1000
+200,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.15,0.348,0.95,0.15104301367607406,79.362,39.99,0.488,1000
+200,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.2,0.563,0.95,0.1987170470795723,79.362,39.99,0.488,1000
+200,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.25,0.749,0.954,0.25121196798779805,79.362,39.99,0.488,1000
+200,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.0,0.05,0.95,0.0007837107770076499,85.551,84.489,0.0,1000
+200,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.1,0.279,0.95,0.10155912804214477,85.551,84.489,0.0,1000
+200,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.15,0.495,0.946,0.14682359270241613,85.551,84.489,0.0,1000
+200,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.2,0.756,0.947,0.19884307937243,85.551,84.489,0.0,1000
+200,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.25,0.931,0.954,0.24923757591204249,85.551,84.489,0.0,1000
+200,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.043,0.956,0.0012800002111103552,40.857,40.298,0.724,1000
+200,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.167,0.954,0.10716056232060242,40.857,40.298,0.724,1000
+200,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.285,0.945,0.14913852495026345,40.857,40.298,0.724,1000
+200,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.433,0.95,0.20118723425158885,40.857,40.298,0.724,1000
+200,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.63,0.959,0.2493948704843816,40.857,40.298,0.724,1000
+200,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.06,0.939,0.0027163786905494884,68.786,56.101,0.007,1000
+200,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.203,0.95,0.10002679017109074,68.786,56.101,0.007,1000
+200,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.393,0.945,0.15188741076571996,68.786,56.101,0.007,1000
+200,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.643,0.948,0.20433127499523787,68.786,56.101,0.007,1000
+200,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.822,0.937,0.2522316776014816,68.786,56.101,0.007,1000
+200,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.062,0.937,-0.00152382876343383,120.168,79.832,0.0,1000
+200,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.279,0.937,0.0994998818601143,120.168,79.832,0.0,1000
+200,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.57,0.935,0.15248430799417856,120.168,79.832,0.0,1000
+200,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.809,0.953,0.20159379995309332,120.168,79.832,0.0,1000
+200,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.939,0.944,0.24966177272569956,120.168,79.832,0.0,1000
+200,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.066,0.934,-0.0010101639308500148,95.024,104.976,0.0,1000
+200,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.366,0.951,0.1028236658546726,95.024,104.976,0.0,1000
+200,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.629,0.948,0.15172907845185843,95.024,104.976,0.0,1000
+200,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.81,0.943,0.1945319465594564,95.024,104.976,0.0,1000
+200,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.952,0.941,0.25276945098963793,95.024,104.976,0.0,1000
+200,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.0,0.049,0.95,-0.001426751999508161,79.492,40.226,0.445,1000
+200,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.1,0.167,0.961,0.09957669423163043,79.492,40.226,0.445,1000
+200,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.15,0.354,0.946,0.14984003394613868,79.492,40.226,0.445,1000
+200,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.2,0.549,0.954,0.20034459563227944,79.492,40.226,0.445,1000
+200,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.25,0.739,0.95,0.24688476464415787,79.492,40.226,0.445,1000
+200,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.0,0.056,0.944,-0.0009314643373391839,85.474,84.642,0.0,1000
+200,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.1,0.242,0.946,0.09607966632909473,85.474,84.642,0.0,1000
+200,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.15,0.518,0.92,0.1494896055535271,85.474,84.642,0.0,1000
+200,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.2,0.747,0.931,0.19817500001533497,85.474,84.642,0.0,1000
+200,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.25,0.919,0.943,0.24690763326340415,85.474,84.642,0.0,1000
+200,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.07,0.929,-0.0021116385935233094,40.5,40.268,0.736,1000
+200,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.151,0.932,0.09944700731200017,40.5,40.268,0.736,1000
+200,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.281,0.949,0.1478830673875927,40.5,40.268,0.736,1000
+200,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.442,0.939,0.20169702351070354,40.5,40.268,0.736,1000
+200,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.612,0.947,0.24763870015243394,40.5,40.268,0.736,1000
+200,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.061,0.939,-0.004080474762357054,68.798,56.271,0.017,1000
+200,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.233,0.932,0.10272201157643601,68.798,56.271,0.017,1000
+200,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.41,0.928,0.14944728210651778,68.798,56.271,0.017,1000
+200,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.639,0.939,0.19826102209560195,68.798,56.271,0.017,1000
+200,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.795,0.931,0.24567275507066524,68.798,56.271,0.017,1000
+200,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.094,0.906,0.001086659524317609,119.912,80.088,0.0,1000
+200,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.312,0.92,0.10248252207103176,119.912,80.088,0.0,1000
+200,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.537,0.925,0.15034922662924907,119.912,80.088,0.0,1000
+200,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.774,0.939,0.19862539693933254,119.912,80.088,0.0,1000
+200,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.929,0.918,0.24971758998199403,119.912,80.088,0.0,1000
+200,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.075,0.926,0.0007318353884036193,95.157,104.843,0.0,1000
+200,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.341,0.912,0.09753703402747088,95.157,104.843,0.0,1000
+200,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.601,0.917,0.14530226140805136,95.157,104.843,0.0,1000
+200,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.815,0.925,0.19957318848251476,95.157,104.843,0.0,1000
+200,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.927,0.915,0.24280696156156137,95.157,104.843,0.0,1000
+200,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.0,0.053,0.947,-0.0007710647463118092,79.643,40.349,0.439,1000
+200,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.1,0.168,0.946,0.09136735399370034,79.643,40.349,0.439,1000
+200,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.15,0.356,0.952,0.15002088359878032,79.643,40.349,0.439,1000
+200,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.2,0.523,0.946,0.1929743369827758,79.643,40.349,0.439,1000
+200,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.25,0.758,0.947,0.2483134321431694,79.643,40.349,0.439,1000
+200,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.0,0.077,0.922,-0.004434853576965435,84.868,84.765,0.0,1000
+200,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.1,0.273,0.944,0.10151816446670463,84.868,84.765,0.0,1000
+200,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.15,0.497,0.911,0.14653188713004536,84.868,84.765,0.0,1000
+200,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.2,0.739,0.922,0.20324783562249343,84.868,84.765,0.0,1000
+200,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.25,0.901,0.92,0.24498208553549003,84.868,84.765,0.0,1000
+200,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.059,0.94,0.006129850907491562,40.482,40.515,0.731,1000
+200,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.168,0.938,0.09706601252770079,40.482,40.515,0.731,1000
+200,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.271,0.936,0.14827682355445046,40.482,40.515,0.731,1000
+200,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.441,0.949,0.1987200865701032,40.482,40.515,0.731,1000
+200,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.624,0.931,0.25380115756841637,40.482,40.515,0.731,1000
+200,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.056,0.943,0.0022303664091872077,69.907,57.57,0.001,1000
+200,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.204,0.944,0.10324758809252811,69.907,57.57,0.001,1000
+200,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.391,0.946,0.14558803708232085,69.907,57.57,0.001,1000
+200,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.627,0.956,0.19788196280648082,69.907,57.57,0.001,1000
+200,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.815,0.936,0.24878121980606202,69.907,57.57,0.001,1000
+200,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.054,0.946,-0.0016973728536357582,119.821,80.179,0.0,1000
+200,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.298,0.948,0.10010492051220897,119.821,80.179,0.0,1000
+200,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.582,0.945,0.15319378206652198,119.821,80.179,0.0,1000
+200,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.804,0.951,0.1968939153550866,119.821,80.179,0.0,1000
+200,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.947,0.956,0.24812800900397355,119.821,80.179,0.0,1000
+200,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.05,0.952,0.0001608036517813516,99.28,100.72,0.0,1000
+200,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.333,0.957,0.10106861377138103,99.28,100.72,0.0,1000
+200,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.597,0.961,0.14614135269497325,99.28,100.72,0.0,1000
+200,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.851,0.95,0.2036551058774916,99.28,100.72,0.0,1000
+200,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.958,0.947,0.2510640122579498,99.28,100.72,0.0,1000
+200,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.0,0.067,0.932,0.0053900567546330755,80.113,39.927,0.481,1000
+200,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.1,0.183,0.952,0.101732910258147,80.113,39.927,0.481,1000
+200,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.15,0.34,0.936,0.14920459088983085,80.113,39.927,0.481,1000
+200,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.2,0.537,0.942,0.19773256019107902,80.113,39.927,0.481,1000
+200,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.25,0.775,0.937,0.25484876393661154,80.113,39.927,0.481,1000
+200,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.0,0.053,0.947,0.0005594262065266103,85.133,84.905,0.0,1000
+200,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.1,0.268,0.95,0.10121373763238531,85.133,84.905,0.0,1000
+200,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.15,0.499,0.948,0.15110801340347133,85.133,84.905,0.0,1000
+200,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.2,0.751,0.958,0.19925842490838114,85.133,84.905,0.0,1000
+200,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.25,0.912,0.948,0.2462635813348135,85.133,84.905,0.0,1000
+200,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.055,0.945,0.007049031648744887,41.104,41.098,0.682,1000
+200,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.123,0.955,0.09826748666953222,41.104,41.098,0.682,1000
+200,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.268,0.946,0.15185517363400555,41.104,41.098,0.682,1000
+200,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.44,0.962,0.19817656963663807,41.104,41.098,0.682,1000
+200,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.646,0.951,0.2538487108311635,41.104,41.098,0.682,1000
+200,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.039,0.961,0.0029791149463015906,70.167,57.527,0.004,1000
+200,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.177,0.949,0.09653217588788357,70.167,57.527,0.004,1000
+200,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.383,0.948,0.14732424688065174,70.167,57.527,0.004,1000
+200,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.656,0.956,0.2052692011860014,70.167,57.527,0.004,1000
+200,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.829,0.963,0.2482544698832205,70.167,57.527,0.004,1000
+200,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.059,0.941,-0.004442960729904401,119.745,80.255,0.0,1000
+200,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.305,0.946,0.0994129814815751,119.745,80.255,0.0,1000
+200,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.542,0.948,0.14914272582326804,119.745,80.255,0.0,1000
+200,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.803,0.95,0.19883595814528013,119.745,80.255,0.0,1000
+200,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.943,0.951,0.2506365921775004,119.745,80.255,0.0,1000
+200,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.047,0.954,-0.0014852191536228534,99.61,100.39,0.0,1000
+200,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.364,0.95,0.10305628702414381,99.61,100.39,0.0,1000
+200,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.631,0.955,0.1491508402320085,99.61,100.39,0.0,1000
+200,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.859,0.953,0.2030360887631835,99.61,100.39,0.0,1000
+200,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.96,0.941,0.24951132292726305,99.61,100.39,0.0,1000
+200,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.0,0.056,0.944,-0.0004341181968037819,79.797,40.091,0.472,1000
+200,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.1,0.172,0.951,0.09862360561044016,79.797,40.091,0.472,1000
+200,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.15,0.329,0.935,0.1422406646243547,79.797,40.091,0.472,1000
+200,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.2,0.569,0.968,0.2015994989279804,79.797,40.091,0.472,1000
+200,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.25,0.741,0.958,0.2464379335718353,79.797,40.091,0.472,1000
+200,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.0,0.047,0.953,-0.0021725383482378777,85.112,85.146,0.0,1000
+200,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.1,0.265,0.939,0.09997229955276749,85.112,85.146,0.0,1000
+200,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.15,0.506,0.94,0.14975336093969893,85.112,85.146,0.0,1000
+200,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.2,0.766,0.944,0.20171780986133553,85.112,85.146,0.0,1000
+200,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.25,0.926,0.953,0.25121726005620926,85.112,85.146,0.0,1000
+200,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.049,0.951,-0.0006922368045061615,41.184,41.203,0.678,1000
+200,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.157,0.945,0.10177113791854706,41.184,41.203,0.678,1000
+200,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.272,0.946,0.14759069622400173,41.184,41.203,0.678,1000
+200,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.447,0.947,0.20258454296895642,41.184,41.203,0.678,1000
+200,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.613,0.947,0.24968573628833848,41.184,41.203,0.678,1000
+200,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.064,0.936,-0.002945291455347856,70.354,57.511,0.003,1000
+200,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.204,0.949,0.09583606114294445,70.354,57.511,0.003,1000
+200,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.413,0.948,0.1478527946687705,70.354,57.511,0.003,1000
+200,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.626,0.954,0.1990504655735683,70.354,57.511,0.003,1000
+200,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.826,0.951,0.24967645468006028,70.354,57.511,0.003,1000
+200,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.051,0.949,-0.004033513273760792,120.293,79.707,0.0,1000
+200,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.281,0.949,0.09902083314366364,120.293,79.707,0.0,1000
+200,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.525,0.948,0.14574760294360273,120.293,79.707,0.0,1000
+200,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.803,0.951,0.2017610964017517,120.293,79.707,0.0,1000
+200,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.946,0.95,0.24998621086843106,120.293,79.707,0.0,1000
+200,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.054,0.946,0.0010722197152154532,99.456,100.544,0.0,1000
+200,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.362,0.938,0.10252367105015577,99.456,100.544,0.0,1000
+200,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.587,0.944,0.14445498428515724,99.456,100.544,0.0,1000
+200,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.839,0.94,0.2012960045724849,99.456,100.544,0.0,1000
+200,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.944,0.926,0.24610569864139434,99.456,100.544,0.0,1000
+200,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.0,0.045,0.954,-0.0037728864177492823,80.376,39.617,0.518,1000
+200,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.1,0.173,0.954,0.10197674680148011,80.376,39.617,0.518,1000
+200,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.15,0.313,0.949,0.14465265372759012,80.376,39.617,0.518,1000
+200,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.2,0.567,0.942,0.20117077085199178,80.376,39.617,0.518,1000
+200,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.25,0.754,0.944,0.2515491832904166,80.376,39.617,0.518,1000
+200,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.0,0.072,0.928,0.0020694128251723524,85.012,84.934,0.0,1000
+200,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.1,0.282,0.937,0.10435044775992525,85.012,84.934,0.0,1000
+200,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.15,0.516,0.932,0.15039598435621662,85.012,84.934,0.0,1000
+200,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.2,0.761,0.94,0.19877555414303272,85.012,84.934,0.0,1000
+200,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.25,0.908,0.937,0.24623056132611357,85.012,84.934,0.0,1000
+200,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.046,0.953,-0.0060202211636132125,41.294,41.442,0.656,1000
+200,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.148,0.945,0.09948368017281793,41.294,41.442,0.656,1000
+200,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.289,0.942,0.154398888307692,41.294,41.442,0.656,1000
+200,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.458,0.942,0.2021512227242435,41.294,41.442,0.656,1000
+200,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.649,0.934,0.2531452414425921,41.294,41.442,0.656,1000
+200,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.072,0.926,0.00013563102218695167,70.249,57.87,0.011,1000
+200,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.245,0.923,0.10543646570486084,70.249,57.87,0.011,1000
+200,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.393,0.93,0.14774981943574847,70.249,57.87,0.011,1000
+200,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.661,0.931,0.20245901721533865,70.249,57.87,0.011,1000
+200,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.816,0.941,0.24733153052520138,70.249,57.87,0.011,1000
+200,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.09,0.909,-0.00020402741579437207,119.718,80.282,0.0,1000
+200,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.282,0.933,0.09722517066129029,119.718,80.282,0.0,1000
+200,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.546,0.927,0.1530902107218731,119.718,80.282,0.0,1000
+200,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.75,0.924,0.19576394388726143,119.718,80.282,0.0,1000
+200,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.906,0.912,0.24602974791695684,119.718,80.282,0.0,1000
+200,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.066,0.935,0.00044420051233724176,99.136,100.864,0.0,1000
+200,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.369,0.937,0.09897010052129275,99.136,100.864,0.0,1000
+200,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.586,0.912,0.14614530949238974,99.136,100.864,0.0,1000
+200,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.819,0.914,0.1981922564604515,99.136,100.864,0.0,1000
+200,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.941,0.921,0.2483489965263362,99.136,100.864,0.0,1000
+200,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.0,0.057,0.943,-0.003039820872516012,79.272,40.598,0.434,1000
+200,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.1,0.175,0.954,0.1043935096113493,79.272,40.598,0.434,1000
+200,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.15,0.355,0.947,0.15009867865602075,79.272,40.598,0.434,1000
+200,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.2,0.584,0.937,0.20260899733650292,79.272,40.598,0.434,1000
+200,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.25,0.77,0.94,0.25645913584166935,79.272,40.598,0.434,1000
+200,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.0,0.096,0.903,-0.0011804110204525142,84.606,85.557,0.0,1000
+200,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.1,0.292,0.923,0.10229061202084708,84.606,85.557,0.0,1000
+200,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.15,0.539,0.928,0.15364851636273189,84.606,85.557,0.0,1000
+200,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.2,0.746,0.941,0.19554804744082116,84.606,85.557,0.0,1000
+200,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.25,0.903,0.932,0.24416203620563498,84.606,85.557,0.0,1000
+200,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.058,0.94,-0.00012846576718857116,40.914,41.695,0.695,1000
+200,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.17,0.946,0.10400958400989571,40.914,41.695,0.695,1000
+200,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.294,0.938,0.14894542895417834,40.914,41.695,0.695,1000
+200,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.436,0.934,0.20079378031830988,40.914,41.695,0.695,1000
+200,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.636,0.936,0.2542766251440701,40.914,41.695,0.695,1000
+200,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.057,0.942,-0.0029750124776175015,67.99,55.483,0.002,1000
+200,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.196,0.93,0.09776663766493379,67.99,55.483,0.002,1000
+200,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.404,0.944,0.1520849200000586,67.99,55.483,0.002,1000
+200,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.626,0.953,0.20008339202413788,67.99,55.483,0.002,1000
+200,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.838,0.941,0.2521569748496648,67.99,55.483,0.002,1000
+200,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.057,0.943,0.0007857036039453027,119.899,80.101,0.0,1000
+200,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.301,0.931,0.10141658146660938,119.899,80.101,0.0,1000
+200,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.535,0.951,0.14739889475562062,119.899,80.101,0.0,1000
+200,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.801,0.931,0.19971122344760675,119.899,80.101,0.0,1000
+200,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.941,0.949,0.24712705915568312,119.899,80.101,0.0,1000
+200,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.046,0.954,0.000726762254678577,88.94,111.06,0.0,1000
+200,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.326,0.939,0.09807598662366528,88.94,111.06,0.0,1000
+200,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.623,0.944,0.1483975866010246,88.94,111.06,0.0,1000
+200,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.845,0.949,0.19748846961243338,88.94,111.06,0.0,1000
+200,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.961,0.96,0.2513165388789265,88.94,111.06,0.0,1000
+200,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.0,0.053,0.947,-0.0002183266048076109,80.453,39.877,0.492,1000
+200,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.1,0.185,0.952,0.10241027956369837,80.453,39.877,0.492,1000
+200,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.15,0.34,0.938,0.14839335811666152,80.453,39.877,0.492,1000
+200,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.2,0.567,0.95,0.20370582237775448,80.453,39.877,0.492,1000
+200,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.25,0.748,0.943,0.2482398249838218,80.453,39.877,0.492,1000
+200,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.0,0.043,0.957,0.0032278284217843564,85.062,84.992,0.0,1000
+200,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.1,0.258,0.954,0.09735031820876029,85.062,84.992,0.0,1000
+200,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.15,0.485,0.944,0.14647092401602327,85.062,84.992,0.0,1000
+200,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.2,0.752,0.952,0.1991782826971912,85.062,84.992,0.0,1000
+200,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.25,0.911,0.945,0.24746824416462146,85.062,84.992,0.0,1000
+200,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.059,0.938,-0.004007360962382454,39.89,40.11,0.756,1000
+200,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.165,0.949,0.10173798525181506,39.89,40.11,0.756,1000
+200,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.273,0.956,0.1506716194200892,39.89,40.11,0.756,1000
+200,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.439,0.952,0.1998431062072267,39.89,40.11,0.756,1000
+200,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.601,0.932,0.2447755597906054,39.89,40.11,0.756,1000
+200,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.047,0.953,-0.00032207022074305056,68.062,55.352,0.003,1000
+200,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.197,0.946,0.09807247895055891,68.062,55.352,0.003,1000
+200,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.389,0.948,0.15158185276743696,68.062,55.352,0.003,1000
+200,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.607,0.951,0.1967747230326296,68.062,55.352,0.003,1000
+200,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.844,0.963,0.25167329478598316,68.062,55.352,0.003,1000
+200,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.057,0.943,0.004234817362582118,119.976,80.024,0.0,1000
+200,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.285,0.948,0.09764953346353548,119.976,80.024,0.0,1000
+200,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.553,0.946,0.15219955379223943,119.976,80.024,0.0,1000
+200,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.801,0.938,0.20117978406307438,119.976,80.024,0.0,1000
+200,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.944,0.948,0.2523857739356457,119.976,80.024,0.0,1000
+200,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.051,0.95,3.0265965632629066e-05,89.502,110.498,0.0,1000
+200,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.327,0.939,0.09925348231825268,89.502,110.498,0.0,1000
+200,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.592,0.938,0.1482356675232082,89.502,110.498,0.0,1000
+200,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.837,0.963,0.19731686514027047,89.502,110.498,0.0,1000
+200,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.96,0.948,0.24978704573422164,89.502,110.498,0.0,1000
+200,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.0,0.044,0.956,0.0011133279826860978,79.963,40.088,0.451,1000
+200,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.1,0.187,0.948,0.1059099801330652,79.963,40.088,0.451,1000
+200,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.15,0.332,0.955,0.14403055588412594,79.963,40.088,0.451,1000
+200,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.2,0.568,0.94,0.1998989074467933,79.963,40.088,0.451,1000
+200,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.25,0.755,0.937,0.24990967243434256,79.963,40.088,0.451,1000
+200,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.0,0.051,0.949,0.0015717875779825172,85.078,84.966,0.0,1000
+200,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.1,0.26,0.947,0.09976194264907187,85.078,84.966,0.0,1000
+200,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.15,0.539,0.954,0.15291786563751678,85.078,84.966,0.0,1000
+200,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.2,0.767,0.955,0.199910800568834,85.078,84.966,0.0,1000
+200,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.25,0.914,0.941,0.2494651792613028,85.078,84.966,0.0,1000
+200,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.051,0.948,-0.004282353639606476,39.996,40.043,0.765,1000
+200,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.143,0.946,0.1046806463816888,39.996,40.043,0.765,1000
+200,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.279,0.94,0.15070892356821047,39.996,40.043,0.765,1000
+200,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.446,0.937,0.2008578709527617,39.996,40.043,0.765,1000
+200,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.603,0.956,0.24658804759054212,39.996,40.043,0.765,1000
+200,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.056,0.942,0.0011026939006123968,68.015,55.643,0.005,1000
+200,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.197,0.941,0.09935774876105424,68.015,55.643,0.005,1000
+200,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.391,0.941,0.1495438829315584,68.015,55.643,0.005,1000
+200,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.65,0.939,0.20617084677775563,68.015,55.643,0.005,1000
+200,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.823,0.95,0.25136524894525725,68.015,55.643,0.005,1000
+200,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.051,0.948,-0.002779548844373607,119.9,80.1,0.0,1000
+200,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.288,0.94,0.09988498025186447,119.9,80.1,0.0,1000
+200,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.54,0.928,0.14808249646374438,119.9,80.1,0.0,1000
+200,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.792,0.938,0.19937878935068024,119.9,80.1,0.0,1000
+200,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.946,0.951,0.25141883249582736,119.9,80.1,0.0,1000
+200,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.04,0.961,0.0025420657999394125,88.716,111.284,0.0,1000
+200,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.331,0.948,0.09991999017315965,88.716,111.284,0.0,1000
+200,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.582,0.952,0.1451731892655745,88.716,111.284,0.0,1000
+200,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.84,0.935,0.20176770156388277,88.716,111.284,0.0,1000
+200,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.952,0.942,0.2510281289840385,88.716,111.284,0.0,1000
+200,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.0,0.043,0.957,-0.0054837951840067765,80.338,39.833,0.467,1000
+200,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.1,0.21,0.948,0.10756734929224632,80.338,39.833,0.467,1000
+200,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.15,0.344,0.948,0.1507712825754028,80.338,39.833,0.467,1000
+200,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.2,0.557,0.956,0.19925917805216312,80.338,39.833,0.467,1000
+200,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.25,0.756,0.961,0.2515634310534454,80.338,39.833,0.467,1000
+200,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.0,0.047,0.953,0.0010050212139646496,84.972,84.919,0.0,1000
+200,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.1,0.249,0.942,0.09916513756484661,84.972,84.919,0.0,1000
+200,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.15,0.497,0.947,0.14929901997576214,84.972,84.919,0.0,1000
+200,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.2,0.749,0.942,0.19564710514738937,84.972,84.919,0.0,1000
+200,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.25,0.919,0.936,0.25403057312386484,84.972,84.919,0.0,1000
+200,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.051,0.948,-0.006606534578327907,39.85,40.178,0.765,1000
+200,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.163,0.946,0.10184934520361347,39.85,40.178,0.765,1000
+200,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.283,0.947,0.14740609576299607,39.85,40.178,0.765,1000
+200,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.473,0.937,0.20571570692301452,39.85,40.178,0.765,1000
+200,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.613,0.942,0.25350172439039204,39.85,40.178,0.765,1000
+200,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.075,0.923,-0.00047799307644448086,68.17,55.877,0.013,1000
+200,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.215,0.915,0.10254546054132412,68.17,55.877,0.013,1000
+200,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.409,0.933,0.15182269437524873,68.17,55.877,0.013,1000
+200,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.61,0.936,0.1991879473443618,68.17,55.877,0.013,1000
+200,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.792,0.921,0.24138376139013978,68.17,55.877,0.013,1000
+200,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.072,0.928,-0.0009136973793271463,119.884,80.116,0.0,1000
+200,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.288,0.93,0.095614388127204,119.884,80.116,0.0,1000
+200,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.545,0.903,0.14662626933957706,119.884,80.116,0.0,1000
+200,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.79,0.918,0.20088886417630208,119.884,80.116,0.0,1000
+200,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.932,0.938,0.2504163772307803,119.884,80.116,0.0,1000
+200,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.083,0.919,-0.002043111981013072,89.233,110.767,0.0,1000
+200,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.333,0.925,0.09677130803755336,89.233,110.767,0.0,1000
+200,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.586,0.923,0.14537124010575633,89.233,110.767,0.0,1000
+200,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.825,0.929,0.19592465038166845,89.233,110.767,0.0,1000
+200,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.938,0.926,0.2446446545138174,89.233,110.767,0.0,1000
+200,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.0,0.049,0.951,-0.0019919303931475348,80.027,39.849,0.48,1000
+200,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.1,0.18,0.95,0.10351229280371571,80.027,39.849,0.48,1000
+200,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.15,0.352,0.945,0.1489722122166944,80.027,39.849,0.48,1000
+200,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.2,0.541,0.952,0.19787860126490722,80.027,39.849,0.48,1000
+200,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.25,0.76,0.936,0.25251195131066095,80.027,39.849,0.48,1000
+200,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.0,0.078,0.92,-0.0005080832254542909,84.726,85.24,0.0,1000
+200,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.1,0.26,0.917,0.09924824724069015,84.726,85.24,0.0,1000
+200,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.15,0.505,0.917,0.15383421327336327,84.726,85.24,0.0,1000
+200,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.2,0.762,0.922,0.20353695681768544,84.726,85.24,0.0,1000
+200,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.25,0.899,0.925,0.24887711389894804,84.726,85.24,0.0,1000
+200,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.067,0.934,0.0037302955589691537,40.008,40.093,0.763,1000
+200,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.135,0.942,0.09189279289809021,40.008,40.093,0.763,1000
+200,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.28,0.942,0.15295873807215396,40.008,40.093,0.763,1000
+200,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.43,0.948,0.1972027690728595,40.008,40.093,0.763,1000
+200,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.625,0.939,0.2527823737158777,40.008,40.093,0.763,1000
+400,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.053,0.947,-0.00327668240551525,137.484,111.987,0.0,1000
+400,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.364,0.954,0.10249387958536949,137.484,111.987,0.0,1000
+400,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.668,0.952,0.15019696006568573,137.484,111.987,0.0,1000
+400,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.901,0.95,0.19941435112105907,137.484,111.987,0.0,1000
+400,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.981,0.946,0.25083406683013537,137.484,111.987,0.0,1000
+400,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.046,0.954,0.0007263889789104163,239.476,160.524,0.0,1000
+400,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.493,0.942,0.09899448877345401,239.476,160.524,0.0,1000
+400,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.847,0.956,0.14969887866014134,239.476,160.524,0.0,1000
+400,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.975,0.945,0.1997554101760341,239.476,160.524,0.0,1000
+400,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.999,0.95,0.25259689014092307,239.476,160.524,0.0,1000
+400,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.053,0.948,-0.0020705556069801024,189.356,210.644,0.0,1000
+400,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.565,0.952,0.09965305627466123,189.356,210.644,0.0,1000
+400,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.897,0.952,0.1493318377906888,189.356,210.644,0.0,1000
+400,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.984,0.946,0.1990887546988565,189.356,210.644,0.0,1000
+400,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.999,0.947,0.2498614539181908,189.356,210.644,0.0,1000
+400,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.0,0.046,0.954,0.0010658784565653748,160.574,79.593,0.0,1000
+400,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.1,0.31,0.946,0.09681252372964937,160.574,79.593,0.0,1000
+400,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.15,0.597,0.94,0.1512546351572126,160.574,79.593,0.0,1000
+400,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.2,0.839,0.943,0.19857528451703763,160.574,79.593,0.0,1000
+400,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.25,0.953,0.94,0.25235540570229903,160.574,79.593,0.0,1000
+400,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.0,0.048,0.951,0.00028654142910067596,170.012,169.815,0.0,1000
+400,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.1,0.433,0.961,0.09725195075845551,170.012,169.815,0.0,1000
+400,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.15,0.807,0.949,0.1513380040891929,170.012,169.815,0.0,1000
+400,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.2,0.97,0.953,0.20014620023139654,170.012,169.815,0.0,1000
+400,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.25,0.998,0.955,0.24726255675605643,170.012,169.815,0.0,1000
+400,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.056,0.944,-0.002580162205429912,80.629,81.041,0.0,1000
+400,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.227,0.966,0.09596327149186662,80.629,81.041,0.0,1000
+400,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.498,0.952,0.1548253234024768,80.629,81.041,0.0,1000
+400,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.732,0.945,0.20032420359717187,80.629,81.041,0.0,1000
+400,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.907,0.961,0.25032192027417466,80.629,81.041,0.0,1000
+400,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.055,0.945,-0.002911051080112021,137.163,112.325,0.0,1000
+400,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.353,0.929,0.09997963388276654,137.163,112.325,0.0,1000
+400,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.643,0.958,0.14732054982005965,137.163,112.325,0.0,1000
+400,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.91,0.948,0.20248967092275655,137.163,112.325,0.0,1000
+400,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.983,0.945,0.2483652574081722,137.163,112.325,0.0,1000
+400,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.052,0.948,-0.0036687231172147176,239.299,160.701,0.0,1000
+400,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.473,0.943,0.09618749594385165,239.299,160.701,0.0,1000
+400,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.85,0.952,0.15063610057958288,239.299,160.701,0.0,1000
+400,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.972,0.943,0.1986498427727817,239.299,160.701,0.0,1000
+400,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.998,0.956,0.2503409544752282,239.299,160.701,0.0,1000
+400,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.061,0.939,-0.0009349042788164365,189.947,210.053,0.0,1000
+400,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.592,0.942,0.10136202964315094,189.947,210.053,0.0,1000
+400,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.898,0.948,0.14926864393463204,189.947,210.053,0.0,1000
+400,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.995,0.951,0.20214341458490642,189.947,210.053,0.0,1000
+400,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.999,0.942,0.24956798034268066,189.947,210.053,0.0,1000
+400,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.0,0.064,0.936,-0.0006441320255749183,160.516,79.954,0.0,1000
+400,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.1,0.305,0.949,0.10027838893919694,160.516,79.954,0.0,1000
+400,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.15,0.581,0.95,0.1503278248696979,160.516,79.954,0.0,1000
+400,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.2,0.836,0.945,0.20045947694189958,160.516,79.954,0.0,1000
+400,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.25,0.96,0.942,0.2490582294096563,160.516,79.954,0.0,1000
+400,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.0,0.05,0.95,0.001936969915933315,169.787,170.068,0.0,1000
+400,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.1,0.468,0.948,0.10130771628730778,169.787,170.068,0.0,1000
+400,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.15,0.819,0.945,0.15280480213402217,169.787,170.068,0.0,1000
+400,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.2,0.964,0.954,0.2005110822452295,169.787,170.068,0.0,1000
+400,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.25,0.999,0.949,0.25168553278198236,169.787,170.068,0.0,1000
+400,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.041,0.959,-0.003424150433506997,80.645,80.676,0.0,1000
+400,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.257,0.95,0.10022262226834167,80.645,80.676,0.0,1000
+400,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.481,0.935,0.14963518795106803,80.645,80.676,0.0,1000
+400,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.732,0.938,0.198936237575483,80.645,80.676,0.0,1000
+400,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.885,0.946,0.2502914026255567,80.645,80.676,0.0,1000
+400,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.069,0.93,0.0008461589450733886,137.065,112.518,0.0,1000
+400,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.346,0.935,0.09760872941437712,137.065,112.518,0.0,1000
+400,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.677,0.944,0.15104397038865014,137.065,112.518,0.0,1000
+400,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.892,0.952,0.198702394398253,137.065,112.518,0.0,1000
+400,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.985,0.943,0.24871945178870117,137.065,112.518,0.0,1000
+400,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.051,0.949,-0.0009240302498434093,240.025,159.975,0.0,1000
+400,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.506,0.934,0.10307686759954715,240.025,159.975,0.0,1000
+400,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.816,0.941,0.1487501037239719,240.025,159.975,0.0,1000
+400,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.971,0.934,0.20065067719328622,240.025,159.975,0.0,1000
+400,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.998,0.945,0.2512072429462809,240.025,159.975,0.0,1000
+400,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.06,0.94,0.0022605041104703776,189.444,210.556,0.0,1000
+400,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.571,0.942,0.09836066722320828,189.444,210.556,0.0,1000
+400,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.877,0.93,0.15111558702962763,189.444,210.556,0.0,1000
+400,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.985,0.946,0.19815702496360632,189.444,210.556,0.0,1000
+400,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.999,0.924,0.24881039781041778,189.444,210.556,0.0,1000
+400,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.0,0.043,0.957,-0.001450081886897863,159.441,80.244,0.0,1000
+400,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.1,0.318,0.943,0.10199586393512325,159.441,80.244,0.0,1000
+400,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.15,0.563,0.952,0.14642712195262064,159.441,80.244,0.0,1000
+400,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.2,0.847,0.957,0.19828147657903583,159.441,80.244,0.0,1000
+400,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.25,0.966,0.955,0.2495413950278388,159.441,80.244,0.0,1000
+400,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.0,0.058,0.942,-0.0023489427484161976,170.146,169.88,0.0,1000
+400,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.1,0.472,0.93,0.10049015674661806,170.146,169.88,0.0,1000
+400,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.15,0.808,0.937,0.15249664732138643,170.146,169.88,0.0,1000
+400,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.2,0.966,0.944,0.2014980137336207,170.146,169.88,0.0,1000
+400,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.25,0.996,0.929,0.25219994916994165,170.146,169.88,0.0,1000
+400,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.052,0.948,-0.0013513885281116057,80.911,80.485,0.0,1000
+400,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.28,0.949,0.10176571954716479,80.911,80.485,0.0,1000
+400,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.48,0.948,0.15126939564230749,80.911,80.485,0.0,1000
+400,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.719,0.944,0.2004464780765183,80.911,80.485,0.0,1000
+400,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.902,0.96,0.2539024819873976,80.911,80.485,0.0,1000
+400,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.094,0.906,-0.0034948954963916258,137.962,113.193,0.0,1000
+400,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.369,0.923,0.1004261576459402,137.962,113.193,0.0,1000
+400,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.65,0.907,0.1491143681122346,137.962,113.193,0.0,1000
+400,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.868,0.925,0.2005581703400366,137.962,113.193,0.0,1000
+400,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.966,0.913,0.24919804730663214,137.962,113.193,0.0,1000
+400,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.096,0.904,-0.002218435059177555,240.321,159.679,0.0,1000
+400,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.497,0.893,0.09841534149131159,240.321,159.679,0.0,1000
+400,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.798,0.898,0.15055162476498174,240.321,159.679,0.0,1000
+400,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.963,0.9,0.20231437855345888,240.321,159.679,0.0,1000
+400,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.989,0.906,0.2471758102896549,240.321,159.679,0.0,1000
+400,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.095,0.905,-5.483302917342536e-05,190.069,209.931,0.0,1000
+400,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.578,0.897,0.10070640222442555,190.069,209.931,0.0,1000
+400,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.863,0.911,0.14952757786339668,190.069,209.931,0.0,1000
+400,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.965,0.884,0.19746766548692465,190.069,209.931,0.0,1000
+400,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.994,0.879,0.24764218765682153,190.069,209.931,0.0,1000
+400,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.0,0.056,0.943,-0.0030157674145756203,159.846,80.011,0.0,1000
+400,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.1,0.304,0.95,0.0993495632447834,159.846,80.011,0.0,1000
+400,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.15,0.614,0.946,0.15069965310439273,159.846,80.011,0.0,1000
+400,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.2,0.836,0.952,0.19856964219624146,159.846,80.011,0.0,1000
+400,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.25,0.959,0.956,0.24978761618311257,159.846,80.011,0.0,1000
+400,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.0,0.087,0.913,0.0033548030786147653,170.324,170.11,0.0,1000
+400,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.1,0.457,0.918,0.09726445356978893,170.324,170.11,0.0,1000
+400,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.15,0.775,0.899,0.14940104528794537,170.324,170.11,0.0,1000
+400,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.2,0.944,0.895,0.1999392434354101,170.324,170.11,0.0,1000
+400,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.25,0.986,0.895,0.2438870721942667,170.324,170.11,0.0,1000
+400,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.076,0.924,-0.0003900317338039292,81.06,81.079,0.0,1000
+400,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.251,0.932,0.09841519974969876,81.06,81.079,0.0,1000
+400,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.441,0.92,0.14576242845216358,81.06,81.079,0.0,1000
+400,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.707,0.926,0.19938941482891773,81.06,81.079,0.0,1000
+400,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.869,0.939,0.24981378456029565,81.06,81.079,0.0,1000
+400,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.04,0.96,0.0035551906541036694,140.336,115.01,0.0,1000
+400,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.344,0.955,0.09933086144132397,140.336,115.01,0.0,1000
+400,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.666,0.948,0.1515830408649145,140.336,115.01,0.0,1000
+400,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.903,0.942,0.19653330791616377,140.336,115.01,0.0,1000
+400,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.996,0.962,0.25368193374715164,140.336,115.01,0.0,1000
+400,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.059,0.941,-0.0015705154143553386,239.98,160.02,0.0,1000
+400,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.53,0.953,0.10208829693650683,239.98,160.02,0.0,1000
+400,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.839,0.947,0.1486045746799493,239.98,160.02,0.0,1000
+400,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.976,0.959,0.19828160484091284,239.98,160.02,0.0,1000
+400,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.996,0.944,0.24816276503272514,239.98,160.02,0.0,1000
+400,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.055,0.945,0.00011539182727407605,199.196,200.804,0.0,1000
+400,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.595,0.955,0.10089914805119234,199.196,200.804,0.0,1000
+400,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.892,0.956,0.14740772796626697,199.196,200.804,0.0,1000
+400,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.989,0.95,0.2003856140018147,199.196,200.804,0.0,1000
+400,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.949,0.2506443241623865,199.196,200.804,0.0,1000
+400,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.0,0.035,0.965,-0.0030122469485996664,160.185,79.815,0.0,1000
+400,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.1,0.313,0.949,0.10349488424325495,160.185,79.815,0.0,1000
+400,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.15,0.59,0.942,0.14773933540514617,160.185,79.815,0.0,1000
+400,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.2,0.837,0.954,0.19641530764645374,160.185,79.815,0.0,1000
+400,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.25,0.959,0.935,0.25078719883727474,160.185,79.815,0.0,1000
+400,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.0,0.056,0.944,0.0008018705009057916,170.173,170.138,0.0,1000
+400,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.1,0.463,0.951,0.09949785579916087,170.173,170.138,0.0,1000
+400,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.15,0.793,0.962,0.14793809635726826,170.173,170.138,0.0,1000
+400,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.2,0.978,0.966,0.1987703446561923,170.173,170.138,0.0,1000
+400,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.25,0.999,0.954,0.2484854245398532,170.173,170.138,0.0,1000
+400,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.046,0.954,-0.0006269341543482743,82.612,82.312,0.0,1000
+400,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.26,0.951,0.10026972504386095,82.612,82.312,0.0,1000
+400,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.496,0.94,0.15118451835765945,82.612,82.312,0.0,1000
+400,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.748,0.944,0.20405871580732063,82.612,82.312,0.0,1000
+400,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.896,0.943,0.25179318707358694,82.612,82.312,0.0,1000
+400,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.054,0.946,-0.0019135576705003406,140.081,114.111,0.0,1000
+400,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.389,0.949,0.10271141909583056,140.081,114.111,0.0,1000
+400,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.645,0.954,0.14644937906057137,140.081,114.111,0.0,1000
+400,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.894,0.954,0.1998752151609845,140.081,114.111,0.0,1000
+400,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.991,0.968,0.2489350721402385,140.081,114.111,0.0,1000
+400,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.054,0.945,-0.0007512005984137064,239.784,160.216,0.0,1000
+400,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.496,0.94,0.09914397847778172,239.784,160.216,0.0,1000
+400,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.854,0.96,0.1504626405633541,239.784,160.216,0.0,1000
+400,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.978,0.955,0.20110384799501277,239.784,160.216,0.0,1000
+400,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.999,0.935,0.24872374630771288,239.784,160.216,0.0,1000
+400,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.05,0.95,-0.0021538113078251224,199.215,200.785,0.0,1000
+400,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.576,0.949,0.09920374662518239,199.215,200.785,0.0,1000
+400,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.89,0.947,0.14886210875256123,199.215,200.785,0.0,1000
+400,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.985,0.949,0.20096690897105662,199.215,200.785,0.0,1000
+400,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.999,0.951,0.24705437562128102,199.215,200.785,0.0,1000
+400,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.0,0.059,0.94,2.9092820934323137e-05,159.634,80.052,0.0,1000
+400,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.1,0.318,0.946,0.09950229455821918,159.634,80.052,0.0,1000
+400,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.15,0.594,0.937,0.14959702229356542,159.634,80.052,0.0,1000
+400,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.2,0.854,0.952,0.20203550737077872,159.634,80.052,0.0,1000
+400,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.25,0.957,0.946,0.2500589777416343,159.634,80.052,0.0,1000
+400,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.0,0.047,0.952,-0.0006623349776280413,169.47,170.106,0.0,1000
+400,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.1,0.449,0.934,0.09819762487855722,169.47,170.106,0.0,1000
+400,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.15,0.793,0.945,0.15069381441631208,169.47,170.106,0.0,1000
+400,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.2,0.971,0.959,0.19871799682821825,169.47,170.106,0.0,1000
+400,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.25,0.998,0.947,0.25166375972546906,169.47,170.106,0.0,1000
+400,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.044,0.956,0.003032942263348468,82.225,82.784,0.0,1000
+400,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.247,0.952,0.09889788518741804,82.225,82.784,0.0,1000
+400,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.482,0.945,0.14824479774258748,82.225,82.784,0.0,1000
+400,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.73,0.933,0.20289385365555335,82.225,82.784,0.0,1000
+400,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.904,0.948,0.2533687530788175,82.225,82.784,0.0,1000
+400,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.049,0.95,-0.0004475449716830133,140.536,114.866,0.0,1000
+400,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.353,0.951,0.09810832411719754,140.536,114.866,0.0,1000
+400,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.686,0.939,0.1521552416575595,140.536,114.866,0.0,1000
+400,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.88,0.929,0.19937334857541109,140.536,114.866,0.0,1000
+400,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.978,0.942,0.2509089506265988,140.536,114.866,0.0,1000
+400,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.073,0.927,-0.0004683549058339518,239.601,160.399,0.0,1000
+400,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.469,0.939,0.09801514455354086,239.601,160.399,0.0,1000
+400,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.845,0.936,0.1498736644611198,239.601,160.399,0.0,1000
+400,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.973,0.936,0.20148427519533882,239.601,160.399,0.0,1000
+400,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.997,0.939,0.24786517510459924,239.601,160.399,0.0,1000
+400,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.062,0.938,0.0008145569811511088,199.172,200.828,0.0,1000
+400,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.574,0.938,0.0996206567369562,199.172,200.828,0.0,1000
+400,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.873,0.935,0.14776355551114573,199.172,200.828,0.0,1000
+400,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.99,0.943,0.20177819556910548,199.172,200.828,0.0,1000
+400,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.937,0.24603956931540036,199.172,200.828,0.0,1000
+400,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.0,0.046,0.953,-0.0008553804599696963,159.834,80.01,0.0,1000
+400,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.1,0.325,0.952,0.10170453925488365,159.834,80.01,0.0,1000
+400,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.15,0.607,0.94,0.1528622319752518,159.834,80.01,0.0,1000
+400,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.2,0.847,0.945,0.19828720284217946,159.834,80.01,0.0,1000
+400,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.25,0.968,0.965,0.2490474354175604,159.834,80.01,0.0,1000
+400,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.0,0.072,0.927,-0.0024581244029289067,170.57,169.426,0.0,1000
+400,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.1,0.458,0.93,0.10014438638996653,170.57,169.426,0.0,1000
+400,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.15,0.782,0.937,0.1495313954671762,170.57,169.426,0.0,1000
+400,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.2,0.953,0.933,0.197715861676131,170.57,169.426,0.0,1000
+400,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.25,0.997,0.934,0.25256398511733874,170.57,169.426,0.0,1000
+400,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.052,0.948,0.0002363139489224164,82.466,82.878,0.0,1000
+400,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.258,0.943,0.10315756422335305,82.466,82.878,0.0,1000
+400,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.478,0.962,0.15051356664892468,82.466,82.878,0.0,1000
+400,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.745,0.963,0.20178037401453447,82.466,82.878,0.0,1000
+400,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.901,0.946,0.25094593260421943,82.466,82.878,0.0,1000
+400,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.102,0.896,-0.001885982840512225,140.662,116.308,0.0,1000
+400,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.385,0.921,0.10014517893232654,140.662,116.308,0.0,1000
+400,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.631,0.916,0.14306321386275817,140.662,116.308,0.0,1000
+400,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.869,0.91,0.19618688645425936,140.662,116.308,0.0,1000
+400,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.962,0.893,0.2467120091388751,140.662,116.308,0.0,1000
+400,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.11,0.89,-0.00018052931556030572,239.935,160.065,0.0,1000
+400,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.495,0.889,0.0986531146196308,239.935,160.065,0.0,1000
+400,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.809,0.908,0.14738727177644187,239.935,160.065,0.0,1000
+400,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.959,0.908,0.1982291957393338,239.935,160.065,0.0,1000
+400,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.998,0.911,0.24895598021384294,239.935,160.065,0.0,1000
+400,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.095,0.905,-0.0031024842599707966,199.312,200.688,0.0,1000
+400,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.559,0.892,0.09933298238646125,199.312,200.688,0.0,1000
+400,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.865,0.906,0.1502490905643431,199.312,200.688,0.0,1000
+400,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.957,0.891,0.19444370811438866,199.312,200.688,0.0,1000
+400,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.997,0.9,0.24674899960387642,199.312,200.688,0.0,1000
+400,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.0,0.056,0.944,0.0017778421298788132,159.798,79.789,0.0,1000
+400,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.1,0.3,0.949,0.09743546980026073,159.798,79.789,0.0,1000
+400,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.15,0.618,0.947,0.15130533863429452,159.798,79.789,0.0,1000
+400,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.2,0.847,0.958,0.1993359427740174,159.798,79.789,0.0,1000
+400,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.25,0.964,0.942,0.24837254981489293,159.798,79.789,0.0,1000
+400,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.0,0.092,0.908,-0.0003475093677314235,169.87,170.084,0.0,1000
+400,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.1,0.496,0.899,0.10415326643929208,169.87,170.084,0.0,1000
+400,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.15,0.741,0.908,0.14787262116620628,169.87,170.084,0.0,1000
+400,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.2,0.934,0.888,0.19938918110722345,169.87,170.084,0.0,1000
+400,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.25,0.99,0.892,0.24830818014251008,169.87,170.084,0.0,1000
+400,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.077,0.923,-0.005518385037723322,82.85,82.659,0.0,1000
+400,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.274,0.935,0.09875959965882534,82.85,82.659,0.0,1000
+400,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.482,0.928,0.1481192445608123,82.85,82.659,0.0,1000
+400,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.737,0.935,0.20286973234236336,82.85,82.659,0.0,1000
+400,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.885,0.926,0.24969860271919597,82.85,82.659,0.0,1000
+400,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.042,0.958,-0.0007002528120273472,135.936,111.35,0.0,1000
+400,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.336,0.953,0.09856622482946142,135.936,111.35,0.0,1000
+400,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.652,0.936,0.14876321040463733,135.936,111.35,0.0,1000
+400,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.886,0.945,0.20212656544732693,135.936,111.35,0.0,1000
+400,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.987,0.96,0.25182186922379046,135.936,111.35,0.0,1000
+400,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.046,0.954,-0.003157529314077917,240.213,159.787,0.0,1000
+400,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.494,0.945,0.10020101466183902,240.213,159.787,0.0,1000
+400,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.848,0.959,0.14913512169684373,240.213,159.787,0.0,1000
+400,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.979,0.957,0.20168488457084147,240.213,159.787,0.0,1000
+400,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.953,0.2496055695635302,240.213,159.787,0.0,1000
+400,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.041,0.96,0.0011197963498711014,177.511,222.489,0.0,1000
+400,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.568,0.939,0.09934896879220756,177.511,222.489,0.0,1000
+400,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.899,0.964,0.14851156990577266,177.511,222.489,0.0,1000
+400,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.99,0.943,0.1981170711750171,177.511,222.489,0.0,1000
+400,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.958,0.24960274461501664,177.511,222.489,0.0,1000
+400,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.0,0.052,0.946,0.002051091061457626,159.97,79.795,0.0,1000
+400,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.1,0.309,0.936,0.10031842417951324,159.97,79.795,0.0,1000
+400,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.15,0.61,0.931,0.15249339867767178,159.97,79.795,0.0,1000
+400,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.2,0.837,0.936,0.2026964224125607,159.97,79.795,0.0,1000
+400,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.25,0.965,0.941,0.2526558407019322,159.97,79.795,0.0,1000
+400,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.0,0.051,0.949,-0.0027221648778408673,170.281,170.059,0.0,1000
+400,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.1,0.433,0.958,0.09669918276138856,170.281,170.059,0.0,1000
+400,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.15,0.816,0.94,0.15238437761656054,170.281,170.059,0.0,1000
+400,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.2,0.968,0.955,0.20016320372797436,170.281,170.059,0.0,1000
+400,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.25,0.998,0.949,0.2494837194871431,170.281,170.059,0.0,1000
+400,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.055,0.945,0.0017207637648950463,80.04,79.792,0.0,1000
+400,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.248,0.942,0.09842277465432539,80.04,79.792,0.0,1000
+400,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.469,0.956,0.14774265984276508,80.04,79.792,0.0,1000
+400,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.724,0.954,0.19926812694427598,80.04,79.792,0.0,1000
+400,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.88,0.94,0.2484683664419419,80.04,79.792,0.0,1000
+400,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.05,0.95,-0.0027633147460327167,135.361,111.26,0.0,1000
+400,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.337,0.951,0.09954033431943857,135.361,111.26,0.0,1000
+400,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.679,0.956,0.1518898194568537,135.361,111.26,0.0,1000
+400,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.896,0.948,0.1994005734354051,135.361,111.26,0.0,1000
+400,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.978,0.943,0.25376795530283663,135.361,111.26,0.0,1000
+400,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.055,0.945,0.001004045199182007,240.618,159.382,0.0,1000
+400,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.488,0.945,0.09774935736542302,240.618,159.382,0.0,1000
+400,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.843,0.949,0.15112560565937896,240.618,159.382,0.0,1000
+400,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.964,0.936,0.19923241523903498,240.618,159.382,0.0,1000
+400,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.999,0.939,0.2515376656050488,240.618,159.382,0.0,1000
+400,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.061,0.939,-0.0008574666436827002,178.128,221.872,0.0,1000
+400,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.623,0.952,0.1037106333304886,178.128,221.872,0.0,1000
+400,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.896,0.956,0.14911448702404123,178.128,221.872,0.0,1000
+400,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.995,0.948,0.20167517887845804,178.128,221.872,0.0,1000
+400,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.948,0.2508453651453315,178.128,221.872,0.0,1000
+400,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.0,0.044,0.956,0.0013488077728750615,159.454,79.671,0.0,1000
+400,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.1,0.31,0.954,0.09939962844575459,159.454,79.671,0.0,1000
+400,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.15,0.607,0.952,0.15146731316140524,159.454,79.671,0.0,1000
+400,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.2,0.822,0.948,0.19595924102474402,159.454,79.671,0.0,1000
+400,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.25,0.963,0.95,0.25108800835077333,159.454,79.671,0.0,1000
+400,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.0,0.063,0.937,0.0024719742748644494,169.541,170.161,0.0,1000
+400,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.1,0.456,0.939,0.09921713886559905,169.541,170.161,0.0,1000
+400,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.15,0.799,0.937,0.14978154953513642,169.541,170.161,0.0,1000
+400,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.2,0.98,0.97,0.20011907844361038,169.541,170.161,0.0,1000
+400,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.25,0.999,0.949,0.24964798876593194,169.541,170.161,0.0,1000
+400,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.059,0.941,0.0038598218353741096,79.3,80.024,0.0,1000
+400,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.236,0.939,0.09827695156079112,79.3,80.024,0.0,1000
+400,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.462,0.954,0.14934356069844285,79.3,80.024,0.0,1000
+400,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.73,0.953,0.19889122755360156,79.3,80.024,0.0,1000
+400,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.882,0.948,0.2457348222509217,79.3,80.024,0.0,1000
+400,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.052,0.948,-0.0034172958618116983,136.123,110.663,0.0,1000
+400,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.332,0.939,0.09683148117924345,136.123,110.663,0.0,1000
+400,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.627,0.933,0.14611982707950327,136.123,110.663,0.0,1000
+400,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.893,0.937,0.19818122266062338,136.123,110.663,0.0,1000
+400,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.972,0.941,0.24315742764619427,136.123,110.663,0.0,1000
+400,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.057,0.942,-0.0005018970142421752,240.335,159.665,0.0,1000
+400,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.474,0.939,0.09657676027235004,240.335,159.665,0.0,1000
+400,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.816,0.948,0.1483541451578547,240.335,159.665,0.0,1000
+400,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.976,0.946,0.20151631230623854,240.335,159.665,0.0,1000
+400,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.996,0.927,0.2508106416786691,240.335,159.665,0.0,1000
+400,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.054,0.947,0.0022961359614816572,177.928,222.072,0.0,1000
+400,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.609,0.942,0.10245457489239465,177.928,222.072,0.0,1000
+400,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.874,0.937,0.149666689070313,177.928,222.072,0.0,1000
+400,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.982,0.919,0.19907470557463677,177.928,222.072,0.0,1000
+400,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.998,0.93,0.2476765930641048,177.928,222.072,0.0,1000
+400,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.0,0.049,0.951,-0.001861385364788432,160.021,80.416,0.0,1000
+400,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.1,0.321,0.955,0.10144179536208321,160.021,80.416,0.0,1000
+400,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.15,0.588,0.947,0.1477272125966129,160.021,80.416,0.0,1000
+400,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.2,0.821,0.946,0.1959356141158593,160.021,80.416,0.0,1000
+400,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.25,0.957,0.952,0.24888088373904768,160.021,80.416,0.0,1000
+400,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.0,0.053,0.947,-0.002583209864551453,169.853,170.134,0.0,1000
+400,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.1,0.469,0.924,0.10228787181888846,169.853,170.134,0.0,1000
+400,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.15,0.765,0.938,0.14885217284123467,169.853,170.134,0.0,1000
+400,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.2,0.958,0.939,0.19649434906210647,169.853,170.134,0.0,1000
+400,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.25,0.996,0.94,0.2519699702189628,169.853,170.134,0.0,1000
+400,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.056,0.944,-0.0030848610951926796,80.306,79.841,0.0,1000
+400,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.249,0.949,0.09966817650712767,80.306,79.841,0.0,1000
+400,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.5,0.944,0.15228432581985082,80.306,79.841,0.0,1000
+400,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.69,0.933,0.19694304549575437,80.306,79.841,0.0,1000
+400,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.871,0.939,0.24663906682130107,80.306,79.841,0.0,1000
+400,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.089,0.911,0.00192858104830304,136.942,111.12,0.0,1000
+400,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.393,0.923,0.10365663330417002,136.942,111.12,0.0,1000
+400,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.63,0.909,0.14940441273229302,136.942,111.12,0.0,1000
+400,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.865,0.911,0.19816966397565575,136.942,111.12,0.0,1000
+400,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.961,0.903,0.24906700257988132,136.942,111.12,0.0,1000
+400,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.116,0.884,-0.0021915461138243887,240.966,159.034,0.0,1000
+400,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.487,0.873,0.09899260047921225,240.966,159.034,0.0,1000
+400,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.817,0.902,0.15312036691421477,240.966,159.034,0.0,1000
+400,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.96,0.899,0.2026198995037791,240.966,159.034,0.0,1000
+400,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.994,0.904,0.250099989775972,240.966,159.034,0.0,1000
+400,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.107,0.893,0.0006551626630154628,179.154,220.846,0.0,1000
+400,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.573,0.894,0.0969901091225193,179.154,220.846,0.0,1000
+400,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.859,0.896,0.15041976716650568,179.154,220.846,0.0,1000
+400,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.968,0.895,0.19450222763612113,179.154,220.846,0.0,1000
+400,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,0.996,0.903,0.24574930711024098,179.154,220.846,0.0,1000
+400,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.0,0.053,0.947,0.0029765195693160057,159.715,80.516,0.0,1000
+400,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.1,0.32,0.956,0.10284630941811054,159.715,80.516,0.0,1000
+400,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.15,0.585,0.938,0.14854802416879068,159.715,80.516,0.0,1000
+400,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.2,0.837,0.943,0.19850443861822437,159.715,80.516,0.0,1000
+400,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.25,0.96,0.942,0.244906009206647,159.715,80.516,0.0,1000
+400,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.0,0.082,0.918,0.0016781221544948828,169.769,169.768,0.0,1000
+400,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.1,0.479,0.909,0.10155231448788649,169.769,169.768,0.0,1000
+400,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.15,0.744,0.911,0.14818388962362258,169.769,169.768,0.0,1000
+400,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.2,0.924,0.897,0.19786844413535293,169.769,169.768,0.0,1000
+400,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.25,0.99,0.908,0.2502204626764368,169.769,169.768,0.0,1000
+400,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.067,0.933,0.0041290244203744915,80.515,80.475,0.0,1000
+400,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.238,0.935,0.09839350629386717,80.515,80.475,0.0,1000
+400,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.477,0.92,0.14975553917351503,80.515,80.475,0.0,1000
+400,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.701,0.932,0.19797104980755983,80.515,80.475,0.0,1000
+400,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.87,0.926,0.24917300176057805,80.515,80.475,0.0,1000
+800,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.062,0.938,0.0009559631788613148,274.778,224.33,0.0,1000
+800,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.647,0.95,0.10443166180038647,274.778,224.33,0.0,1000
+800,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.929,0.96,0.15082208748579745,274.778,224.33,0.0,1000
+800,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.993,0.953,0.2003851280548056,274.778,224.33,0.0,1000
+800,Planned targets,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,1.0,0.943,0.25004874096165924,274.778,224.33,0.0,1000
+800,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.05,0.95,2.2344527552940695e-05,480.98,319.02,0.0,1000
+800,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.806,0.95,0.10215661839148979,480.98,319.02,0.0,1000
+800,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.992,0.952,0.15085929004074564,480.98,319.02,0.0,1000
+800,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,1.0,0.942,0.2006089913383708,480.98,319.02,0.0,1000
+800,Planned targets,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.96,0.25147974841625176,480.98,319.02,0.0,1000
+800,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.052,0.949,0.00043455928310811296,380.194,419.806,0.0,1000
+800,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.875,0.951,0.0994385807785382,380.194,419.806,0.0,1000
+800,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.992,0.941,0.1483730942062503,380.194,419.806,0.0,1000
+800,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,1.0,0.954,0.19901522927681775,380.194,419.806,0.0,1000
+800,Planned targets,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.944,0.24828867801319235,380.194,419.806,0.0,1000
+800,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.0,0.049,0.951,-0.0003159120455539226,319.855,159.668,0.0,1000
+800,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.1,0.551,0.949,0.09953879099293113,319.855,159.668,0.0,1000
+800,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.15,0.881,0.95,0.15079714314145815,319.855,159.668,0.0,1000
+800,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.2,0.986,0.946,0.1993582323672436,319.855,159.668,0.0,1000
+800,Planned targets,0.0,income_low_high,Lowest vs highest income band: hardship,0.25,0.999,0.949,0.24962321829205222,319.855,159.668,0.0,1000
+800,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.0,0.038,0.962,-0.0012826140934592885,339.954,340.137,0.0,1000
+800,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.1,0.746,0.944,0.1003422747483832,339.954,340.137,0.0,1000
+800,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.15,0.971,0.948,0.15088071370939488,339.954,340.137,0.0,1000
+800,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.2,1.0,0.948,0.1992768344160955,339.954,340.137,0.0,1000
+800,Planned targets,0.0,nairobi_care,Nairobi vs other: care sought,0.25,1.0,0.941,0.25081951377291395,339.954,340.137,0.0,1000
+800,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.052,0.948,-0.0017936377943459391,161.37,162.129,0.0,1000
+800,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.441,0.936,0.09935428414478029,161.37,162.129,0.0,1000
+800,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.777,0.947,0.15095881725071575,161.37,162.129,0.0,1000
+800,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.951,0.943,0.20314005726501672,161.37,162.129,0.0,1000
+800,Planned targets,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.997,0.955,0.2514896711040653,161.37,162.129,0.0,1000
+800,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.057,0.943,-0.00014450883779429475,274.685,224.614,0.0,1000
+800,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.611,0.937,0.0992511831410263,274.685,224.614,0.0,1000
+800,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.94,0.943,0.1519060865215588,274.685,224.614,0.0,1000
+800,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.996,0.937,0.20072602607020174,274.685,224.614,0.0,1000
+800,Planned targets,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,1.0,0.96,0.24953538005214437,274.685,224.614,0.0,1000
+800,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.065,0.934,0.0014556434789804395,479.805,320.195,0.0,1000
+800,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.79,0.941,0.1011227424014364,479.805,320.195,0.0,1000
+800,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.98,0.937,0.14898085239300518,479.805,320.195,0.0,1000
+800,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,1.0,0.943,0.1999252895049308,479.805,320.195,0.0,1000
+800,Planned targets,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.948,0.24946808945257584,479.805,320.195,0.0,1000
+800,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.07,0.931,-0.0004619124655027005,379.221,420.779,0.0,1000
+800,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.875,0.953,0.10096316431994902,379.221,420.779,0.0,1000
+800,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.994,0.951,0.14949840728315417,379.221,420.779,0.0,1000
+800,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,1.0,0.943,0.2011178020636607,379.221,420.779,0.0,1000
+800,Planned targets,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.949,0.2500057608082164,379.221,420.779,0.0,1000
+800,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.0,0.062,0.938,0.0009819872170479713,320.252,160.122,0.0,1000
+800,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.1,0.541,0.949,0.09922282029501633,320.252,160.122,0.0,1000
+800,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.15,0.875,0.96,0.15072382018259514,320.252,160.122,0.0,1000
+800,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.2,0.991,0.954,0.20051523076162453,320.252,160.122,0.0,1000
+800,Planned targets,0.02,income_low_high,Lowest vs highest income band: hardship,0.25,1.0,0.956,0.24771202468106537,320.252,160.122,0.0,1000
+800,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.0,0.047,0.952,1.595061357798161e-05,339.343,340.272,0.0,1000
+800,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.1,0.731,0.941,0.09949996509986349,339.343,340.272,0.0,1000
+800,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.15,0.98,0.953,0.14867895262869651,339.343,340.272,0.0,1000
+800,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.2,1.0,0.955,0.20137623488333847,339.343,340.272,0.0,1000
+800,Planned targets,0.02,nairobi_care,Nairobi vs other: care sought,0.25,1.0,0.941,0.2486136731492456,339.343,340.272,0.0,1000
+800,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.059,0.94,-3.2994140598829105e-05,161.334,161.642,0.0,1000
+800,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.443,0.947,0.09986720629514306,161.334,161.642,0.0,1000
+800,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.75,0.948,0.14728439600628532,161.334,161.642,0.0,1000
+800,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.942,0.943,0.20090915812714513,161.334,161.642,0.0,1000
+800,Planned targets,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.996,0.949,0.2485572636542144,161.334,161.642,0.0,1000
+800,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.072,0.928,-0.0015851885529079505,275.473,225.152,0.0,1000
+800,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.606,0.937,0.10008868426424115,275.473,225.152,0.0,1000
+800,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.901,0.923,0.14986404859663024,275.473,225.152,0.0,1000
+800,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.989,0.934,0.19879032201018754,275.473,225.152,0.0,1000
+800,Planned targets,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,1.0,0.929,0.24962570273497023,275.473,225.152,0.0,1000
+800,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.083,0.917,0.0026051218568533463,479.027,320.973,0.0,1000
+800,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.778,0.919,0.10143670909686964,479.027,320.973,0.0,1000
+800,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.974,0.894,0.15167691866038643,479.027,320.973,0.0,1000
+800,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,1.0,0.933,0.19843955138516187,479.027,320.973,0.0,1000
+800,Planned targets,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.937,0.24978210267679565,479.027,320.973,0.0,1000
+800,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.087,0.913,-0.0012027279742661717,380.332,419.668,0.0,1000
+800,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.852,0.919,0.1007678460267644,380.332,419.668,0.0,1000
+800,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.987,0.906,0.15080371936091502,380.332,419.668,0.0,1000
+800,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,1.0,0.917,0.20029653175575854,380.332,419.668,0.0,1000
+800,Planned targets,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.911,0.2504295518204205,380.332,419.668,0.0,1000
+800,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.0,0.04,0.959,-0.00010212545412915697,320.153,159.957,0.0,1000
+800,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.1,0.553,0.937,0.10101216045914503,320.153,159.957,0.0,1000
+800,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.15,0.884,0.958,0.15090869499028617,320.153,159.957,0.0,1000
+800,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.2,0.986,0.938,0.19630692975649633,320.153,159.957,0.0,1000
+800,Planned targets,0.05,income_low_high,Lowest vs highest income band: hardship,0.25,1.0,0.947,0.25077701873427566,320.153,159.957,0.0,1000
+800,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.0,0.073,0.927,0.0013395268994030125,339.974,339.896,0.0,1000
+800,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.1,0.73,0.921,0.10031199356540028,339.974,339.896,0.0,1000
+800,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.15,0.971,0.935,0.1479751331866567,339.974,339.896,0.0,1000
+800,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.2,0.999,0.918,0.20082776462607932,339.974,339.896,0.0,1000
+800,Planned targets,0.05,nairobi_care,Nairobi vs other: care sought,0.25,1.0,0.908,0.2471993535574122,339.974,339.896,0.0,1000
+800,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.062,0.938,0.0008180248531947025,162.008,162.333,0.0,1000
+800,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.468,0.945,0.10194766148915516,162.008,162.333,0.0,1000
+800,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.766,0.94,0.14923571086696916,162.008,162.333,0.0,1000
+800,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.943,0.943,0.2018235637065959,162.008,162.333,0.0,1000
+800,Planned targets,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.994,0.934,0.2498669687869098,162.008,162.333,0.0,1000
+800,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.116,0.883,-0.002388208530075681,274.647,225.142,0.0,1000
+800,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.606,0.871,0.09934388507052162,274.647,225.142,0.0,1000
+800,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.859,0.885,0.1473777415951528,274.647,225.142,0.0,1000
+800,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.978,0.883,0.19713331445243018,274.647,225.142,0.0,1000
+800,Planned targets,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.999,0.878,0.24680860620717465,274.647,225.142,0.0,1000
+800,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.138,0.862,-0.0001214273602333143,481.432,318.568,0.0,1000
+800,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.719,0.833,0.09893389607380544,481.432,318.568,0.0,1000
+800,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.936,0.834,0.15021160226966523,481.432,318.568,0.0,1000
+800,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.994,0.846,0.20178539350687957,481.432,318.568,0.0,1000
+800,Planned targets,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.856,0.24864561127936155,481.432,318.568,0.0,1000
+800,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.145,0.855,0.00028528584344346197,378.894,421.106,0.0,1000
+800,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.786,0.855,0.0986057194784765,378.894,421.106,0.0,1000
+800,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.963,0.845,0.1485631287574539,378.894,421.106,0.0,1000
+800,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.998,0.849,0.19886337571858273,378.894,421.106,0.0,1000
+800,Planned targets,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.859,0.24756370879192285,378.894,421.106,0.0,1000
+800,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.0,0.059,0.941,-0.00011984541905994755,320.376,160.026,0.0,1000
+800,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.1,0.551,0.954,0.09979016357321258,320.376,160.026,0.0,1000
+800,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.15,0.871,0.951,0.15026890693380707,320.376,160.026,0.0,1000
+800,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.2,0.995,0.953,0.20287121473079556,320.376,160.026,0.0,1000
+800,Planned targets,0.1,income_low_high,Lowest vs highest income band: hardship,0.25,1.0,0.944,0.24918815180286283,320.376,160.026,0.0,1000
+800,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.0,0.14,0.859,-0.003754659564272784,340.068,339.173,0.0,1000
+800,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.1,0.718,0.885,0.10170597997366568,340.068,339.173,0.0,1000
+800,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.15,0.937,0.867,0.15041671441202317,340.068,339.173,0.0,1000
+800,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.2,0.992,0.87,0.19850557555667678,340.068,339.173,0.0,1000
+800,Planned targets,0.1,nairobi_care,Nairobi vs other: care sought,0.25,0.998,0.857,0.24825823243871048,340.068,339.173,0.0,1000
+800,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.089,0.911,0.00033413406391856514,162.601,161.228,0.0,1000
+800,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.441,0.92,0.09940137735549451,162.601,161.228,0.0,1000
+800,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.749,0.904,0.1513205357466096,162.601,161.228,0.0,1000
+800,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.926,0.907,0.20347835325116986,162.601,161.228,0.0,1000
+800,Planned targets,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.989,0.917,0.2501644149654554,162.601,161.228,0.0,1000
+800,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.056,0.944,-0.0010125649892239316,280.158,229.072,0.0,1000
+800,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.646,0.936,0.10276154072117377,280.158,229.072,0.0,1000
+800,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.93,0.94,0.1503035550396989,280.158,229.072,0.0,1000
+800,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.997,0.955,0.19889260826647026,280.158,229.072,0.0,1000
+800,Fibroid-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,1.0,0.958,0.2496415245487643,280.158,229.072,0.0,1000
+800,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.05,0.949,-0.0013889106831201476,480.471,319.529,0.0,1000
+800,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.798,0.934,0.09991972498566687,480.471,319.529,0.0,1000
+800,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.988,0.953,0.1505860981116574,480.471,319.529,0.0,1000
+800,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,1.0,0.943,0.1976397957653094,480.471,319.529,0.0,1000
+800,Fibroid-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.953,0.24794468712056775,480.471,319.529,0.0,1000
+800,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.053,0.947,-9.443206632869733e-05,397.618,402.382,0.0,1000
+800,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.866,0.937,0.10010905313548363,397.618,402.382,0.0,1000
+800,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.997,0.944,0.14810099750325412,397.618,402.382,0.0,1000
+800,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,1.0,0.951,0.19994262227685974,397.618,402.382,0.0,1000
+800,Fibroid-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.956,0.2501140975687222,397.618,402.382,0.0,1000
+800,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.0,0.053,0.947,-0.0017407213585968492,319.836,159.817,0.0,1000
+800,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.1,0.529,0.951,0.09725871290212333,319.836,159.817,0.0,1000
+800,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.15,0.878,0.948,0.14905381942702206,319.836,159.817,0.0,1000
+800,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.2,0.982,0.93,0.202780039680877,319.836,159.817,0.0,1000
+800,Fibroid-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.25,0.999,0.948,0.2521512062713384,319.836,159.817,0.0,1000
+800,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.0,0.045,0.955,-0.00023413192748241173,339.31,340.419,0.0,1000
+800,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.1,0.748,0.949,0.09916009863779227,339.31,340.419,0.0,1000
+800,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.15,0.987,0.948,0.14982203136112834,339.31,340.419,0.0,1000
+800,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.2,1.0,0.938,0.20060746927962186,339.31,340.419,0.0,1000
+800,Fibroid-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.25,1.0,0.953,0.24816902081613865,339.31,340.419,0.0,1000
+800,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.041,0.959,0.0010116459566146478,164.64,165.126,0.0,1000
+800,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.451,0.954,0.10012588183635734,164.64,165.126,0.0,1000
+800,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.782,0.946,0.14974465751126137,164.64,165.126,0.0,1000
+800,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.959,0.953,0.2007995915557738,164.64,165.126,0.0,1000
+800,Fibroid-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.995,0.961,0.2495213806363962,164.64,165.126,0.0,1000
+800,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.061,0.939,-0.001883700176019609,280.864,229.263,0.0,1000
+800,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.623,0.932,0.10288402167226661,280.864,229.263,0.0,1000
+800,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.924,0.957,0.14866163344473537,280.864,229.263,0.0,1000
+800,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.993,0.939,0.19957837862985298,280.864,229.263,0.0,1000
+800,Fibroid-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,1.0,0.954,0.24943918467221002,280.864,229.263,0.0,1000
+800,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.058,0.942,9.269075339710941e-06,480.181,319.819,0.0,1000
+800,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.798,0.95,0.10065391526362134,480.181,319.819,0.0,1000
+800,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.986,0.954,0.15050127911439146,480.181,319.819,0.0,1000
+800,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,1.0,0.953,0.1999887687182807,480.181,319.819,0.0,1000
+800,Fibroid-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.941,0.25022376572994626,480.181,319.819,0.0,1000
+800,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.068,0.932,-0.00038956105382350226,397.44,402.56,0.0,1000
+800,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.866,0.935,0.10033980772438279,397.44,402.56,0.0,1000
+800,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.997,0.947,0.15134161438284052,397.44,402.56,0.0,1000
+800,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.999,0.937,0.20016659816008484,397.44,402.56,0.0,1000
+800,Fibroid-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.944,0.2508692383546303,397.44,402.56,0.0,1000
+800,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.0,0.056,0.944,0.0004558101685534288,319.956,159.596,0.0,1000
+800,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.1,0.546,0.943,0.1000393881769229,319.956,159.596,0.0,1000
+800,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.15,0.879,0.942,0.15178841870516308,319.956,159.596,0.0,1000
+800,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.2,0.985,0.939,0.20011446099153618,319.956,159.596,0.0,1000
+800,Fibroid-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.25,1.0,0.95,0.2512006431915838,319.956,159.596,0.0,1000
+800,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.0,0.057,0.942,0.0018852847457215545,340.54,339.515,0.0,1000
+800,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.1,0.753,0.947,0.10039169945418135,340.54,339.515,0.0,1000
+800,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.15,0.974,0.944,0.149683980221687,340.54,339.515,0.0,1000
+800,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.2,1.0,0.939,0.2006207065930949,340.54,339.515,0.0,1000
+800,Fibroid-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.25,1.0,0.961,0.2498584087360676,340.54,339.515,0.0,1000
+800,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.068,0.932,-0.0051937345338335895,165.631,164.888,0.0,1000
+800,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.448,0.956,0.10047130066600539,165.631,164.888,0.0,1000
+800,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.785,0.95,0.15144301511513547,165.631,164.888,0.0,1000
+800,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.957,0.944,0.20140287731828693,165.631,164.888,0.0,1000
+800,Fibroid-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.994,0.955,0.24813516060956567,165.631,164.888,0.0,1000
+800,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.076,0.924,-0.0008565652050699286,280.362,230.547,0.0,1000
+800,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.604,0.932,0.09722095500046657,280.362,230.547,0.0,1000
+800,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.911,0.942,0.1508278415817432,280.362,230.547,0.0,1000
+800,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.996,0.934,0.20352078212139266,280.362,230.547,0.0,1000
+800,Fibroid-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,1.0,0.936,0.25083878285276745,280.362,230.547,0.0,1000
+800,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.081,0.919,-0.0014661850630200805,479.907,320.093,0.0,1000
+800,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.756,0.921,0.0983302218939282,479.907,320.093,0.0,1000
+800,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.978,0.93,0.15052861531682998,479.907,320.093,0.0,1000
+800,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,1.0,0.922,0.20310195307392684,479.907,320.093,0.0,1000
+800,Fibroid-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.937,0.2493717442076046,479.907,320.093,0.0,1000
+800,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.077,0.923,7.377127257188376e-05,398.293,401.707,0.0,1000
+800,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.832,0.918,0.0986276710935579,398.293,401.707,0.0,1000
+800,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.993,0.92,0.1508973685702262,398.293,401.707,0.0,1000
+800,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,1.0,0.919,0.19932595615670498,398.293,401.707,0.0,1000
+800,Fibroid-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.928,0.2511219714672588,398.293,401.707,0.0,1000
+800,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.0,0.05,0.95,0.0027935893251572036,320.057,160.803,0.0,1000
+800,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.1,0.549,0.949,0.09961699898996773,320.057,160.803,0.0,1000
+800,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.15,0.902,0.951,0.15204156127213553,320.057,160.803,0.0,1000
+800,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.2,0.99,0.955,0.20224992735661856,320.057,160.803,0.0,1000
+800,Fibroid-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.25,0.998,0.951,0.25103650854358345,320.057,160.803,0.0,1000
+800,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.0,0.08,0.92,0.0025346110769360274,340.218,340.041,0.0,1000
+800,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.1,0.737,0.923,0.10176918418607461,340.218,340.041,0.0,1000
+800,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.15,0.965,0.921,0.15019765889724138,340.218,340.041,0.0,1000
+800,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.2,0.998,0.927,0.20209550589818837,340.218,340.041,0.0,1000
+800,Fibroid-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.25,1.0,0.912,0.2512999705181817,340.218,340.041,0.0,1000
+800,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.074,0.926,-0.002335808302208187,164.953,164.661,0.0,1000
+800,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.457,0.949,0.10133827009055671,164.953,164.661,0.0,1000
+800,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.778,0.95,0.15161009613788776,164.953,164.661,0.0,1000
+800,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.953,0.939,0.20266861983215528,164.953,164.661,0.0,1000
+800,Fibroid-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.992,0.924,0.2513846044149114,164.953,164.661,0.0,1000
+800,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.113,0.887,0.0016942209035128006,283.351,229.828,0.0,1000
+800,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.612,0.869,0.10072351342151843,283.351,229.828,0.0,1000
+800,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.873,0.891,0.14906844792592996,283.351,229.828,0.0,1000
+800,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.978,0.871,0.19880369306020404,283.351,229.828,0.0,1000
+800,Fibroid-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.997,0.874,0.2484352667290757,283.351,229.828,0.0,1000
+800,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.141,0.859,5.742524194472032e-05,480.241,319.759,0.0,1000
+800,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.729,0.832,0.09950058362496567,480.241,319.759,0.0,1000
+800,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.938,0.852,0.14818784533748744,480.241,319.759,0.0,1000
+800,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.992,0.836,0.19785947615877905,480.241,319.759,0.0,1000
+800,Fibroid-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.839,0.247614320980684,480.241,319.759,0.0,1000
+800,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.164,0.837,0.0005993979225708247,397.834,402.166,0.0,1000
+800,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.783,0.859,0.09770803461276004,397.834,402.166,0.0,1000
+800,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.96,0.848,0.14690668823779604,397.834,402.166,0.0,1000
+800,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.999,0.829,0.19620110053241183,397.834,402.166,0.0,1000
+800,Fibroid-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.85,0.24665893385962337,397.834,402.166,0.0,1000
+800,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.0,0.046,0.954,-0.00029467410117080993,320.395,159.679,0.0,1000
+800,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.1,0.528,0.941,0.09812829439304062,320.395,159.679,0.0,1000
+800,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.15,0.87,0.951,0.14959314106633972,320.395,159.679,0.0,1000
+800,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.2,0.985,0.939,0.19643615882992413,320.395,159.679,0.0,1000
+800,Fibroid-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.25,0.998,0.948,0.24981496867601968,320.395,159.679,0.0,1000
+800,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.0,0.129,0.871,0.0009147085912407064,341.275,338.648,0.0,1000
+800,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.1,0.701,0.88,0.09904234166652719,341.275,338.648,0.0,1000
+800,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.15,0.941,0.87,0.14933206165423968,341.275,338.648,0.0,1000
+800,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.2,0.996,0.873,0.19870533466348783,341.275,338.648,0.0,1000
+800,Fibroid-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.25,1.0,0.869,0.24613141218375756,341.275,338.648,0.0,1000
+800,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.085,0.914,0.00022667901356530435,167.285,166.234,0.0,1000
+800,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.453,0.914,0.10256117283238125,167.285,166.234,0.0,1000
+800,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.753,0.898,0.15082832399976148,167.285,166.234,0.0,1000
+800,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.928,0.897,0.20282632626763875,167.285,166.234,0.0,1000
+800,Fibroid-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.988,0.91,0.25266198944582713,167.285,166.234,0.0,1000
+800,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.045,0.955,0.0036232484459305745,271.6,222.253,0.0,1000
+800,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.62,0.961,0.09986584743892721,271.6,222.253,0.0,1000
+800,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.921,0.959,0.149310813452449,271.6,222.253,0.0,1000
+800,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.991,0.946,0.20083502412685122,271.6,222.253,0.0,1000
+800,Endometriosis-heavy,0.0,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,1.0,0.944,0.2499248655101447,271.6,222.253,0.0,1000
+800,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.05,0.95,-8.411474310218592e-05,479.749,320.251,0.0,1000
+800,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.798,0.946,0.09864641307445203,479.749,320.251,0.0,1000
+800,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.991,0.953,0.15067232504084146,479.749,320.251,0.0,1000
+800,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,1.0,0.937,0.19831218527562577,479.749,320.251,0.0,1000
+800,Endometriosis-heavy,0.0,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.954,0.24986358885983348,479.749,320.251,0.0,1000
+800,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.051,0.949,0.0010510595994763594,355.25,444.75,0.0,1000
+800,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.883,0.948,0.10202549517916623,355.25,444.75,0.0,1000
+800,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.992,0.94,0.15109327356407015,355.25,444.75,0.0,1000
+800,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,1.0,0.951,0.2021261490248512,355.25,444.75,0.0,1000
+800,Endometriosis-heavy,0.0,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.953,0.2502160115305786,355.25,444.75,0.0,1000
+800,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.0,0.05,0.95,0.0030893781539094727,320.126,159.45,0.0,1000
+800,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.1,0.534,0.955,0.09995769648859011,320.126,159.45,0.0,1000
+800,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.15,0.878,0.941,0.15141050340120393,320.126,159.45,0.0,1000
+800,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.2,0.979,0.937,0.19858935998713956,320.126,159.45,0.0,1000
+800,Endometriosis-heavy,0.0,income_low_high,Lowest vs highest income band: hardship,0.25,0.998,0.95,0.24972617358909815,320.126,159.45,0.0,1000
+800,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.0,0.056,0.944,0.0017657703990365014,339.18,340.474,0.0,1000
+800,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.1,0.757,0.952,0.1010268253735398,339.18,340.474,0.0,1000
+800,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.15,0.981,0.96,0.15027689384505694,339.18,340.474,0.0,1000
+800,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.2,1.0,0.952,0.19924195712024056,339.18,340.474,0.0,1000
+800,Endometriosis-heavy,0.0,nairobi_care,Nairobi vs other: care sought,0.25,1.0,0.961,0.25158418755393847,339.18,340.474,0.0,1000
+800,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.04,0.96,-0.0010001367149654232,159.443,160.485,0.0,1000
+800,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.418,0.95,0.09766455053672461,159.443,160.485,0.0,1000
+800,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.775,0.947,0.1511123692219117,159.443,160.485,0.0,1000
+800,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.958,0.953,0.1998683116259289,159.443,160.485,0.0,1000
+800,Endometriosis-heavy,0.0,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.992,0.954,0.24968499966561003,159.443,160.485,0.0,1000
+800,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.057,0.943,0.001503493578645995,271.657,222.22,0.0,1000
+800,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.614,0.94,0.09941960516071395,271.657,222.22,0.0,1000
+800,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.922,0.953,0.15183966434794918,271.657,222.22,0.0,1000
+800,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.996,0.944,0.20105666130821992,271.657,222.22,0.0,1000
+800,Endometriosis-heavy,0.02,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,1.0,0.953,0.2501461003913803,271.657,222.22,0.0,1000
+800,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.062,0.938,-0.0012383615924459641,480.368,319.632,0.0,1000
+800,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.781,0.952,0.09798688752616054,480.368,319.632,0.0,1000
+800,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.983,0.946,0.15155730869916742,480.368,319.632,0.0,1000
+800,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,1.0,0.943,0.2000984542329096,480.368,319.632,0.0,1000
+800,Endometriosis-heavy,0.02,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.941,0.2514468122631707,480.368,319.632,0.0,1000
+800,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.055,0.945,0.000746037838397648,356.985,443.015,0.0,1000
+800,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.856,0.962,0.09925788241857494,356.985,443.015,0.0,1000
+800,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.989,0.943,0.1482955464396373,356.985,443.015,0.0,1000
+800,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,1.0,0.949,0.2001301952470306,356.985,443.015,0.0,1000
+800,Endometriosis-heavy,0.02,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.964,0.24995662548060893,356.985,443.015,0.0,1000
+800,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.0,0.044,0.956,-0.0022412041059239264,320.068,160.098,0.0,1000
+800,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.1,0.547,0.944,0.10139280764814274,320.068,160.098,0.0,1000
+800,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.15,0.885,0.966,0.1496048056336248,320.068,160.098,0.0,1000
+800,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.2,0.984,0.948,0.19941918560987315,320.068,160.098,0.0,1000
+800,Endometriosis-heavy,0.02,income_low_high,Lowest vs highest income band: hardship,0.25,1.0,0.946,0.25309036803131635,320.068,160.098,0.0,1000
+800,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.0,0.044,0.956,-0.0014573340011304996,340.05,340.046,0.0,1000
+800,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.1,0.741,0.949,0.10105314075185355,340.05,340.046,0.0,1000
+800,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.15,0.979,0.959,0.14950645232780838,340.05,340.046,0.0,1000
+800,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.2,1.0,0.938,0.20030254868331945,340.05,340.046,0.0,1000
+800,Endometriosis-heavy,0.02,nairobi_care,Nairobi vs other: care sought,0.25,1.0,0.951,0.251617406102655,340.05,340.046,0.0,1000
+800,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.05,0.95,-0.00034549494373598797,159.317,160.125,0.0,1000
+800,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.447,0.945,0.10047577707265493,159.317,160.125,0.0,1000
+800,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.777,0.932,0.15116532053055204,159.317,160.125,0.0,1000
+800,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.954,0.951,0.2029648020717015,159.317,160.125,0.0,1000
+800,Endometriosis-heavy,0.02,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.996,0.949,0.25076839666265943,159.317,160.125,0.0,1000
+800,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.061,0.939,0.0019244250611145076,271.904,222.728,0.0,1000
+800,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.615,0.924,0.10072509819703356,271.904,222.728,0.0,1000
+800,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.918,0.933,0.15020703767640428,271.904,222.728,0.0,1000
+800,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.99,0.928,0.2001189606543438,271.904,222.728,0.0,1000
+800,Endometriosis-heavy,0.05,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,1.0,0.926,0.25154267458984636,271.904,222.728,0.0,1000
+800,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.07,0.93,-0.0003691162077808139,481.017,318.983,0.0,1000
+800,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.792,0.916,0.10082879938069723,481.017,318.983,0.0,1000
+800,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.973,0.912,0.14848483693491232,481.017,318.983,0.0,1000
+800,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.999,0.916,0.20109031495193638,481.017,318.983,0.0,1000
+800,Endometriosis-heavy,0.05,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,1.0,0.921,0.2506078704909714,481.017,318.983,0.0,1000
+800,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.09,0.91,0.002529469655872674,355.307,444.693,0.0,1000
+800,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.839,0.932,0.0990583925187486,355.307,444.693,0.0,1000
+800,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.991,0.935,0.15188191682101965,355.307,444.693,0.0,1000
+800,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,1.0,0.923,0.19908044796034402,355.307,444.693,0.0,1000
+800,Endometriosis-heavy,0.05,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.919,0.2480344958772731,355.307,444.693,0.0,1000
+800,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.0,0.054,0.945,-0.0015079861349409902,320.145,160.149,0.0,1000
+800,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.1,0.527,0.961,0.09868798134560097,320.145,160.149,0.0,1000
+800,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.15,0.882,0.949,0.15085759626305856,320.145,160.149,0.0,1000
+800,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.2,0.984,0.945,0.19864511385287795,320.145,160.149,0.0,1000
+800,Endometriosis-heavy,0.05,income_low_high,Lowest vs highest income band: hardship,0.25,0.999,0.949,0.247638764183986,320.145,160.149,0.0,1000
+800,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.0,0.067,0.933,-0.0007071832718650318,340.8,339.381,0.0,1000
+800,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.1,0.738,0.938,0.09905351225428036,340.8,339.381,0.0,1000
+800,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.15,0.967,0.918,0.1507665757631644,340.8,339.381,0.0,1000
+800,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.2,1.0,0.93,0.2008193111652023,340.8,339.381,0.0,1000
+800,Endometriosis-heavy,0.05,nairobi_care,Nairobi vs other: care sought,0.25,1.0,0.919,0.24912752459260276,340.8,339.381,0.0,1000
+800,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.064,0.936,0.002983750473875095,159.991,159.823,0.0,1000
+800,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.459,0.946,0.10144342022095248,159.991,159.823,0.0,1000
+800,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.77,0.94,0.1529016106590392,159.991,159.823,0.0,1000
+800,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.944,0.939,0.20223863596596606,159.991,159.823,0.0,1000
+800,Endometriosis-heavy,0.05,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.985,0.938,0.24889266356338555,159.991,159.823,0.0,1000
+800,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.0,0.102,0.898,0.0016084611513421153,273.436,223.276,0.0,1000
+800,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.1,0.583,0.875,0.0977038103864095,273.436,223.276,0.0,1000
+800,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.15,0.874,0.872,0.15004098589958553,273.436,223.276,0.0,1000
+800,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.2,0.98,0.878,0.20196047012438686,273.436,223.276,0.0,1000
+800,Endometriosis-heavy,0.1,dx_vs_susp,Diagnosed vs suspected only: care sought,0.25,0.998,0.886,0.24872459526463775,273.436,223.276,0.0,1000
+800,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.0,0.136,0.864,-0.000519775526529517,479.957,320.043,0.0,1000
+800,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.1,0.719,0.84,0.09780443661169579,479.957,320.043,0.0,1000
+800,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.15,0.947,0.846,0.15123786838343198,479.957,320.043,0.0,1000
+800,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.2,0.993,0.852,0.19911462226332174,479.957,320.043,0.0,1000
+800,Endometriosis-heavy,0.1,ins_vs_unins,Insured vs uninsured: financial hardship,0.25,0.999,0.859,0.24993766054615152,479.957,320.043,0.0,1000
+800,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.0,0.141,0.86,-0.00016180563652370573,356.396,443.604,0.0,1000
+800,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.1,0.801,0.85,0.09801530492874153,356.396,443.604,0.0,1000
+800,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.15,0.97,0.849,0.14859141176665788,356.396,443.604,0.0,1000
+800,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.2,0.994,0.845,0.19958024551601225,356.396,443.604,0.0,1000
+800,Endometriosis-heavy,0.1,hmb_vs_none,HMB proxy vs none: 3+ days lost,0.25,1.0,0.849,0.2485399363734893,356.396,443.604,0.0,1000
+800,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.0,0.055,0.944,-0.0022882087502283893,320.129,160.028,0.0,1000
+800,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.1,0.536,0.936,0.0993796957851842,320.129,160.028,0.0,1000
+800,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.15,0.887,0.948,0.1520430197623951,320.129,160.028,0.0,1000
+800,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.2,0.985,0.944,0.20020735845734214,320.129,160.028,0.0,1000
+800,Endometriosis-heavy,0.1,income_low_high,Lowest vs highest income band: hardship,0.25,1.0,0.952,0.24952053063914875,320.129,160.028,0.0,1000
+800,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.0,0.147,0.853,0.002168918839607794,339.715,340.374,0.0,1000
+800,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.1,0.68,0.862,0.09800355669486575,339.715,340.374,0.0,1000
+800,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.15,0.94,0.869,0.1490407433921363,339.715,340.374,0.0,1000
+800,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.2,0.991,0.842,0.2006141679609514,339.715,340.374,0.0,1000
+800,Endometriosis-heavy,0.1,nairobi_care,Nairobi vs other: care sought,0.25,0.999,0.856,0.24864617493445726,339.715,340.374,0.0,1000
+800,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.0,0.109,0.891,-0.0006359355333971931,160.715,160.709,0.0,1000
+800,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.1,0.462,0.908,0.10367146555796578,160.715,160.709,0.0,1000
+800,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.15,0.744,0.91,0.1510050721040451,160.715,160.709,0.0,1000
+800,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.2,0.924,0.907,0.20030130809299676,160.715,160.709,0.0,1000
+800,Endometriosis-heavy,0.1,nairobi_delay,Nairobi vs other: delay ≥3 years (diagnosed),0.25,0.981,0.899,0.2496850552922261,160.715,160.709,0.0,1000

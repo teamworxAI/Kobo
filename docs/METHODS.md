@@ -22,6 +22,12 @@ and ±15 at n = 40. **Groups under 40 are descriptive only**: hollow dots in cha
 Each indicator has its own denominator (see the definitions table): "don't know", "not sure", "prefer not to say"
 and "not applicable" are excluded rather than counted as "no".
 
+#### Sample size and what can be shown
+A planning simulation (see `docs/SAMPLE_SIZE.md` and the dashboard page *What this sample can show*) estimates,
+for 200, 400 and 800 women, how large a difference each planned comparison can detect. It also covers how
+often each condition reaches 40 diagnosed women, how clustering by recruitment channel widens margins of error,
+and how many covariates each model can carry. The same page applies these checks to the data as it comes in.
+
 #### Tests and effect sizes
 * Categorical outcomes: Pearson chi-square; Fisher's exact test for 2×2 tables with an expected count below 5;
   for larger sparse tables a Monte Carlo exact chi-square (10,000 permutations).

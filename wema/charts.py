@@ -249,3 +249,79 @@ def missing_bars(m: pd.DataFrame) -> go.Figure:
                   legend=False)
     fig.update_xaxes(tickformat=".0%", range=[0, max(0.15, float(np.nanmax(d["% missing"])) * 1.3 if len(d) else 0.15)])
     return fig
+
+
+# ---------------------------------------------------------------------------
+# sample-size / power charts
+# ---------------------------------------------------------------------------
+def power_curves(comp: pd.DataFrame, ns=(200, 400, 800)) -> go.Figure:
+    """Small multiples: power vs planted difference, one panel per comparison,
+    one line per total sample size (ordinal blue ramp), 80% reference line."""
+    from plotly.subplots import make_subplots
+    labels = list(dict.fromkeys(comp["label"]))
+    cols = 3
+    rows = int(np.ceil(len(labels) / cols))
+    fig = make_subplots(rows=rows, cols=cols, subplot_titles=[_wrap(l, 34) for l in labels],
+                        horizontal_spacing=0.07, vertical_spacing=0.22, shared_yaxes=True)
+    ramp = ORDINAL[len(ns)]
+    for i, lab in enumerate(labels):
+        r, c = i // cols + 1, i % cols + 1
+        for j, n in enumerate(ns):
+            d = comp[(comp["label"] == lab) & (comp["n"] == n) & (comp["delta"] > 0)].sort_values("delta")
+            fig.add_trace(go.Scatter(
+                x=d["delta"] * 100, y=d["power"], mode="lines+markers", name=f"n = {n}", legendgroup=str(n),
+                showlegend=(i == 0), line=dict(color=ramp[j], width=2),
+                marker=dict(size=8, color=ramp[j], line=dict(color=SURFACE, width=2)),
+                customdata=np.stack([d["n_group1"], d["n_group0"]], axis=-1),
+                hovertemplate=f"<b>n = {n}</b><br>difference %{{x:.0f}} points<br>power %{{y:.0%}}"
+                              "<br>groups ≈ %{customdata[0]:.0f} vs %{customdata[1]:.0f}<extra></extra>"), row=r, col=c)
+        fig.add_hline(y=0.8, line=dict(color=MUTED, width=1), row=r, col=c)
+    fig = _layout(fig, 300 * rows + 60, "", pct=False)
+    fig.update_xaxes(range=[8, 27], dtick=5, title_text="Planted difference (points)", title_font=dict(size=11))
+    fig.update_yaxes(range=[0, 1.02], tickformat=".0%", dtick=0.2, showgrid=True, gridcolor=GRID)
+    fig.update_annotations(font=dict(size=12, color=TEXT))
+    fig.update_layout(margin=dict(t=70), legend=dict(y=1.06))
+    return fig
+
+
+def recruitment_bars(t: pd.DataFrame) -> go.Figure:
+    """Know-or-suspect and diagnosed counts per condition with the target marked."""
+    labels = list(t["Condition"])[::-1]
+    d = t.set_index("Condition").reindex(labels)
+    fig = go.Figure()
+    fig.add_trace(go.Bar(y=labels, x=d["Know or suspect"], orientation="h", name="Know or suspect",
+                         marker=dict(color=SERIES[0], cornerradius=4, line=dict(color=SURFACE, width=2)),
+                         hovertemplate="%{y}: %{x} know or suspect<extra></extra>"))
+    fig.add_trace(go.Bar(y=labels, x=d["Diagnosed"], orientation="h", name="Diagnosed",
+                         marker=dict(color=SERIES[1], cornerradius=4, line=dict(color=SURFACE, width=2)),
+                         hovertemplate="%{y}: %{x} diagnosed<extra></extra>"))
+    fig.add_trace(go.Scatter(y=labels, x=d["Target"], mode="markers", name="Target",
+                             marker=dict(symbol="line-ns", size=26, line=dict(color=TEXT, width=2)),
+                             hovertemplate="%{y}: target %{x}<extra></extra>"))
+    fig.add_vline(x=C.SMALL_N, line=dict(color=MUTED, width=1))
+    fig.update_layout(barmode="group", bargap=0.35)
+    fig = _layout(fig, 90 + 70 * len(labels), "Women (grey line: 40, the minimum for more than description)",
+                  pct=False)
+    mx = float(max(d["Target"].max(), d["Know or suspect"].max()))
+    fig.update_xaxes(range=[0, mx * 1.15])
+    return fig
+
+
+def coverage_chart(cov: pd.DataFrame) -> go.Figure:
+    """Real margin of error for a whole-sample percentage by clustering level."""
+    fig = go.Figure()
+    ns = sorted(cov["n"].unique())
+    ramp = ORDINAL[len(ns)]
+    for j, n in enumerate(ns):
+        d = cov[cov["n"] == n].sort_values("icc")
+        fig.add_trace(go.Scatter(
+            x=d["icc"], y=d["actual_half_width_pp"], mode="lines+markers", name=f"n = {n}",
+            line=dict(color=ramp[j], width=2), marker=dict(size=8, color=ramp[j], line=dict(color=SURFACE, width=2)),
+            customdata=np.stack([d["coverage"], d["design_effect"]], axis=-1),
+            hovertemplate=f"<b>n = {n}</b><br>ICC %{{x}}<br>±%{{y:.1f}} points"
+                          "<br>nominal 95% CI covers truth %{customdata[0]:.0%}<br>design effect %{customdata[1]:.1f}"
+                          "<extra></extra>"))
+    fig = _layout(fig, 320, "Clustering by recruitment channel (ICC)", pct=False)
+    fig.update_xaxes(tickvals=sorted(cov["icc"].unique()))
+    fig.update_yaxes(title_text="Real 95% margin of error (± points)", rangemode="tozero")
+    return fig

@@ -17,6 +17,7 @@ It is a single Python app (Streamlit), with no database and no build step.
 | Comparisons | Diagnosed vs suspected · insured vs uninsured · HMB vs none · income · Nairobi vs other: differences with 95% CIs |
 | Adjusted models | Firth logistic regression for care sought, hardship and diagnostic delay ≥3 years |
 | Behavioural baseline | Q24–26 and Q86–87, described (not a Fogg model test) |
+| What this sample can show | Precision, detectable differences and model capacity for the data now loaded; planning simulation at n = 200 / 400 / 800 with clustering by recruitment channel; calculator |
 | Data quality | Item non-response by section (measured against the form's own skip logic), items over 10% missing, consistency checks |
 | Methods & limitations | Populations, indicator definitions, statistical methods |
 | Export | One Excel workbook with every table, plus the indicator dataset |
@@ -66,6 +67,17 @@ The app handles health data, so keep it private and always set `APP_PASSWORD`.
   docker run -p 8501:8501 -e KOBO_TOKEN=… -e APP_PASSWORD=… wema-dashboard
   ```
   Put it behind HTTPS (most platforms do this for you).
+
+## Sample size and power
+
+`wema/power.py` simulates many studies at several sample sizes, condition mixes and amounts of clustering by
+recruitment channel. It plants effects of known size and records how often the planned analyses recover them.
+Results are cached in `wema/data/` and summarised in [`docs/SAMPLE_SIZE.md`](docs/SAMPLE_SIZE.md). After you
+change the assumptions (for example, with pilot data), re-run:
+
+```bash
+python tools/run_power_sim.py
+```
 
 ## Privacy safeguards built in
 

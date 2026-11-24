@@ -1,0 +1,114 @@
+{
+ "reps": 1000,
+ "firth_reps": 200,
+ "grid": {
+  "ns": [
+   200,
+   400,
+   800
+  ],
+  "mixes": [
+   "Planned targets",
+   "Fibroid-heavy",
+   "Endometriosis-heavy"
+  ],
+  "iccs": [
+   0.0,
+   0.02,
+   0.05,
+   0.1
+  ],
+  "deltas": [
+   0.0,
+   0.1,
+   0.15,
+   0.2,
+   0.25
+  ]
+ },
+ "assumptions": {
+  "p_diagnosed_given_condition": 0.55,
+  "p_need_care": 0.85,
+  "p_insured": 0.6,
+  "p_hmb": 0.4,
+  "p_nairobi": 0.5,
+  "income_probs": [
+   0.4,
+   0.25,
+   0.15,
+   0.2
+  ],
+  "support_group_share": 0.6,
+  "n_support_groups": 6,
+  "other_channels": [
+   0.45,
+   0.3,
+   0.15,
+   0.1
+  ],
+  "base": {
+   "care_any": 0.5,
+   "hardship": 0.45,
+   "days_work3": 0.25,
+   "delay_long": 0.4
+  }
+ },
+ "mixes": {
+  "Planned targets": {
+   "fibroids": 0.5,
+   "endo_adeno": 0.3,
+   "pmos": 0.2,
+   "pmdd": 0.05
+  },
+  "Fibroid-heavy": {
+   "fibroids": 0.65,
+   "endo_adeno": 0.18,
+   "pmos": 0.1,
+   "pmdd": 0.03
+  },
+  "Endometriosis-heavy": {
+   "fibroids": 0.3,
+   "endo_adeno": 0.5,
+   "pmos": 0.15,
+   "pmdd": 0.08
+  }
+ },
+ "comparisons": [
+  [
+   "dx_vs_susp",
+   "Diagnosed vs suspected only: care sought",
+   "diagnosed",
+   "care_any"
+  ],
+  [
+   "ins_vs_unins",
+   "Insured vs uninsured: financial hardship",
+   "insured",
+   "hardship"
+  ],
+  [
+   "hmb_vs_none",
+   "HMB proxy vs none: 3+ days lost",
+   "hmb",
+   "days_work3"
+  ],
+  [
+   "income_low_high",
+   "Lowest vs highest income band: hardship",
+   "income_low",
+   "hardship"
+  ],
+  [
+   "nairobi_care",
+   "Nairobi vs other: care sought",
+   "nairobi",
+   "care_any"
+  ],
+  [
+   "nairobi_delay",
+   "Nairobi vs other: delay \u22653 years (diagnosed)",
+   "nairobi",
+   "delay_long"
+  ]
+ ]
+}

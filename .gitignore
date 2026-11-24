@@ -5,5 +5,8 @@ __pycache__/
 .env
 *.xlsx
 *.csv
-data/
+/data/
 .pytest_cache/
+
+# cached sample-size simulation results are part of the app
+!wema/data/*.csv
